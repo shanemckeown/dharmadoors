@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+
+# Database (too large for git)
+data/*.db
+data/*.csv
+
+# Logs
+logs/*.log
+
+# Keep directory structure
+!data/.gitkeep
+!logs/.gitkeep
+
+# Environment
+.env

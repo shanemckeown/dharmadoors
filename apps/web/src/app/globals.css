@@ -1,0 +1,214 @@
+@import "tailwindcss";
+
+:root {
+  /* Primary Brand Colors */
+  --color-cream: #F5F3EF;
+  --color-dharma-tan: #A09078;
+  --color-dharma-tan-light: #B8A896;
+  --color-dharma-tan-dark: #87755F;
+
+  /* Secondary Colors */
+  --color-saffron: #E97116;
+  --color-saffron-dark: #D16614;
+  --color-wisdom-blue: #168EE9;
+
+  /* Neutrals */
+  --color-deep-earth: #3D3629;
+  --color-warm-gray: #6B6358;
+  --color-mist: #E8E5E0;
+
+  /* Theme Variables (Light Mode Default) */
+  --background: #F5F3EF;
+  --foreground: #3D3629;
+  --card-bg: #FFFFFF;
+  --card-border: #E8E5E0;
+
+  /* Timing */
+  --duration-fast: 150ms;
+  --duration-base: 200ms;
+  --duration-slow: 300ms;
+}
+
+/* Dark Mode (class-based for toggle) */
+.dark {
+  --background: #1A1714;
+  --foreground: #F5F3EF;
+  --color-cream: #1A1714;
+  --color-dharma-tan: #C4B8A8;
+  --color-dharma-tan-light: #A09078;
+  --color-mist: #2D2820;
+  --card-bg: #252119;
+  --card-border: #3D3629;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --font-serif: var(--font-playfair);
+
+  /* Expose brand colors to Tailwind */
+  --color-cream: #F5F3EF;
+  --color-dharma-tan: #A09078;
+  --color-dharma-tan-light: #B8A896;
+  --color-dharma-tan-dark: #87755F;
+  --color-saffron: #E97116;
+  --color-wisdom-blue: #168EE9;
+  --color-deep-earth: #3D3629;
+  --color-warm-gray: #6B6358;
+  --color-mist: #E8E5E0;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Theme transition */
+html.theme-transition,
+html.theme-transition *,
+html.theme-transition *::before,
+html.theme-transition *::after {
+  transition: background-color var(--duration-slow),
+              border-color var(--duration-slow),
+              color var(--duration-slow) !important;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), system-ui, sans-serif;
+  line-height: 1.6;
+  transition: background-color var(--duration-slow);
+}
+
+/* Typography refinements */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-serif), var(--font-sans), serif;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+
+p {
+  line-height: 1.7;
+}
+
+/* Focus styles for accessibility */
+:focus-visible {
+  outline: 2px solid var(--color-saffron);
+  outline-offset: 2px;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-mist);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-dharma-tan-light);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-dharma-tan);
+}
+
+/* Dark mode scrollbar */
+.dark ::-webkit-scrollbar-track {
+  background: #252119;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: #6B6358;
+}
+
+/* Selection styling */
+::selection {
+  background: var(--color-saffron);
+  color: white;
+}
+
+/* SanghaMap custom markers */
+.tradition-marker {
+  background: none !important;
+  border: none !important;
+}
+
+.marker-cluster-custom {
+  background: none !important;
+  border: none !important;
+}
+
+/* Print styles */
+@media print {
+  nav, header, footer, .no-print {
+    display: none;
+  }
+}
+
+/* ================================
+   Dhammapada Accessibility Styles
+   ================================ */
+
+/* Reading font size - controlled via CSS custom property */
+:root {
+  --reading-font-size: 18px;
+  --reading-line-height: 1.8;
+}
+
+/* Serif reading font */
+.reading-serif .verse-text {
+  font-family: var(--font-serif), Georgia, "Times New Roman", serif;
+}
+
+/* Sans-serif reading font */
+.reading-sans .verse-text {
+  font-family: var(--font-sans), system-ui, sans-serif;
+}
+
+/* Verse text styling */
+.verse-text {
+  font-size: var(--reading-font-size);
+  line-height: var(--reading-line-height);
+}
+
+/* High contrast mode */
+.high-contrast {
+  --background: #FFFFFF;
+  --foreground: #000000;
+  --card-bg: #FFFFFF;
+  --card-border: #000000;
+  --color-warm-gray: #000000;
+}
+
+.high-contrast.dark {
+  --background: #000000;
+  --foreground: #FFFFFF;
+  --card-bg: #000000;
+  --card-border: #FFFFFF;
+  --color-warm-gray: #FFFFFF;
+}
+
+.high-contrast .verse-text {
+  font-weight: 500;
+}
+
+/* Chapter card hover effects */
+.chapter-card {
+  transition: transform var(--duration-base), box-shadow var(--duration-base);
+}
+
+.chapter-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.dark .chapter-card:hover {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+}
