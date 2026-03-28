@@ -1,140 +1,114 @@
 import Link from "next/link";
-import { Map, BookOpen, Accessibility, Github } from "lucide-react";
+import { Github, MapPin, BookOpen, ArrowRight } from "lucide-react";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-[var(--background)]">
-      <main className="container mx-auto px-6 py-24 md:py-32">
-        {/* Hero */}
-        <div className="text-center mb-20">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-semibold tracking-tight text-[var(--foreground)] mb-6">
-            DharmaDoors
-          </h1>
-          <p className="text-xl md:text-2xl text-[var(--color-dharma-tan-dark)] dark:text-[var(--color-dharma-tan)] mb-3 tracking-wide">
-            Opening doors to the dharma
-          </p>
-          <p className="text-base md:text-lg text-[var(--color-warm-gray)] dark:text-[var(--color-dharma-tan-light)] max-w-md mx-auto leading-relaxed">
-            Digital tools for the Buddhist community
-          </p>
-        </div>
+    <div className="min-h-screen bg-[var(--background)] flex flex-col">
+      <main className="flex-1 flex flex-col items-center justify-center px-6 py-16 md:py-24">
+        {/* Brand */}
+        <h1
+          className="text-5xl md:text-6xl lg:text-7xl font-light tracking-tight text-[var(--foreground)] mb-4"
+          style={{ fontFamily: "var(--font-serif), serif" }}
+        >
+          DharmaDoors
+        </h1>
 
-        {/* Projects Grid */}
-        <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto mb-24">
-          {/* SanghaMap - Active */}
+        <p className="text-lg md:text-xl text-[var(--color-dharma-tan-dark)] dark:text-[var(--color-dharma-tan)] mb-12 tracking-wide text-center">
+          Find sangha. Read the teachings. Practice together.
+        </p>
+
+        {/* Omni-search */}
+        <form
+          action="/sanghamap"
+          className="w-full max-w-lg mb-16"
+        >
+          <div className="relative">
+            <input
+              type="text"
+              name="q"
+              placeholder="Search for a temple, city, or tradition..."
+              className="w-full px-5 py-4 pr-12 rounded-full
+                bg-[var(--card-bg)] text-[var(--foreground)]
+                border border-[var(--card-border)]
+                shadow-sm
+                text-base
+                placeholder:text-[var(--color-dharma-tan-light)]
+                focus:outline-none focus:border-[var(--color-saffron)] focus:shadow-md
+                transition-all duration-200"
+            />
+            <button
+              type="submit"
+              className="absolute right-2 top-1/2 -translate-y-1/2
+                w-10 h-10 rounded-full
+                bg-[var(--color-saffron)] text-white
+                flex items-center justify-center
+                hover:bg-[var(--color-saffron-dark)]
+                transition-colors duration-200"
+              aria-label="Search"
+            >
+              <ArrowRight className="w-4 h-4" />
+            </button>
+          </div>
+        </form>
+
+        {/* Entry points */}
+        <div className="flex flex-col sm:flex-row gap-6 sm:gap-12 mb-20 text-center">
           <Link
             href="/sanghamap"
-            className="group relative bg-[var(--card-bg)] rounded-xl p-8
-              shadow-md hover:shadow-lg
-              border border-[var(--card-border)] hover:border-[var(--color-saffron)]/40
-              transition-all duration-300
-              hover:scale-[1.02]
-              overflow-hidden"
+            className="group flex items-center gap-3
+              text-[var(--color-warm-gray)] hover:text-[var(--color-saffron)]
+              transition-colors duration-200"
           >
-            {/* Left accent border */}
-            <div className="absolute left-0 top-0 bottom-0 w-1 bg-[var(--color-saffron)] rounded-l-xl" />
-
-            <div className="absolute top-4 right-4 px-3 py-1.5 bg-[var(--color-saffron)] text-white text-xs font-semibold rounded-full shadow-sm">
-              Live
-            </div>
-
-            <div className="w-12 h-12 rounded-lg bg-[var(--color-saffron)]/10 flex items-center justify-center mb-5">
-              <Map className="w-6 h-6 text-[var(--color-saffron)]" />
-            </div>
-
-            <h2 className="text-xl font-semibold text-[var(--foreground)] mb-3 group-hover:text-[var(--color-saffron)] transition-colors">
-              SanghaMap
-            </h2>
-            <p className="text-[var(--color-warm-gray)] dark:text-[var(--color-dharma-tan-light)] leading-relaxed text-sm">
-              Find Buddhist temples, monasteries, and meditation centers worldwide.
-              Filter by tradition, offerings, and location.
-            </p>
+            <MapPin className="w-5 h-5 text-[var(--color-saffron)] opacity-60 group-hover:opacity-100 transition-opacity" />
+            <span className="text-base">
+              <span className="font-semibold text-[var(--foreground)] group-hover:text-[var(--color-saffron)] transition-colors">51,000+</span>
+              {" "}Buddhist centers
+            </span>
           </Link>
 
-          {/* DharmaHub - Coming Soon */}
-          <div className="relative bg-[var(--color-mist)]/50 dark:bg-[var(--card-bg)]/30 rounded-xl p-8 opacity-70">
-            <div className="absolute top-4 right-4 px-3 py-1.5 bg-[var(--color-dharma-tan-light)]/80 text-[var(--color-deep-earth)] text-xs font-medium rounded-full">
-              Coming Soon
-            </div>
-
-            <div className="w-12 h-12 rounded-lg bg-[var(--color-dharma-tan)]/10 flex items-center justify-center mb-5">
-              <BookOpen className="w-6 h-6 text-[var(--color-dharma-tan)]" />
-            </div>
-
-            <h2 className="text-xl font-semibold text-[var(--color-dharma-tan-dark)] dark:text-[var(--color-dharma-tan)] mb-3">
-              DharmaHub
-            </h2>
-            <p className="text-[var(--color-warm-gray)] leading-relaxed text-sm">
-              Aggregated Buddhist content - texts, audio, video, and courses from
-              across traditions.
-            </p>
-          </div>
-
-          {/* DharmaAccess - Active */}
           <Link
             href="/dhammapada"
-            className="group relative bg-[var(--card-bg)] rounded-xl p-8
-              shadow-md hover:shadow-lg
-              border border-[var(--card-border)] hover:border-[var(--color-wisdom-blue)]/40
-              transition-all duration-300
-              hover:scale-[1.02]
-              overflow-hidden"
+            className="group flex items-center gap-3
+              text-[var(--color-warm-gray)] hover:text-[var(--color-saffron)]
+              transition-colors duration-200"
           >
-            {/* Left accent border */}
-            <div className="absolute left-0 top-0 bottom-0 w-1 bg-[var(--color-wisdom-blue)] rounded-l-xl" />
-
-            <div className="absolute top-4 right-4 px-3 py-1.5 bg-[var(--color-wisdom-blue)] text-white text-xs font-semibold rounded-full shadow-sm">
-              Live
-            </div>
-
-            <div className="w-12 h-12 rounded-lg bg-[var(--color-wisdom-blue)]/10 flex items-center justify-center mb-5">
-              <Accessibility className="w-6 h-6 text-[var(--color-wisdom-blue)]" />
-            </div>
-
-            <h2 className="text-xl font-semibold text-[var(--foreground)] mb-3 group-hover:text-[var(--color-wisdom-blue)] transition-colors">
-              DharmaAccess
-            </h2>
-            <p className="text-[var(--color-warm-gray)] dark:text-[var(--color-dharma-tan-light)] leading-relaxed text-sm">
-              Read the Dhammapada with adjustable fonts, high contrast mode, and
-              accessible design for all practitioners.
-            </p>
+            <BookOpen className="w-5 h-5 text-[var(--color-saffron)] opacity-60 group-hover:opacity-100 transition-opacity" />
+            <span className="text-base">
+              <span className="font-semibold text-[var(--foreground)] group-hover:text-[var(--color-saffron)] transition-colors">423</span>
+              {" "}verses of the Dhammapada
+            </span>
           </Link>
         </div>
 
-        {/* Philosophy */}
-        <div className="text-center max-w-xl mx-auto mb-20">
-          <h3 className="text-lg font-semibold text-[var(--foreground)] mb-4 tracking-wide">
-            Built with Dana
-          </h3>
-          <p className="text-[var(--color-warm-gray)] dark:text-[var(--color-dharma-tan-light)] mb-8 leading-relaxed">
-            DharmaDoors is free for everyone and always will be. Following the
-            Buddhist tradition of generosity, these tools are offered freely and
-            sustained by donations.
+        {/* Quote */}
+        <blockquote className="max-w-md text-center mb-8">
+          <p className="text-sm text-[var(--color-dharma-tan)] dark:text-[var(--color-dharma-tan-light)] italic leading-relaxed">
+            &ldquo;Thousands of candles can be lighted from a single candle, and the
+            life of the candle will not be shortened.&rdquo;
           </p>
+        </blockquote>
+      </main>
+
+      {/* Footer */}
+      <footer className="px-6 py-8 text-center">
+        <p className="text-sm text-[var(--color-dharma-tan)] mb-4">
+          Free for everyone. Built with dana.
+        </p>
+        <div className="flex items-center justify-center gap-6">
           <a
             href="https://github.com/Encrypted-S/dharmadoors"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-5 py-2.5
-              bg-[var(--foreground)] text-[var(--background)]
-              rounded-lg font-medium text-sm
-              hover:scale-[0.98] active:scale-[0.96]
-              transition-all duration-200
-              shadow-sm hover:shadow-md"
+            className="inline-flex items-center gap-1.5
+              text-sm text-[var(--color-warm-gray)]
+              hover:text-[var(--foreground)]
+              transition-colors duration-200"
           >
             <Github className="w-4 h-4" />
-            View on GitHub
+            GitHub
           </a>
         </div>
-
-        {/* Footer */}
-        <footer className="text-center text-sm text-[var(--color-warm-gray)] dark:text-[var(--color-dharma-tan)] max-w-lg mx-auto">
-          <p className="mb-3 italic leading-relaxed">
-            &quot;Thousands of candles can be lighted from a single candle, and the
-            life of the candle will not be shortened.&quot;
-          </p>
-          <p className="text-[var(--color-dharma-tan)]">May all beings be happy.</p>
-        </footer>
-      </main>
+      </footer>
     </div>
   );
 }
