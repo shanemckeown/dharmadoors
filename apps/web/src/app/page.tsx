@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Github, MapPin, BookOpen, ArrowRight } from "lucide-react";
+import { Github, MapPin, ArrowRight, Accessibility, Library } from "lucide-react";
 
 export default function Home() {
   return (
@@ -52,7 +52,7 @@ export default function Home() {
         </form>
 
         {/* Entry points */}
-        <div className="flex flex-col sm:flex-row gap-6 sm:gap-12 mb-20 text-center">
+        <div className="flex flex-col sm:flex-row flex-wrap justify-center gap-6 sm:gap-10 mb-20 text-center">
           <Link
             href="/sanghamap"
             className="group flex items-center gap-3
@@ -72,21 +72,34 @@ export default function Home() {
               text-[var(--color-warm-gray)] hover:text-[var(--color-saffron)]
               transition-colors duration-200"
           >
-            <BookOpen className="w-5 h-5 text-[var(--color-saffron)] opacity-60 group-hover:opacity-100 transition-opacity" />
+            <Accessibility className="w-5 h-5 text-[var(--color-saffron)] opacity-60 group-hover:opacity-100 transition-opacity" />
             <span className="text-base">
               <span className="font-semibold text-[var(--foreground)] group-hover:text-[var(--color-saffron)] transition-colors">423</span>
               {" "}verses of the Dhammapada
             </span>
           </Link>
+
+          <span
+            className="flex items-center gap-3
+              text-[var(--color-dharma-tan-light)] cursor-default"
+          >
+            <Library className="w-5 h-5 opacity-40" />
+            <span className="text-base">
+              DharmaHub <span className="text-sm opacity-70">coming soon</span>
+            </span>
+          </span>
         </div>
 
-        {/* Quote */}
-        <blockquote className="max-w-md text-center mb-8">
-          <p className="text-sm text-[var(--color-dharma-tan)] dark:text-[var(--color-dharma-tan-light)] italic leading-relaxed">
-            &ldquo;Thousands of candles can be lighted from a single candle, and the
-            life of the candle will not be shortened.&rdquo;
+        {/* Dedication of Merit */}
+        <div className="max-w-sm text-center mb-8">
+          <p className="text-sm text-[var(--color-dharma-tan)] dark:text-[var(--color-dharma-tan-light)] italic leading-loose">
+            May the merit of this action benefit all sentient beings.
+            <br />
+            May all beings be free from suffering and the causes of suffering.
+            <br />
+            May all beings find happiness and the causes of happiness.
           </p>
-        </blockquote>
+        </div>
       </main>
 
       {/* Footer */}
@@ -96,7 +109,7 @@ export default function Home() {
         </p>
         <div className="flex items-center justify-center gap-6">
           <a
-            href="https://github.com/Encrypted-S/dharmadoors"
+            href="https://github.com/shanemckeown/dharmadoors"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-1.5
