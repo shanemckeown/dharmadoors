@@ -128,7 +128,13 @@ export default function Home() {
 
         {/* Footer */}
         <footer className="text-center text-sm text-[var(--color-warm-gray)] dark:text-[var(--color-dharma-tan)] max-w-lg mx-auto">
-          <p className="text-[var(--color-dharma-tan)]">May this be for the benefit of all beings.</p>
+          <p className="italic leading-relaxed text-[var(--color-dharma-tan)]">
+            May the merit of this action benefit all sentient beings.
+            <br />
+            May all beings be free from suffering and the causes of suffering.
+            <br />
+            May all beings find happiness and the causes of happiness.
+          </p>
         </footer>
       </main>
     </div>
