@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Github, MapPin, ArrowRight, Accessibility, Library } from "lucide-react";
+import { Github, MapPin, ArrowRight, Accessibility, Library, Moon } from "lucide-react";
 
 export default function Home() {
   return (
@@ -61,7 +61,7 @@ export default function Home() {
           >
             <MapPin className="w-5 h-5 text-[var(--color-saffron)] opacity-60 group-hover:opacity-100 transition-opacity" />
             <span className="text-base">
-              <span className="font-semibold text-[var(--foreground)] group-hover:text-[var(--color-saffron)] transition-colors">51,000+</span>
+              <span className="font-semibold text-[var(--foreground)] group-hover:text-[var(--color-saffron)] transition-colors">69,000+</span>
               {" "}Buddhist centers
             </span>
           </Link>
@@ -76,6 +76,19 @@ export default function Home() {
             <span className="text-base">
               <span className="font-semibold text-[var(--foreground)] group-hover:text-[var(--color-saffron)] transition-colors">423</span>
               {" "}verses of the Dhammapada
+            </span>
+          </Link>
+
+          <Link
+            href="/calendar"
+            className="group flex items-center gap-3
+              text-[var(--color-warm-gray)] hover:text-[var(--color-saffron)]
+              transition-colors duration-200"
+          >
+            <Moon className="w-5 h-5 text-[var(--color-saffron)] opacity-60 group-hover:opacity-100 transition-opacity" />
+            <span className="text-base">
+              <span className="font-semibold text-[var(--foreground)] group-hover:text-[var(--color-saffron)] transition-colors">Buddhist</span>
+              {" "}calendar & holy days
             </span>
           </Link>
 

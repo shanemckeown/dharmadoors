@@ -1,13 +1,21 @@
 "use client";
 
 import Link from "next/link";
-import { useState, useCallback, useEffect, useRef } from "react";
+import { useState, useCallback, useEffect, useRef, Suspense } from "react";
 import { useSearchParams } from "next/navigation";
 import { SanghaMapDynamic } from "@/components/map";
 import { traditionsData, TRADITION_KEYS } from "@/data/traditionsData";
 import { ChevronRight, MapPin, Search, X, SlidersHorizontal } from "lucide-react";
 
 export default function SanghaMapPage() {
+  return (
+    <Suspense>
+      <SanghaMapInner />
+    </Suspense>
+  );
+}
+
+function SanghaMapInner() {
   const searchParams = useSearchParams();
   const [traditionFilter, setTraditionFilter] = useState<Set<string>>(new Set());
   const [searchQuery, setSearchQuery] = useState("");

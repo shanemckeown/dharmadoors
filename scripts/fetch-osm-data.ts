@@ -102,6 +102,21 @@ function elementToFeature(el: OverpassElement, countryCode: string): GeoJSONFeat
   };
 }
 
+async function fetchWithRetry(url: string, countryCode: string, retries = 3): Promise<Response> {
+  for (let attempt = 1; attempt <= retries; attempt++) {
+    const response = await fetch(url);
+    if (response.ok) return response;
+    if (response.status === 429 || response.status === 504) {
+      const delay = attempt * 15000; // 15s, 30s, 45s backoff
+      console.log(`  ${countryCode}: ${response.status} — retrying in ${delay / 1000}s (attempt ${attempt}/${retries})`);
+      await new Promise(resolve => setTimeout(resolve, delay));
+      continue;
+    }
+    throw new Error(`Overpass API returned ${response.status} for ${countryCode}`);
+  }
+  throw new Error(`Overpass API failed after ${retries} retries for ${countryCode}`);
+}
+
 async function fetchCountry(countryCode: string): Promise<{
   features: GeoJSONFeature[];
   bounds: { sw: [number, number]; ne: [number, number] } | null;
@@ -109,10 +124,7 @@ async function fetchCountry(countryCode: string): Promise<{
   const query = buildQuery(countryCode);
   const url = `${OVERPASS_API}?data=${encodeURIComponent(query)}`;
 
-  const response = await fetch(url);
-  if (!response.ok) {
-    throw new Error(`Overpass API returned ${response.status} for ${countryCode}`);
-  }
+  const response = await fetchWithRetry(url, countryCode);
 
   const data = await response.json() as { elements: OverpassElement[] };
   const features: GeoJSONFeature[] = [];
@@ -181,7 +193,8 @@ async function main() {
 
   for (const code of targetCountries) {
     try {
-      console.log(`Fetching ${code} (${COUNTRY_NAMES[code] || code})...`);
+      const idx = targetCountries.indexOf(code) + 1;
+      console.log(`[${idx}/${targetCountries.length}] Fetching ${code} (${COUNTRY_NAMES[code] || code})...`);
       const { features, bounds } = await fetchCountry(code);
 
       if (features.length === 0) {
@@ -213,8 +226,11 @@ async function main() {
         else countryBounds.push(entry);
       }
 
-      // Rate limit: 1 request per 2 seconds to be polite to Overpass
-      await new Promise(resolve => setTimeout(resolve, 2000));
+      // Save bounds index after each country for crash resilience
+      writeFileSync(BOUNDS_FILE, JSON.stringify(countryBounds, null, 2));
+
+      // Rate limit: 10 seconds between requests to be polite to Overpass
+      await new Promise(resolve => setTimeout(resolve, 10000));
     } catch (err) {
       console.error(`  ${code}: ERROR — ${(err as Error).message}`);
     }

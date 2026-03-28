@@ -1,0 +1,12335 @@
+[
+  {
+    "slug": "",
+    "name": "အင်းဝ",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 294,
+    "center": [
+      21.83347,
+      95.97621
+    ],
+    "traditions": {
+      "other": 1,
+      "theravada": 293
+    },
+    "bounds": [
+      [
+        21.80429,
+        95.96155
+      ],
+      [
+        21.85821,
+        95.98692
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ရွှေကူ",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 235,
+    "center": [
+      24.15175,
+      96.79837
+    ],
+    "traditions": {
+      "theravada": 233,
+      "other": 2
+    },
+    "bounds": [
+      [
+        18.81835,
+        94.57734
+      ],
+      [
+        24.20779,
+        96.82525
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "小田原市",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 214,
+    "center": [
+      35.2713,
+      139.16045
+    ],
+    "traditions": {
+      "other": 166,
+      "pure_land": 12,
+      "nichiren": 9,
+      "zen": 26,
+      "vajrayana": 1
+    },
+    "bounds": [
+      [
+        35.19031,
+        139.11156
+      ],
+      [
+        35.32083,
+        139.22967
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ဆားလင္းၾကီးျမိဳ႕",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 197,
+    "center": [
+      21.97362,
+      95.08147
+    ],
+    "traditions": {
+      "other": 1,
+      "theravada": 196
+    },
+    "bounds": [
+      [
+        21.96495,
+        95.06621
+      ],
+      [
+        21.98549,
+        95.09284
+      ]
+    ]
+  },
+  {
+    "slug": "chaung-oo",
+    "name": "Chaung Oo",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 187,
+    "center": [
+      21.95749,
+      95.27049
+    ],
+    "traditions": {
+      "theravada": 186,
+      "other": 1
+    },
+    "bounds": [
+      [
+        21.94559,
+        95.25852
+      ],
+      [
+        21.96629,
+        95.27834
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ရေစကြို",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 179,
+    "center": [
+      21.62975,
+      95.2436
+    ],
+    "traditions": {
+      "other": 1,
+      "theravada": 178
+    },
+    "bounds": [
+      [
+        21.57493,
+        95.10025
+      ],
+      [
+        21.64713,
+        95.26364
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "စကု",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 166,
+    "center": [
+      20.22708,
+      94.76982
+    ],
+    "traditions": {
+      "theravada": 166
+    },
+    "bounds": [
+      [
+        20.21521,
+        94.7554
+      ],
+      [
+        20.23533,
+        94.80329
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ကျောက်ဆည်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 149,
+    "center": [
+      21.60453,
+      96.1434
+    ],
+    "traditions": {
+      "theravada": 149
+    },
+    "bounds": [
+      [
+        21.59905,
+        96.13819
+      ],
+      [
+        21.60958,
+        96.1548
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ပဲခူး",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 142,
+    "center": [
+      17.33434,
+      96.47313
+    ],
+    "traditions": {
+      "theravada": 139,
+      "other": 3
+    },
+    "bounds": [
+      [
+        17.26335,
+        96.44
+      ],
+      [
+        17.37474,
+        96.52199
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "မင်းဘူး",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 135,
+    "center": [
+      20.17854,
+      94.87472
+    ],
+    "traditions": {
+      "theravada": 135
+    },
+    "bounds": [
+      [
+        20.14844,
+        94.70339
+      ],
+      [
+        20.2608,
+        94.88364
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ငါန်းမြာကြီးမြို့",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 130,
+    "center": [
+      21.78443,
+      95.46869
+    ],
+    "traditions": {
+      "theravada": 130
+    },
+    "bounds": [
+      [
+        21.76633,
+        95.45854
+      ],
+      [
+        21.79355,
+        95.47711
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "札幌市",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 127,
+    "center": [
+      43.05493,
+      141.33919
+    ],
+    "traditions": {
+      "other": 26,
+      "zen": 22,
+      "pure_land": 58,
+      "nichiren": 21
+    },
+    "bounds": [
+      [
+        42.91582,
+        141.16463
+      ],
+      [
+        43.15848,
+        141.42221
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "မတ္တရာ",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 118,
+    "center": [
+      22.2178,
+      96.10817
+    ],
+    "traditions": {
+      "other": 1,
+      "theravada": 117
+    },
+    "bounds": [
+      [
+        22.20319,
+        96.07191
+      ],
+      [
+        22.38679,
+        96.11795
+      ]
+    ]
+  },
+  {
+    "slug": "dki-jakarta",
+    "name": "DKI Jakarta",
+    "country": "ID",
+    "countryName": "Indonesia",
+    "centerCount": 112,
+    "center": [
+      -6.15079,
+      106.80789
+    ],
+    "traditions": {
+      "other": 111,
+      "theravada": 1
+    },
+    "bounds": [
+      [
+        -6.3392,
+        106.69557
+      ],
+      [
+        -6.09652,
+        106.95442
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "仙台市",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 112,
+    "center": [
+      38.25934,
+      140.87174
+    ],
+    "traditions": {
+      "other": 111,
+      "zen": 1
+    },
+    "bounds": [
+      [
+        38.18965,
+        140.61554
+      ],
+      [
+        38.36509,
+        140.98893
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "부산광역시",
+    "country": "KR",
+    "countryName": "South Korea",
+    "centerCount": 108,
+    "center": [
+      35.18911,
+      129.07154
+    ],
+    "traditions": {
+      "other": 108
+    },
+    "bounds": [
+      [
+        35.05534,
+        128.8532
+      ],
+      [
+        35.37607,
+        129.23277
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "君津市",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 97,
+    "center": [
+      35.29032,
+      139.9887
+    ],
+    "traditions": {
+      "other": 88,
+      "nichiren": 6,
+      "zen": 3
+    },
+    "bounds": [
+      [
+        35.19302,
+        139.868
+      ],
+      [
+        35.34334,
+        140.12329
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ဆင်ဖြူကျွန်း",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 95,
+    "center": [
+      20.66307,
+      94.69307
+    ],
+    "traditions": {
+      "theravada": 95
+    },
+    "bounds": [
+      [
+        20.64507,
+        94.68203
+      ],
+      [
+        20.67229,
+        94.7015
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "အောင်လံ",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 93,
+    "center": [
+      19.36846,
+      95.22224
+    ],
+    "traditions": {
+      "theravada": 93
+    },
+    "bounds": [
+      [
+        19.31017,
+        95.21193
+      ],
+      [
+        19.40633,
+        95.25088
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "서울특별시",
+    "country": "KR",
+    "countryName": "South Korea",
+    "centerCount": 91,
+    "center": [
+      37.55084,
+      127.00592
+    ],
+    "traditions": {
+      "other": 88,
+      "mahayana": 3
+    },
+    "bounds": [
+      [
+        37.46753,
+        126.81969
+      ],
+      [
+        37.69705,
+        127.11455
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "မြောင်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 90,
+    "center": [
+      21.8293,
+      95.42519
+    ],
+    "traditions": {
+      "theravada": 90
+    },
+    "bounds": [
+      [
+        21.82204,
+        95.41334
+      ],
+      [
+        21.84387,
+        95.42829
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ဆိပ်ဖြူ",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 87,
+    "center": [
+      20.92076,
+      94.79018
+    ],
+    "traditions": {
+      "theravada": 49,
+      "other": 38
+    },
+    "bounds": [
+      [
+        20.90308,
+        94.72209
+      ],
+      [
+        21.09508,
+        94.80111
+      ]
+    ]
+  },
+  {
+    "slug": "meiktila",
+    "name": "Meiktila",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 82,
+    "center": [
+      20.71189,
+      95.8959
+    ],
+    "traditions": {
+      "theravada": 80,
+      "other": 2
+    },
+    "bounds": [
+      [
+        20.60103,
+        95.75242
+      ],
+      [
+        20.88985,
+        96.07686
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ဘုတလင်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 82,
+    "center": [
+      22.39334,
+      95.14852
+    ],
+    "traditions": {
+      "theravada": 82
+    },
+    "bounds": [
+      [
+        22.3741,
+        95.14193
+      ],
+      [
+        22.40626,
+        95.16277
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ဝမ်းပြည့်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 80,
+    "center": [
+      21.93662,
+      95.54917
+    ],
+    "traditions": {
+      "theravada": 80
+    },
+    "bounds": [
+      [
+        21.92586,
+        95.53557
+      ],
+      [
+        21.9434,
+        95.57741
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ဖုံ",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 80,
+    "center": [
+      21.45556,
+      95.44788
+    ],
+    "traditions": {
+      "theravada": 80
+    },
+    "bounds": [
+      [
+        21.44575,
+        95.42506
+      ],
+      [
+        21.47002,
+        95.45515
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "掛川市",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 79,
+    "center": [
+      34.73613,
+      138.01844
+    ],
+    "traditions": {
+      "other": 79
+    },
+    "bounds": [
+      [
+        34.65798,
+        137.94935
+      ],
+      [
+        34.89115,
+        138.09705
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "အောင်နန်း",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 76,
+    "center": [
+      21.65161,
+      95.15022
+    ],
+    "traditions": {
+      "theravada": 76
+    },
+    "bounds": [
+      [
+        21.65022,
+        95.1475
+      ],
+      [
+        21.65338,
+        95.15147
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "大阪市",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 74,
+    "center": [
+      34.68482,
+      135.53058
+    ],
+    "traditions": {
+      "other": 69,
+      "pure_land": 4,
+      "nichiren": 1
+    },
+    "bounds": [
+      [
+        34.5903,
+        135.44822
+      ],
+      [
+        34.74084,
+        135.58945
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ဆင်အင်း",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 74,
+    "center": [
+      22.62968,
+      95.48594
+    ],
+    "traditions": {
+      "theravada": 74
+    },
+    "bounds": [
+      [
+        22.62621,
+        95.48084
+      ],
+      [
+        22.63968,
+        95.48882
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "အမြင့်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 72,
+    "center": [
+      21.92132,
+      95.15533
+    ],
+    "traditions": {
+      "other": 72
+    },
+    "bounds": [
+      [
+        21.89997,
+        95.14758
+      ],
+      [
+        21.9319,
+        95.16971
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ရှိန်းမကား",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 71,
+    "center": [
+      22.28076,
+      95.98121
+    ],
+    "traditions": {
+      "theravada": 71
+    },
+    "bounds": [
+      [
+        22.25757,
+        95.97824
+      ],
+      [
+        22.29445,
+        95.98617
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ခင်ဦး",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 71,
+    "center": [
+      22.77613,
+      95.65527
+    ],
+    "traditions": {
+      "theravada": 70,
+      "other": 1
+    },
+    "bounds": [
+      [
+        22.75746,
+        95.61811
+      ],
+      [
+        22.84792,
+        95.96551
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ရွာမွန်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 70,
+    "center": [
+      20.52887,
+      95.4274
+    ],
+    "traditions": {
+      "theravada": 70
+    },
+    "bounds": [
+      [
+        20.5249,
+        95.42272
+      ],
+      [
+        20.5318,
+        95.42904
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "မြင်းမူ",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 69,
+    "center": [
+      21.92319,
+      95.5774
+    ],
+    "traditions": {
+      "other": 1,
+      "theravada": 68
+    },
+    "bounds": [
+      [
+        21.91996,
+        95.56312
+      ],
+      [
+        21.93597,
+        95.58796
+      ]
+    ]
+  },
+  {
+    "slug": "singapore",
+    "name": "Singapore",
+    "country": "SG",
+    "countryName": "Singapore",
+    "centerCount": 65,
+    "center": [
+      1.33264,
+      103.84717
+    ],
+    "traditions": {
+      "other": 63,
+      "theravada": 2
+    },
+    "bounds": [
+      [
+        1.27436,
+        103.6905
+      ],
+      [
+        1.41097,
+        103.95907
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "မြင်ကွန်း",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 63,
+    "center": [
+      20.01097,
+      95.01945
+    ],
+    "traditions": {
+      "theravada": 63
+    },
+    "bounds": [
+      [
+        20.00414,
+        95.01504
+      ],
+      [
+        20.02101,
+        95.02735
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "သရက်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 62,
+    "center": [
+      19.32852,
+      95.18067
+    ],
+    "traditions": {
+      "other": 36,
+      "theravada": 26
+    },
+    "bounds": [
+      [
+        19.31126,
+        95.16488
+      ],
+      [
+        19.37457,
+        95.1889
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "အာလကပ္ပ",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 62,
+    "center": [
+      21.92851,
+      95.49199
+    ],
+    "traditions": {
+      "theravada": 62
+    },
+    "bounds": [
+      [
+        21.92366,
+        95.4877
+      ],
+      [
+        21.9349,
+        95.50018
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ကျောက္ကာ (တောင်)",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 61,
+    "center": [
+      22.16732,
+      95.25947
+    ],
+    "traditions": {
+      "theravada": 61
+    },
+    "bounds": [
+      [
+        22.16268,
+        95.25216
+      ],
+      [
+        22.17453,
+        95.27182
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "မန္တလေး",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 61,
+    "center": [
+      22.01514,
+      96.10662
+    ],
+    "traditions": {
+      "theravada": 51,
+      "other": 10
+    },
+    "bounds": [
+      [
+        22.00523,
+        96.07242
+      ],
+      [
+        22.02087,
+        96.11478
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "စလေ",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 58,
+    "center": [
+      20.83596,
+      94.7455
+    ],
+    "traditions": {
+      "theravada": 58
+    },
+    "bounds": [
+      [
+        20.82816,
+        94.74137
+      ],
+      [
+        20.84448,
+        94.76341
+      ]
+    ]
+  },
+  {
+    "slug": "kota-medan",
+    "name": "Kota Medan",
+    "country": "ID",
+    "countryName": "Indonesia",
+    "centerCount": 56,
+    "center": [
+      3.59442,
+      98.67054
+    ],
+    "traditions": {
+      "other": 55,
+      "mahayana": 1
+    },
+    "bounds": [
+      [
+        3.47185,
+        98.60555
+      ],
+      [
+        3.77658,
+        98.7101
+      ]
+    ]
+  },
+  {
+    "slug": "pa-khan-gyi",
+    "name": "Pa Khan Gyi",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 56,
+    "center": [
+      21.53315,
+      95.2027
+    ],
+    "traditions": {
+      "theravada": 56
+    },
+    "bounds": [
+      [
+        21.52633,
+        95.1991
+      ],
+      [
+        21.53815,
+        95.20682
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "館山市",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 54,
+    "center": [
+      34.97436,
+      139.85421
+    ],
+    "traditions": {
+      "other": 54
+    },
+    "bounds": [
+      [
+        34.91387,
+        139.75768
+      ],
+      [
+        35.03165,
+        139.931
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ဒီပဲယင်း",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 54,
+    "center": [
+      22.68558,
+      95.32046
+    ],
+    "traditions": {
+      "theravada": 54
+    },
+    "bounds": [
+      [
+        22.67498,
+        95.30504
+      ],
+      [
+        22.69813,
+        95.32765
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ညောင်ကန်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 54,
+    "center": [
+      22.37284,
+      94.99792
+    ],
+    "traditions": {
+      "theravada": 54
+    },
+    "bounds": [
+      [
+        21.2814,
+        94.07164
+      ],
+      [
+        22.43048,
+        95.0741
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "သံလျင်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 53,
+    "center": [
+      16.72113,
+      96.28605
+    ],
+    "traditions": {
+      "theravada": 52,
+      "mahayana": 1
+    },
+    "bounds": [
+      [
+        16.698,
+        96.26223
+      ],
+      [
+        16.74974,
+        96.30557
+      ]
+    ]
+  },
+  {
+    "slug": "singu",
+    "name": "Singu",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 53,
+    "center": [
+      22.54565,
+      95.9907
+    ],
+    "traditions": {
+      "theravada": 53
+    },
+    "bounds": [
+      [
+        22.53521,
+        95.98581
+      ],
+      [
+        22.55042,
+        96.00283
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "နွားထိုးကြီး",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 53,
+    "center": [
+      21.42425,
+      95.66082
+    ],
+    "traditions": {
+      "theravada": 53
+    },
+    "bounds": [
+      [
+        21.42213,
+        95.65877
+      ],
+      [
+        21.42661,
+        95.66484
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ကျောက်မြောင်း",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 53,
+    "center": [
+      22.58966,
+      95.95061
+    ],
+    "traditions": {
+      "theravada": 53
+    },
+    "bounds": [
+      [
+        22.56934,
+        95.93923
+      ],
+      [
+        22.60333,
+        95.96589
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ကိုးပင်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 52,
+    "center": [
+      21.72052,
+      95.29425
+    ],
+    "traditions": {
+      "theravada": 52
+    },
+    "bounds": [
+      [
+        21.71847,
+        95.29325
+      ],
+      [
+        21.72171,
+        95.29739
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "လောင်းရှည်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 51,
+    "center": [
+      21.01026,
+      94.13705
+    ],
+    "traditions": {
+      "theravada": 51
+    },
+    "bounds": [
+      [
+        21.0014,
+        94.13158
+      ],
+      [
+        21.013,
+        94.14434
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "တောင်သာ",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 49,
+    "center": [
+      21.28134,
+      95.44546
+    ],
+    "traditions": {
+      "theravada": 49
+    },
+    "bounds": [
+      [
+        21.26442,
+        95.43421
+      ],
+      [
+        21.28811,
+        95.4621
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "鴨川市",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 48,
+    "center": [
+      35.11268,
+      140.09777
+    ],
+    "traditions": {
+      "other": 47,
+      "nichiren": 1
+    },
+    "bounds": [
+      [
+        35.05448,
+        139.96291
+      ],
+      [
+        35.16098,
+        140.1998
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ထီးလင်း",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 46,
+    "center": [
+      21.69482,
+      94.09352
+    ],
+    "traditions": {
+      "theravada": 46
+    },
+    "bounds": [
+      [
+        21.69169,
+        94.09098
+      ],
+      [
+        21.69971,
+        94.09579
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "南房総市",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 42,
+    "center": [
+      35.02172,
+      139.92376
+    ],
+    "traditions": {
+      "other": 41,
+      "nichiren": 1
+    },
+    "bounds": [
+      [
+        34.90742,
+        139.82767
+      ],
+      [
+        35.10085,
+        140.02992
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "သူစိုး (တစိုး/ဒဇိုး)",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 42,
+    "center": [
+      21.38511,
+      95.50482
+    ],
+    "traditions": {
+      "theravada": 42
+    },
+    "bounds": [
+      [
+        21.38433,
+        95.50426
+      ],
+      [
+        21.38741,
+        95.50554
+      ]
+    ]
+  },
+  {
+    "slug": "bac-ninh",
+    "name": "Bắc Ninh",
+    "country": "VN",
+    "countryName": "Vietnam",
+    "centerCount": 42,
+    "center": [
+      21.14069,
+      106.00206
+    ],
+    "traditions": {
+      "other": 39,
+      "mahayana": 3
+    },
+    "bounds": [
+      [
+        21.06103,
+        105.92032
+      ],
+      [
+        21.20091,
+        106.18206
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "မြို့သာ",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 40,
+    "center": [
+      21.68798,
+      95.71153
+    ],
+    "traditions": {
+      "theravada": 40
+    },
+    "bounds": [
+      [
+        21.68682,
+        95.71012
+      ],
+      [
+        21.68841,
+        95.71609
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "စိုင်ပြင်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 39,
+    "center": [
+      22.52339,
+      95.19584
+    ],
+    "traditions": {
+      "theravada": 39
+    },
+    "bounds": [
+      [
+        22.41993,
+        95.09354
+      ],
+      [
+        22.56768,
+        95.24536
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ညောင်လှ",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 39,
+    "center": [
+      21.11154,
+      94.84497
+    ],
+    "traditions": {
+      "theravada": 39
+    },
+    "bounds": [
+      [
+        21.05264,
+        94.82247
+      ],
+      [
+        21.21708,
+        94.8574
+      ]
+    ]
+  },
+  {
+    "slug": "khlong-khlung",
+    "name": "Khlong Khlung",
+    "country": "TH",
+    "countryName": "Thailand",
+    "centerCount": 39,
+    "center": [
+      16.23917,
+      99.7044
+    ],
+    "traditions": {
+      "other": 39
+    },
+    "bounds": [
+      [
+        16.14178,
+        99.51751
+      ],
+      [
+        16.33495,
+        99.87282
+      ]
+    ]
+  },
+  {
+    "slug": "bei-lin",
+    "name": "Bei Lin ဘယ်လင်း",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 38,
+    "center": [
+      21.6726,
+      96.12865
+    ],
+    "traditions": {
+      "theravada": 38
+    },
+    "bounds": [
+      [
+        21.66848,
+        96.12362
+      ],
+      [
+        21.68504,
+        96.13073
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ပခန်းငယ်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 38,
+    "center": [
+      20.71147,
+      94.74504
+    ],
+    "traditions": {
+      "theravada": 38
+    },
+    "bounds": [
+      [
+        20.70716,
+        94.7404
+      ],
+      [
+        20.71815,
+        94.7497
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "栗原市",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 37,
+    "center": [
+      38.766,
+      141.02383
+    ],
+    "traditions": {
+      "other": 37
+    },
+    "bounds": [
+      [
+        38.63566,
+        140.90329
+      ],
+      [
+        38.87368,
+        141.12589
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "거제시",
+    "country": "KR",
+    "countryName": "South Korea",
+    "centerCount": 37,
+    "center": [
+      34.87903,
+      128.63907
+    ],
+    "traditions": {
+      "other": 37
+    },
+    "bounds": [
+      [
+        34.71065,
+        128.50369
+      ],
+      [
+        34.99733,
+        128.73198
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ဆားလင်းကြီး",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 37,
+    "center": [
+      21.97648,
+      95.07802
+    ],
+    "traditions": {
+      "theravada": 37
+    },
+    "bounds": [
+      [
+        21.95881,
+        95.0611
+      ],
+      [
+        21.98025,
+        95.08866
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "လက်ဝဲမြင်းနီ",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 36,
+    "center": [
+      21.4148,
+      95.50689
+    ],
+    "traditions": {
+      "theravada": 36
+    },
+    "bounds": [
+      [
+        21.39371,
+        95.50318
+      ],
+      [
+        21.41966,
+        95.51174
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "豊川市",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 35,
+    "center": [
+      34.83208,
+      137.33197
+    ],
+    "traditions": {
+      "other": 34,
+      "pure_land": 1
+    },
+    "bounds": [
+      [
+        34.78784,
+        137.28087
+      ],
+      [
+        34.88524,
+        137.40906
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "တလုပ်မြို့",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 35,
+    "center": [
+      21.56763,
+      95.37804
+    ],
+    "traditions": {
+      "other": 1,
+      "theravada": 34
+    },
+    "bounds": [
+      [
+        21.56387,
+        95.37454
+      ],
+      [
+        21.57458,
+        95.38854
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ပြင်စီ",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 35,
+    "center": [
+      21.38011,
+      95.87145
+    ],
+    "traditions": {
+      "theravada": 35
+    },
+    "bounds": [
+      [
+        21.37395,
+        95.86638
+      ],
+      [
+        21.38978,
+        95.87949
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "စလင်း",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 34,
+    "center": [
+      20.57475,
+      94.6524
+    ],
+    "traditions": {
+      "theravada": 33,
+      "other": 1
+    },
+    "bounds": [
+      [
+        20.53066,
+        94.47808
+      ],
+      [
+        20.58014,
+        94.6633
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ဆင်းဂွတ်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 33,
+    "center": [
+      21.60859,
+      95.24778
+    ],
+    "traditions": {
+      "theravada": 33
+    },
+    "bounds": [
+      [
+        21.39935,
+        94.47863
+      ],
+      [
+        21.66449,
+        95.42348
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ဆားခါး",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 33,
+    "center": [
+      21.39224,
+      95.38485
+    ],
+    "traditions": {
+      "theravada": 33
+    },
+    "bounds": [
+      [
+        21.35077,
+        95.36712
+      ],
+      [
+        21.39674,
+        95.38872
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "鳥取市",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 31,
+    "center": [
+      35.45556,
+      134.18924
+    ],
+    "traditions": {
+      "zen": 9,
+      "other": 19,
+      "pure_land": 1,
+      "nichiren": 2
+    },
+    "bounds": [
+      [
+        35.30955,
+        133.97557
+      ],
+      [
+        35.54078,
+        134.31163
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "မင်းပြား",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 31,
+    "center": [
+      20.36664,
+      93.26788
+    ],
+    "traditions": {
+      "other": 31
+    },
+    "bounds": [
+      [
+        20.35634,
+        93.26221
+      ],
+      [
+        20.37854,
+        93.27478
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ကျွဲတိ",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 31,
+    "center": [
+      20.45193,
+      94.74059
+    ],
+    "traditions": {
+      "theravada": 31
+    },
+    "bounds": [
+      [
+        20.44912,
+        94.73779
+      ],
+      [
+        20.45936,
+        94.74269
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "海老名市",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 30,
+    "center": [
+      35.43475,
+      139.39009
+    ],
+    "traditions": {
+      "other": 25,
+      "pure_land": 2,
+      "nichiren": 2,
+      "zen": 1
+    },
+    "bounds": [
+      [
+        35.40394,
+        139.37303
+      ],
+      [
+        35.46825,
+        139.40471
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "မြတောင်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 30,
+    "center": [
+      23.73152,
+      96.15522
+    ],
+    "traditions": {
+      "theravada": 30
+    },
+    "bounds": [
+      [
+        23.72555,
+        96.15434
+      ],
+      [
+        23.73491,
+        96.15596
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ဘုရားထူး",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 30,
+    "center": [
+      21.886,
+      95.71747
+    ],
+    "traditions": {
+      "theravada": 30
+    },
+    "bounds": [
+      [
+        21.69477,
+        95.55864
+      ],
+      [
+        21.90211,
+        95.72955
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ကင်းရွာ",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 30,
+    "center": [
+      20.24976,
+      96.54103
+    ],
+    "traditions": {
+      "theravada": 30
+    },
+    "bounds": [
+      [
+        17.20029,
+        96.1447
+      ],
+      [
+        22.30668,
+        97.10555
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "မင်းရွာ",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 30,
+    "center": [
+      22.02167,
+      94.0919
+    ],
+    "traditions": {
+      "theravada": 30
+    },
+    "bounds": [
+      [
+        22.01956,
+        94.08872
+      ],
+      [
+        22.0289,
+        94.09388
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "富津市",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 29,
+    "center": [
+      35.28416,
+      139.87258
+    ],
+    "traditions": {
+      "other": 28,
+      "nichiren": 1
+    },
+    "bounds": [
+      [
+        35.1635,
+        139.82312
+      ],
+      [
+        35.33719,
+        139.94799
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "သလဲဘာ",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 29,
+    "center": [
+      22.20924,
+      95.61309
+    ],
+    "traditions": {
+      "theravada": 29
+    },
+    "bounds": [
+      [
+        22.20597,
+        95.60916
+      ],
+      [
+        22.2162,
+        95.61383
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "မြင်းခြံ",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 28,
+    "center": [
+      21.45601,
+      95.38636
+    ],
+    "traditions": {
+      "theravada": 28
+    },
+    "bounds": [
+      [
+        21.44474,
+        95.38124
+      ],
+      [
+        21.47894,
+        95.40544
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ကြာပို့",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 28,
+    "center": [
+      21.32714,
+      95.2262
+    ],
+    "traditions": {
+      "theravada": 28
+    },
+    "bounds": [
+      [
+        21.32352,
+        95.2242
+      ],
+      [
+        21.32905,
+        95.23097
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ကျားတက်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 28,
+    "center": [
+      21.84352,
+      94.93606
+    ],
+    "traditions": {
+      "theravada": 28
+    },
+    "bounds": [
+      [
+        21.84118,
+        94.93297
+      ],
+      [
+        21.84685,
+        94.93739
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ကတိုး",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 28,
+    "center": [
+      22.40282,
+      95.26813
+    ],
+    "traditions": {
+      "theravada": 28
+    },
+    "bounds": [
+      [
+        21.65726,
+        95.10141
+      ],
+      [
+        22.52832,
+        96.26147
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ရွှေတန်းတစ်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 27,
+    "center": [
+      21.3518,
+      95.15075
+    ],
+    "traditions": {
+      "theravada": 27
+    },
+    "bounds": [
+      [
+        21.35123,
+        95.14987
+      ],
+      [
+        21.35255,
+        95.15121
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "မလည် (မာန်လည်)",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 27,
+    "center": [
+      21.37692,
+      95.51559
+    ],
+    "traditions": {
+      "theravada": 27
+    },
+    "bounds": [
+      [
+        21.37541,
+        95.51333
+      ],
+      [
+        21.37891,
+        95.52193
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "မော်လမြိုင်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 26,
+    "center": [
+      16.50765,
+      97.62202
+    ],
+    "traditions": {
+      "theravada": 24,
+      "other": 2
+    },
+    "bounds": [
+      [
+        16.50695,
+        97.62135
+      ],
+      [
+        16.50853,
+        97.62263
+      ]
+    ]
+  },
+  {
+    "slug": "yangon",
+    "name": "Yangon",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 26,
+    "center": [
+      16.85764,
+      96.15235
+    ],
+    "traditions": {
+      "theravada": 5,
+      "other": 21
+    },
+    "bounds": [
+      [
+        16.79834,
+        96.08608
+      ],
+      [
+        17.05526,
+        96.2051
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "မြို့လုလင်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 26,
+    "center": [
+      20.14005,
+      95.48376
+    ],
+    "traditions": {
+      "theravada": 26
+    },
+    "bounds": [
+      [
+        20.13831,
+        95.48119
+      ],
+      [
+        20.1436,
+        95.48621
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "နတ်ကြီး",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 26,
+    "center": [
+      21.82007,
+      95.50011
+    ],
+    "traditions": {
+      "theravada": 26
+    },
+    "bounds": [
+      [
+        21.81816,
+        95.49893
+      ],
+      [
+        21.82283,
+        95.5022
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "သမှုန်းကုန်း",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 26,
+    "center": [
+      20.67391,
+      95.26256
+    ],
+    "traditions": {
+      "theravada": 26
+    },
+    "bounds": [
+      [
+        20.67189,
+        95.25572
+      ],
+      [
+        20.67589,
+        95.26536
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ရွာကြီး",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 26,
+    "center": [
+      21.45869,
+      95.52379
+    ],
+    "traditions": {
+      "theravada": 26
+    },
+    "bounds": [
+      [
+        21.45676,
+        95.52241
+      ],
+      [
+        21.461,
+        95.52601
+      ]
+    ]
+  },
+  {
+    "slug": "ha-noi",
+    "name": "Hà Nội",
+    "country": "VN",
+    "countryName": "Vietnam",
+    "centerCount": 26,
+    "center": [
+      21.03839,
+      105.80567
+    ],
+    "traditions": {
+      "other": 23,
+      "theravada": 1,
+      "mahayana": 2
+    },
+    "bounds": [
+      [
+        20.96555,
+        105.50501
+      ],
+      [
+        21.22641,
+        105.89358
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ဇရပ်ကြီး",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 25,
+    "center": [
+      20.1773,
+      95.88
+    ],
+    "traditions": {
+      "theravada": 24,
+      "other": 1
+    },
+    "bounds": [
+      [
+        18.70869,
+        94.82913
+      ],
+      [
+        21.29354,
+        96.53562
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ကုန်းပုထိုး",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 25,
+    "center": [
+      21.3536,
+      95.25326
+    ],
+    "traditions": {
+      "theravada": 25
+    },
+    "bounds": [
+      [
+        21.35185,
+        95.25238
+      ],
+      [
+        21.35541,
+        95.25425
+      ]
+    ]
+  },
+  {
+    "slug": "khanu-woralaksaburi",
+    "name": "Khanu Woralaksaburi",
+    "country": "TH",
+    "countryName": "Thailand",
+    "centerCount": 25,
+    "center": [
+      16.03316,
+      99.66936
+    ],
+    "traditions": {
+      "other": 25
+    },
+    "bounds": [
+      [
+        15.90161,
+        99.42463
+      ],
+      [
+        16.13009,
+        99.92615
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "မဂျီ",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 24,
+    "center": [
+      21.80844,
+      95.66336
+    ],
+    "traditions": {
+      "theravada": 24
+    },
+    "bounds": [
+      [
+        21.72393,
+        95.64778
+      ],
+      [
+        21.82282,
+        95.72105
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ဆင်ချောင်း",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 24,
+    "center": [
+      21.52079,
+      95.19721
+    ],
+    "traditions": {
+      "theravada": 24
+    },
+    "bounds": [
+      [
+        21.5197,
+        95.19659
+      ],
+      [
+        21.52262,
+        95.19825
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ကျောက်ရင်း",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 24,
+    "center": [
+      21.29193,
+      95.42574
+    ],
+    "traditions": {
+      "theravada": 24
+    },
+    "bounds": [
+      [
+        21.29038,
+        95.42423
+      ],
+      [
+        21.29355,
+        95.42974
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ကျောင်းကုန်း",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 24,
+    "center": [
+      20.86223,
+      94.70466
+    ],
+    "traditions": {
+      "theravada": 24
+    },
+    "bounds": [
+      [
+        20.37819,
+        94.62606
+      ],
+      [
+        21.63832,
+        94.89752
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ဆင်ချီတိုင်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 24,
+    "center": [
+      20.01575,
+      94.52478
+    ],
+    "traditions": {
+      "theravada": 24
+    },
+    "bounds": [
+      [
+        20.01043,
+        94.52028
+      ],
+      [
+        20.02428,
+        94.53385
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ကြည့်ကန်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 23,
+    "center": [
+      21.71509,
+      94.98669
+    ],
+    "traditions": {
+      "theravada": 23
+    },
+    "bounds": [
+      [
+        21.71284,
+        94.98379
+      ],
+      [
+        21.72013,
+        94.99034
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "စေတုတ္တရာ",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 23,
+    "center": [
+      20.44868,
+      94.24685
+    ],
+    "traditions": {
+      "theravada": 23
+    },
+    "bounds": [
+      [
+        20.44471,
+        94.24393
+      ],
+      [
+        20.45709,
+        94.2521
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "อินทร์บุรี, จังหวัด สิงห์บุรี",
+    "country": "TH",
+    "countryName": "Thailand",
+    "centerCount": 23,
+    "center": [
+      15.00735,
+      100.33171
+    ],
+    "traditions": {
+      "other": 23
+    },
+    "bounds": [
+      [
+        14.95048,
+        100.2874
+      ],
+      [
+        15.09908,
+        100.38005
+      ]
+    ]
+  },
+  {
+    "slug": "thanh-pho-ho-chi-minh",
+    "name": "Thành phố Hồ Chí Minh",
+    "country": "VN",
+    "countryName": "Vietnam",
+    "centerCount": 23,
+    "center": [
+      10.81772,
+      106.57306
+    ],
+    "traditions": {
+      "other": 23
+    },
+    "bounds": [
+      [
+        10.65672,
+        106.49703
+      ],
+      [
+        11.03815,
+        106.77105
+      ]
+    ]
+  },
+  {
+    "slug": "medan",
+    "name": "Medan",
+    "country": "ID",
+    "countryName": "Indonesia",
+    "centerCount": 22,
+    "center": [
+      3.59368,
+      98.67427
+    ],
+    "traditions": {
+      "other": 19,
+      "theravada": 2,
+      "mahayana": 1
+    },
+    "bounds": [
+      [
+        3.52307,
+        98.55033
+      ],
+      [
+        3.64932,
+        98.70964
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ချောင်းမကြီး",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 22,
+    "center": [
+      20.96869,
+      94.75783
+    ],
+    "traditions": {
+      "theravada": 22
+    },
+    "bounds": [
+      [
+        20.95941,
+        94.67746
+      ],
+      [
+        21.09548,
+        94.77722
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "စည်ပုတ္တရာ",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 22,
+    "center": [
+      22.81414,
+      95.56855
+    ],
+    "traditions": {
+      "theravada": 22
+    },
+    "bounds": [
+      [
+        22.8136,
+        95.56734
+      ],
+      [
+        22.81738,
+        95.56934
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "จังหวัด อ่างทอง",
+    "country": "TH",
+    "countryName": "Thailand",
+    "centerCount": 22,
+    "center": [
+      14.66814,
+      100.4512
+    ],
+    "traditions": {
+      "other": 22
+    },
+    "bounds": [
+      [
+        14.59978,
+        100.43169
+      ],
+      [
+        14.72866,
+        100.4629
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ရွှေလှေ",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 21,
+    "center": [
+      20.64552,
+      94.74466
+    ],
+    "traditions": {
+      "theravada": 21
+    },
+    "bounds": [
+      [
+        20.31986,
+        94.65202
+      ],
+      [
+        21.86243,
+        95.17099
+      ]
+    ]
+  },
+  {
+    "slug": "sai-ngam",
+    "name": "Sai Ngam",
+    "country": "TH",
+    "countryName": "Thailand",
+    "centerCount": 21,
+    "center": [
+      16.43025,
+      99.85902
+    ],
+    "traditions": {
+      "other": 21
+    },
+    "bounds": [
+      [
+        16.35833,
+        99.71204
+      ],
+      [
+        16.52505,
+        99.98553
+      ]
+    ]
+  },
+  {
+    "slug": "portland",
+    "name": "Portland",
+    "country": "US",
+    "countryName": "United States",
+    "centerCount": 21,
+    "center": [
+      45.33232,
+      -117.61991
+    ],
+    "traditions": {
+      "other": 14,
+      "zen": 1,
+      "mahayana": 3,
+      "theravada": 1,
+      "pure_land": 2
+    },
+    "bounds": [
+      [
+        43.65287,
+        -122.80117
+      ],
+      [
+        45.56912,
+        -70.26254
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "函館市",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 20,
+    "center": [
+      41.76554,
+      140.71715
+    ],
+    "traditions": {
+      "other": 13,
+      "pure_land": 3,
+      "nichiren": 3,
+      "zen": 1
+    },
+    "bounds": [
+      [
+        41.74911,
+        140.69473
+      ],
+      [
+        41.78426,
+        140.74035
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ထလင်း",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 20,
+    "center": [
+      21.71015,
+      94.07465
+    ],
+    "traditions": {
+      "theravada": 19,
+      "other": 1
+    },
+    "bounds": [
+      [
+        21.70967,
+        94.07446
+      ],
+      [
+        21.71087,
+        94.07487
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "သရက်ကန်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 20,
+    "center": [
+      22.35007,
+      95.30348
+    ],
+    "traditions": {
+      "theravada": 20
+    },
+    "bounds": [
+      [
+        21.48609,
+        94.75629
+      ],
+      [
+        22.81736,
+        95.59802
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ငွေတွင်း",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 20,
+    "center": [
+      22.24444,
+      95.53017
+    ],
+    "traditions": {
+      "theravada": 20
+    },
+    "bounds": [
+      [
+        22.24302,
+        95.52788
+      ],
+      [
+        22.24496,
+        95.53432
+      ]
+    ]
+  },
+  {
+    "slug": "ywa-bo",
+    "name": "Ywā Bo ရွာဘို",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 20,
+    "center": [
+      21.78554,
+      96.1919
+    ],
+    "traditions": {
+      "theravada": 20
+    },
+    "bounds": [
+      [
+        21.78371,
+        96.19104
+      ],
+      [
+        21.78652,
+        96.19521
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ပေါင်းတည်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 20,
+    "center": [
+      19.79853,
+      95.29825
+    ],
+    "traditions": {
+      "theravada": 20
+    },
+    "bounds": [
+      [
+        18.47504,
+        94.98863
+      ],
+      [
+        21.76387,
+        95.5123
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ရွာသာယာ",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 20,
+    "center": [
+      20.07012,
+      94.95203
+    ],
+    "traditions": {
+      "theravada": 20
+    },
+    "bounds": [
+      [
+        20.0612,
+        94.90796
+      ],
+      [
+        20.10465,
+        94.96433
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "伊奈町",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 19,
+    "center": [
+      35.99937,
+      139.61753
+    ],
+    "traditions": {
+      "other": 19
+    },
+    "bounds": [
+      [
+        35.9725,
+        139.59686
+      ],
+      [
+        36.01569,
+        139.63689
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ပန်းအိုင်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 19,
+    "center": [
+      21.13939,
+      95.63135
+    ],
+    "traditions": {
+      "theravada": 18,
+      "other": 1
+    },
+    "bounds": [
+      [
+        21.13217,
+        95.62399
+      ],
+      [
+        21.14102,
+        95.63802
+      ]
+    ]
+  },
+  {
+    "slug": "myaing",
+    "name": "Myaing",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 19,
+    "center": [
+      21.58476,
+      94.94737
+    ],
+    "traditions": {
+      "other": 4,
+      "theravada": 15
+    },
+    "bounds": [
+      [
+        21.05388,
+        94.84345
+      ],
+      [
+        21.62122,
+        96.51221
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ရွာသာကြီး",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 19,
+    "center": [
+      22.19992,
+      95.65479
+    ],
+    "traditions": {
+      "theravada": 19
+    },
+    "bounds": [
+      [
+        20.3448,
+        94.75677
+      ],
+      [
+        22.30581,
+        95.71095
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": ", อำเภอ พรหมบุรี,  จังหวัด สิงห์บุรี",
+    "country": "TH",
+    "countryName": "Thailand",
+    "centerCount": 19,
+    "center": [
+      14.78445,
+      100.44223
+    ],
+    "traditions": {
+      "other": 19
+    },
+    "bounds": [
+      [
+        14.73454,
+        100.42142
+      ],
+      [
+        14.84804,
+        100.45367
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "登米市",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 18,
+    "center": [
+      38.68283,
+      141.23262
+    ],
+    "traditions": {
+      "other": 18
+    },
+    "bounds": [
+      [
+        38.59973,
+        141.1083
+      ],
+      [
+        38.77273,
+        141.32636
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "မိတ္ထီလာ",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 18,
+    "center": [
+      20.78567,
+      95.83733
+    ],
+    "traditions": {
+      "other": 17,
+      "theravada": 1
+    },
+    "bounds": [
+      [
+        20.75212,
+        95.82214
+      ],
+      [
+        20.89744,
+        95.87803
+      ]
+    ]
+  },
+  {
+    "slug": "mawlamying",
+    "name": "Mawlamying",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 18,
+    "center": [
+      16.44466,
+      97.6407
+    ],
+    "traditions": {
+      "theravada": 2,
+      "other": 16
+    },
+    "bounds": [
+      [
+        16.37059,
+        97.62017
+      ],
+      [
+        16.49731,
+        97.67581
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "စိုင်နိုင်ကြီး",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 18,
+    "center": [
+      22.45307,
+      95.66308
+    ],
+    "traditions": {
+      "theravada": 18
+    },
+    "bounds": [
+      [
+        22.45274,
+        95.66246
+      ],
+      [
+        22.45336,
+        95.66538
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "တောကျောင်းကြီး",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 18,
+    "center": [
+      21.81108,
+      95.18553
+    ],
+    "traditions": {
+      "theravada": 18
+    },
+    "bounds": [
+      [
+        21.81077,
+        95.18343
+      ],
+      [
+        21.81151,
+        95.18684
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ကျိုက်လတ်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 18,
+    "center": [
+      16.44642,
+      95.72383
+    ],
+    "traditions": {
+      "theravada": 18
+    },
+    "bounds": [
+      [
+        16.43904,
+        95.70736
+      ],
+      [
+        16.45781,
+        95.73032
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ထောက်ရှာပင်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 18,
+    "center": [
+      20.14451,
+      94.89448
+    ],
+    "traditions": {
+      "theravada": 18
+    },
+    "bounds": [
+      [
+        20.13855,
+        94.88591
+      ],
+      [
+        20.14596,
+        94.89585
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ကံကုလား",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 18,
+    "center": [
+      20.30002,
+      94.80495
+    ],
+    "traditions": {
+      "theravada": 18
+    },
+    "bounds": [
+      [
+        20.29859,
+        94.8022
+      ],
+      [
+        20.30231,
+        94.80584
+      ]
+    ]
+  },
+  {
+    "slug": "houston",
+    "name": "Houston",
+    "country": "US",
+    "countryName": "United States",
+    "centerCount": 18,
+    "center": [
+      29.80644,
+      -95.46323
+    ],
+    "traditions": {
+      "other": 16,
+      "mahayana": 1,
+      "theravada": 1
+    },
+    "bounds": [
+      [
+        29.6256,
+        -95.67015
+      ],
+      [
+        30.01972,
+        -95.25622
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "မလယ်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 17,
+    "center": [
+      23.03096,
+      95.97524
+    ],
+    "traditions": {
+      "theravada": 12,
+      "other": 5
+    },
+    "bounds": [
+      [
+        23.02808,
+        95.97087
+      ],
+      [
+        23.03311,
+        95.9764
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ကူးတို့ဆိပ်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 17,
+    "center": [
+      22.61907,
+      95.47892
+    ],
+    "traditions": {
+      "theravada": 17
+    },
+    "bounds": [
+      [
+        22.61611,
+        95.47634
+      ],
+      [
+        22.62234,
+        95.48244
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ရုံးစည်ကြီး",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 17,
+    "center": [
+      21.19465,
+      95.58437
+    ],
+    "traditions": {
+      "theravada": 17
+    },
+    "bounds": [
+      [
+        21.19068,
+        95.58283
+      ],
+      [
+        21.1983,
+        95.59192
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ညောင်ပင် (တက်မ)",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 17,
+    "center": [
+      20.96198,
+      94.99327
+    ],
+    "traditions": {
+      "theravada": 17
+    },
+    "bounds": [
+      [
+        20.96003,
+        94.99032
+      ],
+      [
+        20.96384,
+        94.99677
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "လက်ယက်မ",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 17,
+    "center": [
+      21.76182,
+      94.93548
+    ],
+    "traditions": {
+      "theravada": 17
+    },
+    "bounds": [
+      [
+        21.75833,
+        94.93491
+      ],
+      [
+        21.76425,
+        94.93861
+      ]
+    ]
+  },
+  {
+    "slug": "kuala-lumpur",
+    "name": "Kuala Lumpur",
+    "country": "MY",
+    "countryName": "Malaysia",
+    "centerCount": 17,
+    "center": [
+      3.17614,
+      101.68463
+    ],
+    "traditions": {
+      "other": 17
+    },
+    "bounds": [
+      [
+        3.12744,
+        101.66046
+      ],
+      [
+        3.20815,
+        101.73543
+      ]
+    ]
+  },
+  {
+    "slug": "ho-chi-minh-city",
+    "name": "Ho Chi Minh City",
+    "country": "VN",
+    "countryName": "Vietnam",
+    "centerCount": 17,
+    "center": [
+      10.76258,
+      106.66158
+    ],
+    "traditions": {
+      "other": 16,
+      "mahayana": 1
+    },
+    "bounds": [
+      [
+        10.72599,
+        106.6012
+      ],
+      [
+        10.80573,
+        106.70554
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ကန်တိန်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 16,
+    "center": [
+      21.34965,
+      94.94009
+    ],
+    "traditions": {
+      "theravada": 2,
+      "other": 14
+    },
+    "bounds": [
+      [
+        21.11477,
+        94.91149
+      ],
+      [
+        21.3858,
+        95.12624
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ကုက္ကိုဇီး",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 16,
+    "center": [
+      21.31222,
+      95.84454
+    ],
+    "traditions": {
+      "theravada": 16
+    },
+    "bounds": [
+      [
+        21.31089,
+        95.84346
+      ],
+      [
+        21.3184,
+        95.85054
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ဆီမီးကန်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 16,
+    "center": [
+      21.17231,
+      95.42755
+    ],
+    "traditions": {
+      "theravada": 16
+    },
+    "bounds": [
+      [
+        21.17142,
+        95.42458
+      ],
+      [
+        21.17473,
+        95.43019
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ရွာသာ",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 16,
+    "center": [
+      20.84726,
+      94.81329
+    ],
+    "traditions": {
+      "theravada": 16
+    },
+    "bounds": [
+      [
+        20.19658,
+        94.10033
+      ],
+      [
+        22.07256,
+        94.87336
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ကျောက်ကာ",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 16,
+    "center": [
+      21.3539,
+      94.42108
+    ],
+    "traditions": {
+      "theravada": 16
+    },
+    "bounds": [
+      [
+        21.35231,
+        94.41758
+      ],
+      [
+        21.3563,
+        94.42223
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "สิงห์บุรี",
+    "country": "TH",
+    "countryName": "Thailand",
+    "centerCount": 16,
+    "center": [
+      14.89577,
+      100.39636
+    ],
+    "traditions": {
+      "other": 16
+    },
+    "bounds": [
+      [
+        14.8505,
+        100.3654
+      ],
+      [
+        14.93913,
+        100.44464
+      ]
+    ]
+  },
+  {
+    "slug": "thanh-pho-bien-hoa",
+    "name": "Thành phố Biên Hòa",
+    "country": "VN",
+    "countryName": "Vietnam",
+    "centerCount": 16,
+    "center": [
+      10.90913,
+      106.86425
+    ],
+    "traditions": {
+      "other": 16
+    },
+    "bounds": [
+      [
+        10.88158,
+        106.80006
+      ],
+      [
+        10.96742,
+        106.91868
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "横浜市",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 15,
+    "center": [
+      35.45388,
+      139.59415
+    ],
+    "traditions": {
+      "other": 12,
+      "pure_land": 1,
+      "zen": 2
+    },
+    "bounds": [
+      [
+        35.40358,
+        139.48569
+      ],
+      [
+        35.55584,
+        139.6483
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "大崎市",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 15,
+    "center": [
+      38.62253,
+      140.91275
+    ],
+    "traditions": {
+      "other": 15
+    },
+    "bounds": [
+      [
+        38.51873,
+        140.72295
+      ],
+      [
+        38.7519,
+        141.05995
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "能美市",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 15,
+    "center": [
+      36.44577,
+      136.51378
+    ],
+    "traditions": {
+      "other": 15
+    },
+    "bounds": [
+      [
+        36.42999,
+        136.45637
+      ],
+      [
+        36.45472,
+        136.5872
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "တောင်တွင်းကြီး",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 15,
+    "center": [
+      20.01117,
+      95.55092
+    ],
+    "traditions": {
+      "theravada": 8,
+      "other": 7
+    },
+    "bounds": [
+      [
+        19.98983,
+        95.53758
+      ],
+      [
+        20.02284,
+        95.56392
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ကုန်းဇောင်း",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 15,
+    "center": [
+      20.41449,
+      94.77252
+    ],
+    "traditions": {
+      "theravada": 15
+    },
+    "bounds": [
+      [
+        20.3713,
+        94.76624
+      ],
+      [
+        20.42032,
+        94.7982
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "နောင်သခေါ",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 15,
+    "center": [
+      22.14674,
+      96.52913
+    ],
+    "traditions": {
+      "theravada": 13,
+      "other": 2
+    },
+    "bounds": [
+      [
+        22.14661,
+        96.52903
+      ],
+      [
+        22.1471,
+        96.52925
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ရေဦး",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 15,
+    "center": [
+      22.77055,
+      95.42615
+    ],
+    "traditions": {
+      "theravada": 15
+    },
+    "bounds": [
+      [
+        22.76382,
+        95.42239
+      ],
+      [
+        22.77787,
+        95.43075
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ကောလင်း",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 15,
+    "center": [
+      23.7885,
+      95.67873
+    ],
+    "traditions": {
+      "theravada": 15
+    },
+    "bounds": [
+      [
+        23.77667,
+        95.67366
+      ],
+      [
+        23.80146,
+        95.68196
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "မဒေါင်းလှ",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 15,
+    "center": [
+      22.85482,
+      95.58788
+    ],
+    "traditions": {
+      "theravada": 15
+    },
+    "bounds": [
+      [
+        22.85457,
+        95.58759
+      ],
+      [
+        22.85507,
+        95.58821
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ကိုင်းလယ်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 15,
+    "center": [
+      21.67069,
+      94.88705
+    ],
+    "traditions": {
+      "theravada": 15
+    },
+    "bounds": [
+      [
+        21.35411,
+        94.4469
+      ],
+      [
+        21.78667,
+        95.04953
+      ]
+    ]
+  },
+  {
+    "slug": "seattle",
+    "name": "Seattle",
+    "country": "US",
+    "countryName": "United States",
+    "centerCount": 15,
+    "center": [
+      47.60037,
+      -122.32285
+    ],
+    "traditions": {
+      "zen": 1,
+      "vajrayana": 1,
+      "other": 12,
+      "pure_land": 1
+    },
+    "bounds": [
+      [
+        47.50382,
+        -122.38734
+      ],
+      [
+        47.70344,
+        -122.28028
+      ]
+    ]
+  },
+  {
+    "slug": "semarang",
+    "name": "Semarang",
+    "country": "ID",
+    "countryName": "Indonesia",
+    "centerCount": 14,
+    "center": [
+      -6.9959,
+      110.41849
+    ],
+    "traditions": {
+      "other": 14
+    },
+    "bounds": [
+      [
+        -7.09212,
+        110.36931
+      ],
+      [
+        -6.95815,
+        110.45505
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "菊川市",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 14,
+    "center": [
+      34.73252,
+      138.09246
+    ],
+    "traditions": {
+      "other": 14
+    },
+    "bounds": [
+      [
+        34.67472,
+        138.05962
+      ],
+      [
+        34.77931,
+        138.11473
+      ]
+    ]
+  },
+  {
+    "slug": "siem-reap",
+    "name": "Siem Reap",
+    "country": "KH",
+    "countryName": "Cambodia",
+    "centerCount": 14,
+    "center": [
+      13.36375,
+      103.8509
+    ],
+    "traditions": {
+      "other": 14
+    },
+    "bounds": [
+      [
+        13.34195,
+        103.81062
+      ],
+      [
+        13.38289,
+        103.86644
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ဂန့်ဂေါ",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 14,
+    "center": [
+      22.17389,
+      94.13
+    ],
+    "traditions": {
+      "theravada": 12,
+      "other": 2
+    },
+    "bounds": [
+      [
+        22.16011,
+        94.10762
+      ],
+      [
+        22.18572,
+        94.14143
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "မြောက်ရွာမ (ရွာသစ်)",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 14,
+    "center": [
+      21.09511,
+      94.72249
+    ],
+    "traditions": {
+      "theravada": 3,
+      "other": 11
+    },
+    "bounds": [
+      [
+        21.09417,
+        94.72169
+      ],
+      [
+        21.09543,
+        94.7234
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ကျောက်မီး",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 14,
+    "center": [
+      21.90704,
+      96.18353
+    ],
+    "traditions": {
+      "theravada": 14
+    },
+    "bounds": [
+      [
+        21.90574,
+        96.1801
+      ],
+      [
+        21.90876,
+        96.18714
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ဝန်းသို",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 14,
+    "center": [
+      23.89724,
+      95.68441
+    ],
+    "traditions": {
+      "theravada": 14
+    },
+    "bounds": [
+      [
+        23.8856,
+        95.66944
+      ],
+      [
+        23.91047,
+        95.71176
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ကလေး",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 14,
+    "center": [
+      23.19071,
+      94.01988
+    ],
+    "traditions": {
+      "theravada": 13,
+      "other": 1
+    },
+    "bounds": [
+      [
+        23.18673,
+        93.98117
+      ],
+      [
+        23.19653,
+        94.07108
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ဂုံညှင်းတောင်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 14,
+    "center": [
+      20.54235,
+      94.47732
+    ],
+    "traditions": {
+      "theravada": 14
+    },
+    "bounds": [
+      [
+        20.53464,
+        94.44076
+      ],
+      [
+        20.6413,
+        94.48024
+      ]
+    ]
+  },
+  {
+    "slug": "phran-kratai",
+    "name": "Phran Kratai",
+    "country": "TH",
+    "countryName": "Thailand",
+    "centerCount": 14,
+    "center": [
+      16.7238,
+      99.55054
+    ],
+    "traditions": {
+      "other": 14
+    },
+    "bounds": [
+      [
+        16.64696,
+        99.40408
+      ],
+      [
+        16.79872,
+        99.7155
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "京都市",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 13,
+    "center": [
+      35.02516,
+      135.76998
+    ],
+    "traditions": {
+      "other": 9,
+      "pure_land": 1,
+      "zen": 3
+    },
+    "bounds": [
+      [
+        34.94426,
+        135.65697
+      ],
+      [
+        35.28024,
+        135.8124
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "米子市",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 13,
+    "center": [
+      35.43419,
+      133.33633
+    ],
+    "traditions": {
+      "pure_land": 2,
+      "nichiren": 3,
+      "zen": 5,
+      "other": 3
+    },
+    "bounds": [
+      [
+        35.42815,
+        133.32544
+      ],
+      [
+        35.44077,
+        133.40993
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "台東区",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 13,
+    "center": [
+      35.71817,
+      139.77733
+    ],
+    "traditions": {
+      "other": 11,
+      "nichiren": 2
+    },
+    "bounds": [
+      [
+        35.69857,
+        139.76892
+      ],
+      [
+        35.72702,
+        139.80791
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "神戸市",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 13,
+    "center": [
+      34.74195,
+      135.19997
+    ],
+    "traditions": {
+      "other": 9,
+      "zen": 2,
+      "pure_land": 2
+    },
+    "bounds": [
+      [
+        34.64602,
+        135.07029
+      ],
+      [
+        34.83414,
+        135.25575
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "木更津市",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 13,
+    "center": [
+      35.36366,
+      139.9486
+    ],
+    "traditions": {
+      "other": 12,
+      "pure_land": 1
+    },
+    "bounds": [
+      [
+        35.32707,
+        139.9005
+      ],
+      [
+        35.38669,
+        140.0392
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "豊岡市",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 13,
+    "center": [
+      35.47526,
+      134.87069
+    ],
+    "traditions": {
+      "other": 12,
+      "nichiren": 1
+    },
+    "bounds": [
+      [
+        35.46017,
+        134.80051
+      ],
+      [
+        35.62424,
+        134.88244
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "수원시",
+    "country": "KR",
+    "countryName": "South Korea",
+    "centerCount": 13,
+    "center": [
+      37.28497,
+      127.03544
+    ],
+    "traditions": {
+      "other": 13
+    },
+    "bounds": [
+      [
+        37.25671,
+        127.00861
+      ],
+      [
+        37.30089,
+        127.07817
+      ]
+    ]
+  },
+  {
+    "slug": "kandy",
+    "name": "Kandy",
+    "country": "LK",
+    "countryName": "Sri Lanka",
+    "centerCount": 13,
+    "center": [
+      7.29231,
+      80.63723
+    ],
+    "traditions": {
+      "other": 12,
+      "theravada": 1
+    },
+    "bounds": [
+      [
+        7.26196,
+        80.62903
+      ],
+      [
+        7.30072,
+        80.64136
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "မိုးညှင်းသံဗုဒ္ဓေရွာ",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 13,
+    "center": [
+      22.06953,
+      95.21483
+    ],
+    "traditions": {
+      "theravada": 13
+    },
+    "bounds": [
+      [
+        22.06774,
+        95.21392
+      ],
+      [
+        22.071,
+        95.21587
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "တောချောင်းဦး",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 13,
+    "center": [
+      22.04108,
+      95.41188
+    ],
+    "traditions": {
+      "theravada": 13
+    },
+    "bounds": [
+      [
+        22.0403,
+        95.41102
+      ],
+      [
+        22.04194,
+        95.41324
+      ]
+    ]
+  },
+  {
+    "slug": "semeikhon",
+    "name": "Semeikhon",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 13,
+    "center": [
+      21.73348,
+      95.42287
+    ],
+    "traditions": {
+      "other": 13
+    },
+    "bounds": [
+      [
+        21.73172,
+        95.41957
+      ],
+      [
+        21.73566,
+        95.42726
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ရွာသစ်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 13,
+    "center": [
+      20.71319,
+      94.81024
+    ],
+    "traditions": {
+      "theravada": 13
+    },
+    "bounds": [
+      [
+        20.33792,
+        94.50593
+      ],
+      [
+        21.53632,
+        95.5169
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "သပြေကုန်း",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 13,
+    "center": [
+      16.73064,
+      96.14362
+    ],
+    "traditions": {
+      "theravada": 12,
+      "other": 1
+    },
+    "bounds": [
+      [
+        16.72496,
+        96.14157
+      ],
+      [
+        16.73728,
+        96.14959
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ဘလဲ့",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 13,
+    "center": [
+      21.539,
+      95.54046
+    ],
+    "traditions": {
+      "theravada": 13
+    },
+    "bounds": [
+      [
+        21.53857,
+        95.54028
+      ],
+      [
+        21.53988,
+        95.54089
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ကျောက်ဆောက်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 13,
+    "center": [
+      21.53691,
+      94.95592
+    ],
+    "traditions": {
+      "theravada": 13
+    },
+    "bounds": [
+      [
+        21.53461,
+        94.95314
+      ],
+      [
+        21.53745,
+        94.95741
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "မြေနဲ",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 13,
+    "center": [
+      22.0582,
+      95.20163
+    ],
+    "traditions": {
+      "theravada": 13
+    },
+    "bounds": [
+      [
+        22.05779,
+        95.20103
+      ],
+      [
+        22.05971,
+        95.20583
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "အင်းကြင်းမော်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 13,
+    "center": [
+      24.41262,
+      94.75625
+    ],
+    "traditions": {
+      "theravada": 13
+    },
+    "bounds": [
+      [
+        24.4086,
+        94.73442
+      ],
+      [
+        24.42065,
+        94.77321
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ပင်းဘုရားကုန်း",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 13,
+    "center": [
+      20.51384,
+      94.85136
+    ],
+    "traditions": {
+      "theravada": 13
+    },
+    "bounds": [
+      [
+        20.50889,
+        94.84954
+      ],
+      [
+        20.5147,
+        94.85356
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "တရုတ်မြို့ဟောင်း",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 13,
+    "center": [
+      20.59969,
+      96.87991
+    ],
+    "traditions": {
+      "theravada": 13
+    },
+    "bounds": [
+      [
+        20.59924,
+        96.87923
+      ],
+      [
+        20.60004,
+        96.88036
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "佐賀市",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 12,
+    "center": [
+      33.25447,
+      130.30272
+    ],
+    "traditions": {
+      "other": 4,
+      "zen": 4,
+      "pure_land": 3,
+      "nichiren": 1
+    },
+    "bounds": [
+      [
+        33.23794,
+        130.28324
+      ],
+      [
+        33.27546,
+        130.33658
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "大和町",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 12,
+    "center": [
+      38.42001,
+      140.90217
+    ],
+    "traditions": {
+      "other": 12
+    },
+    "bounds": [
+      [
+        38.39102,
+        140.83585
+      ],
+      [
+        38.45252,
+        140.96129
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "고양시",
+    "country": "KR",
+    "countryName": "South Korea",
+    "centerCount": 12,
+    "center": [
+      37.67738,
+      126.83438
+    ],
+    "traditions": {
+      "other": 12
+    },
+    "bounds": [
+      [
+        37.59782,
+        126.7472
+      ],
+      [
+        37.72439,
+        126.89954
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ညောင်တုန်း",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 12,
+    "center": [
+      17.04823,
+      95.64204
+    ],
+    "traditions": {
+      "other": 1,
+      "theravada": 11
+    },
+    "bounds": [
+      [
+        17.0402,
+        95.63584
+      ],
+      [
+        17.05224,
+        95.64917
+      ]
+    ]
+  },
+  {
+    "slug": "mandalay",
+    "name": "Mandalay",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 12,
+    "center": [
+      21.96873,
+      96.0894
+    ],
+    "traditions": {
+      "other": 7,
+      "mahayana": 1,
+      "theravada": 4
+    },
+    "bounds": [
+      [
+        21.93293,
+        96.0725
+      ],
+      [
+        21.98661,
+        96.10398
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ဝဲလောင်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 12,
+    "center": [
+      21.15581,
+      95.38567
+    ],
+    "traditions": {
+      "theravada": 12
+    },
+    "bounds": [
+      [
+        21.15222,
+        95.37319
+      ],
+      [
+        21.15736,
+        95.38775
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ကျောက်ပန်းတောင်း",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 12,
+    "center": [
+      20.83241,
+      95.12019
+    ],
+    "traditions": {
+      "theravada": 12
+    },
+    "bounds": [
+      [
+        20.83149,
+        95.11962
+      ],
+      [
+        20.83315,
+        95.12059
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "မဲဇလီ",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 12,
+    "center": [
+      19.40517,
+      94.74908
+    ],
+    "traditions": {
+      "theravada": 12
+    },
+    "bounds": [
+      [
+        19.22074,
+        94.50069
+      ],
+      [
+        20.31553,
+        94.80109
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ကုက္ကဲ",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 12,
+    "center": [
+      21.60068,
+      95.52732
+    ],
+    "traditions": {
+      "theravada": 12
+    },
+    "bounds": [
+      [
+        21.59659,
+        95.51055
+      ],
+      [
+        21.61484,
+        95.5394
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ขาณุวรลักษบุรี",
+    "country": "TH",
+    "countryName": "Thailand",
+    "centerCount": 12,
+    "center": [
+      16.01722,
+      99.73365
+    ],
+    "traditions": {
+      "other": 12
+    },
+    "bounds": [
+      [
+        15.92433,
+        99.5166
+      ],
+      [
+        16.15357,
+        99.91232
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "川崎市",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 11,
+    "center": [
+      35.57448,
+      139.61148
+    ],
+    "traditions": {
+      "other": 7,
+      "zen": 1,
+      "nichiren": 3
+    },
+    "bounds": [
+      [
+        35.51521,
+        139.51134
+      ],
+      [
+        35.61951,
+        139.73589
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "鶴岡市",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 11,
+    "center": [
+      38.74501,
+      139.8425
+    ],
+    "traditions": {
+      "nichiren": 1,
+      "other": 10
+    },
+    "bounds": [
+      [
+        38.72749,
+        139.76781
+      ],
+      [
+        38.77244,
+        139.89937
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "鴻巣市",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 11,
+    "center": [
+      36.10581,
+      139.45861
+    ],
+    "traditions": {
+      "other": 11
+    },
+    "bounds": [
+      [
+        36.09554,
+        139.4436
+      ],
+      [
+        36.11199,
+        139.48149
+      ]
+    ]
+  },
+  {
+    "slug": "bago",
+    "name": "Bago",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 11,
+    "center": [
+      17.33788,
+      96.45021
+    ],
+    "traditions": {
+      "theravada": 11
+    },
+    "bounds": [
+      [
+        17.323,
+        96.44012
+      ],
+      [
+        17.34748,
+        96.49861
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ကျောက်တာ(တောင်)",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 11,
+    "center": [
+      21.96095,
+      95.98243
+    ],
+    "traditions": {
+      "other": 11
+    },
+    "bounds": [
+      [
+        21.95902,
+        95.97914
+      ],
+      [
+        21.96284,
+        95.98722
+      ]
+    ]
+  },
+  {
+    "slug": "kyaun-tawyar-vilage",
+    "name": "Kyaun Tawyar Vilage",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 11,
+    "center": [
+      20.36455,
+      94.76659
+    ],
+    "traditions": {
+      "theravada": 11
+    },
+    "bounds": [
+      [
+        20.36384,
+        94.76627
+      ],
+      [
+        20.36524,
+        94.76701
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ညောင်ပင်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 11,
+    "center": [
+      21.6305,
+      95.25492
+    ],
+    "traditions": {
+      "theravada": 9,
+      "other": 2
+    },
+    "bounds": [
+      [
+        20.3656,
+        94.15453
+      ],
+      [
+        22.39458,
+        96.05136
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ကျိုင်းတောင်း",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 11,
+    "center": [
+      21.96975,
+      96.58086
+    ],
+    "traditions": {
+      "other": 6,
+      "theravada": 5
+    },
+    "bounds": [
+      [
+        21.96423,
+        96.57568
+      ],
+      [
+        21.97763,
+        96.58729
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ဆင်ခေါင်း",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 11,
+    "center": [
+      20.13024,
+      94.77715
+    ],
+    "traditions": {
+      "theravada": 11
+    },
+    "bounds": [
+      [
+        20.12287,
+        94.7697
+      ],
+      [
+        20.13664,
+        94.782
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ညောင်ဇင်ကြီး",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 11,
+    "center": [
+      23.00856,
+      95.53065
+    ],
+    "traditions": {
+      "theravada": 11
+    },
+    "bounds": [
+      [
+        23.0064,
+        95.51566
+      ],
+      [
+        23.01099,
+        95.54782
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ဝက်ပုတ်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 11,
+    "center": [
+      21.55901,
+      94.76136
+    ],
+    "traditions": {
+      "theravada": 11
+    },
+    "bounds": [
+      [
+        21.55595,
+        94.75773
+      ],
+      [
+        21.56081,
+        94.76364
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ပွဲခင်း (တောင်) (ခေါ်) အောက်ချိုင်း",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 11,
+    "center": [
+      20.63594,
+      95.15024
+    ],
+    "traditions": {
+      "theravada": 11
+    },
+    "bounds": [
+      [
+        20.63581,
+        95.1501
+      ],
+      [
+        20.6361,
+        95.1504
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ဖွတ်လှိုင်း",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 11,
+    "center": [
+      22.49179,
+      95.73413
+    ],
+    "traditions": {
+      "theravada": 11
+    },
+    "bounds": [
+      [
+        22.49101,
+        95.73165
+      ],
+      [
+        22.4927,
+        95.7348
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "အုပ်ဖို",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 11,
+    "center": [
+      20.35774,
+      94.59159
+    ],
+    "traditions": {
+      "theravada": 11
+    },
+    "bounds": [
+      [
+        20.31681,
+        94.56267
+      ],
+      [
+        20.55455,
+        94.74337
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "အရာတော်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 11,
+    "center": [
+      20.56924,
+      94.64893
+    ],
+    "traditions": {
+      "theravada": 11
+    },
+    "bounds": [
+      [
+        20.56796,
+        94.64796
+      ],
+      [
+        20.56978,
+        94.65312
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "မကြီးစု",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 11,
+    "center": [
+      21.00106,
+      94.46486
+    ],
+    "traditions": {
+      "theravada": 11
+    },
+    "bounds": [
+      [
+        20.24625,
+        94.16191
+      ],
+      [
+        21.62688,
+        94.73235
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "တပွင်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 11,
+    "center": [
+      20.69079,
+      94.15655
+    ],
+    "traditions": {
+      "theravada": 11
+    },
+    "bounds": [
+      [
+        20.69042,
+        94.15628
+      ],
+      [
+        20.69136,
+        94.1573
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "မြောက်တော",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 11,
+    "center": [
+      20.96495,
+      95.24348
+    ],
+    "traditions": {
+      "theravada": 11
+    },
+    "bounds": [
+      [
+        20.96481,
+        95.24103
+      ],
+      [
+        20.96513,
+        95.24513
+      ]
+    ]
+  },
+  {
+    "slug": "london",
+    "name": "London",
+    "country": "GB",
+    "countryName": "United Kingdom",
+    "centerCount": 10,
+    "center": [
+      51.52916,
+      -0.16007
+    ],
+    "traditions": {
+      "other": 7,
+      "mahayana": 1,
+      "theravada": 2
+    },
+    "bounds": [
+      [
+        51.4164,
+        -0.28542
+      ],
+      [
+        51.65002,
+        0.00157
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "新宿区",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 10,
+    "center": [
+      35.69022,
+      139.71638
+    ],
+    "traditions": {
+      "other": 6,
+      "nichiren": 1,
+      "pure_land": 3
+    },
+    "bounds": [
+      [
+        35.67949,
+        139.7042
+      ],
+      [
+        35.70592,
+        139.72548
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "大東市",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 10,
+    "center": [
+      34.71227,
+      135.61618
+    ],
+    "traditions": {
+      "other": 10
+    },
+    "bounds": [
+      [
+        34.70254,
+        135.60276
+      ],
+      [
+        34.72291,
+        135.6269
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "堺市",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 10,
+    "center": [
+      34.54216,
+      135.50055
+    ],
+    "traditions": {
+      "pure_land": 3,
+      "other": 6,
+      "nichiren": 1
+    },
+    "bounds": [
+      [
+        34.46439,
+        135.47414
+      ],
+      [
+        34.58118,
+        135.54862
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "綾瀬市",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 10,
+    "center": [
+      35.43919,
+      139.42303
+    ],
+    "traditions": {
+      "zen": 1,
+      "other": 9
+    },
+    "bounds": [
+      [
+        35.41414,
+        139.40524
+      ],
+      [
+        35.46686,
+        139.45161
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "울산광역시",
+    "country": "KR",
+    "countryName": "South Korea",
+    "centerCount": 10,
+    "center": [
+      35.52629,
+      129.37896
+    ],
+    "traditions": {
+      "other": 10
+    },
+    "bounds": [
+      [
+        35.48802,
+        129.21455
+      ],
+      [
+        35.60903,
+        129.42691
+      ]
+    ]
+  },
+  {
+    "slug": "ambalangoda",
+    "name": "Ambalangoda",
+    "country": "LK",
+    "countryName": "Sri Lanka",
+    "centerCount": 10,
+    "center": [
+      6.23245,
+      80.05836
+    ],
+    "traditions": {
+      "other": 10
+    },
+    "bounds": [
+      [
+        6.21207,
+        80.04631
+      ],
+      [
+        6.24674,
+        80.07421
+      ]
+    ]
+  },
+  {
+    "slug": "pyinmana",
+    "name": "Pyinmana",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 10,
+    "center": [
+      19.7406,
+      96.20361
+    ],
+    "traditions": {
+      "other": 10
+    },
+    "bounds": [
+      [
+        19.72997,
+        96.19979
+      ],
+      [
+        19.74886,
+        96.20978
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "မောင်မယ်ရှောင်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 10,
+    "center": [
+      14.16146,
+      98.19901
+    ],
+    "traditions": {
+      "theravada": 10
+    },
+    "bounds": [
+      [
+        14.15951,
+        98.19785
+      ],
+      [
+        14.16232,
+        98.2023
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "စစ်ကိုင်း",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 10,
+    "center": [
+      21.89033,
+      95.99315
+    ],
+    "traditions": {
+      "other": 10
+    },
+    "bounds": [
+      [
+        21.87741,
+        95.9792
+      ],
+      [
+        21.89597,
+        95.99898
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ဆီမီးခုံ",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 10,
+    "center": [
+      21.73608,
+      95.42285
+    ],
+    "traditions": {
+      "other": 10
+    },
+    "bounds": [
+      [
+        21.73496,
+        95.42039
+      ],
+      [
+        21.73722,
+        95.42373
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ပျော်ဘွယ်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 10,
+    "center": [
+      20.86505,
+      95.33641
+    ],
+    "traditions": {
+      "theravada": 7,
+      "other": 3
+    },
+    "bounds": [
+      [
+        20.59131,
+        94.85416
+      ],
+      [
+        21.04644,
+        96.06564
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "အနောက်ဂန့်ဂေါ",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 10,
+    "center": [
+      22.15239,
+      94.11924
+    ],
+    "traditions": {
+      "theravada": 10
+    },
+    "bounds": [
+      [
+        22.14976,
+        94.11827
+      ],
+      [
+        22.15289,
+        94.11981
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ရွှေစာရေး",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 10,
+    "center": [
+      22.34184,
+      94.99287
+    ],
+    "traditions": {
+      "theravada": 10
+    },
+    "bounds": [
+      [
+        22.33996,
+        94.99133
+      ],
+      [
+        22.34312,
+        94.99476
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ပြဿဒ်ကြီး",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 10,
+    "center": [
+      21.29752,
+      95.57224
+    ],
+    "traditions": {
+      "theravada": 10
+    },
+    "bounds": [
+      [
+        21.28754,
+        95.56942
+      ],
+      [
+        21.30235,
+        95.57814
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ကောင်းတုံ",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 10,
+    "center": [
+      24.13599,
+      97.10042
+    ],
+    "traditions": {
+      "theravada": 10
+    },
+    "bounds": [
+      [
+        24.12972,
+        97.08974
+      ],
+      [
+        24.13909,
+        97.10766
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "လှည်းကူးမ",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 10,
+    "center": [
+      21.3109,
+      95.53575
+    ],
+    "traditions": {
+      "theravada": 10
+    },
+    "bounds": [
+      [
+        21.1842,
+        95.35965
+      ],
+      [
+        21.32732,
+        95.55707
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "မော်တင်စွန်း",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 10,
+    "center": [
+      15.95561,
+      94.24623
+    ],
+    "traditions": {
+      "theravada": 10
+    },
+    "bounds": [
+      [
+        15.95422,
+        94.24373
+      ],
+      [
+        15.95786,
+        94.25071
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ကျွန်းတော်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 10,
+    "center": [
+      19.87222,
+      95.13265
+    ],
+    "traditions": {
+      "theravada": 10
+    },
+    "bounds": [
+      [
+        19.87016,
+        95.13106
+      ],
+      [
+        19.87697,
+        95.14133
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ဘောတုံ",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 10,
+    "center": [
+      21.60992,
+      94.75446
+    ],
+    "traditions": {
+      "theravada": 10
+    },
+    "bounds": [
+      [
+        21.6098,
+        94.75434
+      ],
+      [
+        21.6105,
+        94.75481
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ရေမျက်နီ",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 10,
+    "center": [
+      21.91846,
+      94.2202
+    ],
+    "traditions": {
+      "theravada": 10
+    },
+    "bounds": [
+      [
+        21.91777,
+        94.21924
+      ],
+      [
+        21.92096,
+        94.22054
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "အကြည်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 10,
+    "center": [
+      20.70356,
+      94.14394
+    ],
+    "traditions": {
+      "theravada": 10
+    },
+    "bounds": [
+      [
+        20.70294,
+        94.1438
+      ],
+      [
+        20.70383,
+        94.14437
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "လယ်ကိုင်း",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 10,
+    "center": [
+      20.30866,
+      94.74843
+    ],
+    "traditions": {
+      "theravada": 10
+    },
+    "bounds": [
+      [
+        20.30424,
+        94.74554
+      ],
+      [
+        20.31454,
+        94.75499
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ဥယျာဉ်ဇင်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 10,
+    "center": [
+      20.23545,
+      94.75915
+    ],
+    "traditions": {
+      "theravada": 10
+    },
+    "bounds": [
+      [
+        20.23511,
+        94.75838
+      ],
+      [
+        20.23571,
+        94.7595
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "จังหวัด สิงห์บุรี",
+    "country": "TH",
+    "countryName": "Thailand",
+    "centerCount": 10,
+    "center": [
+      14.82178,
+      100.49622
+    ],
+    "traditions": {
+      "other": 10
+    },
+    "bounds": [
+      [
+        14.8084,
+        100.45251
+      ],
+      [
+        14.85929,
+        100.53311
+      ]
+    ]
+  },
+  {
+    "slug": "chicago",
+    "name": "Chicago",
+    "country": "US",
+    "countryName": "United States",
+    "centerCount": 10,
+    "center": [
+      41.92221,
+      -87.68055
+    ],
+    "traditions": {
+      "other": 9,
+      "zen": 1
+    },
+    "bounds": [
+      [
+        41.83773,
+        -87.78402
+      ],
+      [
+        42.00917,
+        -87.62529
+      ]
+    ]
+  },
+  {
+    "slug": "austin",
+    "name": "Austin",
+    "country": "US",
+    "countryName": "United States",
+    "centerCount": 10,
+    "center": [
+      30.30085,
+      -97.77136
+    ],
+    "traditions": {
+      "other": 6,
+      "vajrayana": 1,
+      "zen": 1,
+      "theravada": 1,
+      "mahayana": 1
+    },
+    "bounds": [
+      [
+        30.14467,
+        -97.92085
+      ],
+      [
+        30.41448,
+        -97.67966
+      ]
+    ]
+  },
+  {
+    "slug": "edmonton",
+    "name": "Edmonton",
+    "country": "CA",
+    "countryName": "Canada",
+    "centerCount": 9,
+    "center": [
+      53.55241,
+      -113.51362
+    ],
+    "traditions": {
+      "other": 8,
+      "vajrayana": 1
+    },
+    "bounds": [
+      [
+        53.46182,
+        -113.70694
+      ],
+      [
+        53.61456,
+        -113.41701
+      ]
+    ]
+  },
+  {
+    "slug": "berlin",
+    "name": "Berlin",
+    "country": "DE",
+    "countryName": "Germany",
+    "centerCount": 9,
+    "center": [
+      52.52841,
+      13.38527
+    ],
+    "traditions": {
+      "other": 7,
+      "vajrayana": 1,
+      "zen": 1
+    },
+    "bounds": [
+      [
+        52.47495,
+        13.20849
+      ],
+      [
+        52.56015,
+        13.51641
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "尾道市",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 9,
+    "center": [
+      34.3325,
+      133.12765
+    ],
+    "traditions": {
+      "other": 9
+    },
+    "bounds": [
+      [
+        34.28731,
+        133.0786
+      ],
+      [
+        34.40091,
+        133.21113
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "港区",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 9,
+    "center": [
+      35.6558,
+      139.73674
+    ],
+    "traditions": {
+      "pure_land": 1,
+      "other": 8
+    },
+    "bounds": [
+      [
+        35.63666,
+        139.71902
+      ],
+      [
+        35.66795,
+        139.75467
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "松原市",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 9,
+    "center": [
+      34.57541,
+      135.54781
+    ],
+    "traditions": {
+      "other": 9
+    },
+    "bounds": [
+      [
+        34.55934,
+        135.52456
+      ],
+      [
+        34.58376,
+        135.57069
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "亘理町",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 9,
+    "center": [
+      38.03906,
+      140.87206
+    ],
+    "traditions": {
+      "other": 9
+    },
+    "bounds": [
+      [
+        38.0009,
+        140.82825
+      ],
+      [
+        38.08234,
+        140.90557
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "別府市",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 9,
+    "center": [
+      33.27438,
+      131.49941
+    ],
+    "traditions": {
+      "other": 8,
+      "vajrayana": 1
+    },
+    "bounds": [
+      [
+        33.26497,
+        131.45574
+      ],
+      [
+        33.28345,
+        131.51775
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "浜松市天竜区",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 9,
+    "center": [
+      34.93121,
+      137.82566
+    ],
+    "traditions": {
+      "other": 9
+    },
+    "bounds": [
+      [
+        34.87538,
+        137.72621
+      ],
+      [
+        34.99901,
+        138.00566
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "周智郡森町",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 9,
+    "center": [
+      34.8803,
+      137.9357
+    ],
+    "traditions": {
+      "other": 9
+    },
+    "bounds": [
+      [
+        34.80787,
+        137.8967
+      ],
+      [
+        34.94321,
+        138.01512
+      ]
+    ]
+  },
+  {
+    "slug": "phnom-penh",
+    "name": "Phnom Penh",
+    "country": "KH",
+    "countryName": "Cambodia",
+    "centerCount": 9,
+    "center": [
+      11.56648,
+      104.85832
+    ],
+    "traditions": {
+      "other": 8,
+      "theravada": 1
+    },
+    "bounds": [
+      [
+        11.45993,
+        104.80945
+      ],
+      [
+        11.63767,
+        104.93345
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "인천광역시",
+    "country": "KR",
+    "countryName": "South Korea",
+    "centerCount": 9,
+    "center": [
+      37.499,
+      126.66805
+    ],
+    "traditions": {
+      "other": 9
+    },
+    "bounds": [
+      [
+        37.4175,
+        126.48325
+      ],
+      [
+        37.67139,
+        126.71768
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "양평군",
+    "country": "KR",
+    "countryName": "South Korea",
+    "centerCount": 9,
+    "center": [
+      37.52453,
+      127.51872
+    ],
+    "traditions": {
+      "other": 9
+    },
+    "bounds": [
+      [
+        37.47702,
+        127.36617
+      ],
+      [
+        37.55518,
+        127.5846
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "서귀포시",
+    "country": "KR",
+    "countryName": "South Korea",
+    "centerCount": 9,
+    "center": [
+      33.22041,
+      126.3232
+    ],
+    "traditions": {
+      "other": 9
+    },
+    "bounds": [
+      [
+        33.11614,
+        126.2419
+      ],
+      [
+        33.33808,
+        126.44953
+      ]
+    ]
+  },
+  {
+    "slug": "ywa-thit",
+    "name": "Ywa Thit",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 9,
+    "center": [
+      20.90259,
+      94.7834
+    ],
+    "traditions": {
+      "other": 5,
+      "theravada": 4
+    },
+    "bounds": [
+      [
+        20.90059,
+        94.78243
+      ],
+      [
+        20.90562,
+        94.78459
+      ]
+    ]
+  },
+  {
+    "slug": "lin-ga-daw",
+    "name": "Lin Ga Daw",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 9,
+    "center": [
+      21.75386,
+      95.03619
+    ],
+    "traditions": {
+      "theravada": 5,
+      "other": 4
+    },
+    "bounds": [
+      [
+        21.75097,
+        95.03245
+      ],
+      [
+        21.75784,
+        95.04049
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "နတ္တောင်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 9,
+    "center": [
+      22.5888,
+      96.07183
+    ],
+    "traditions": {
+      "theravada": 9
+    },
+    "bounds": [
+      [
+        22.57472,
+        96.06553
+      ],
+      [
+        22.59261,
+        96.09741
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ကြာညှပ်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 9,
+    "center": [
+      23.24561,
+      95.99157
+    ],
+    "traditions": {
+      "theravada": 9
+    },
+    "bounds": [
+      [
+        23.24252,
+        95.98974
+      ],
+      [
+        23.24898,
+        95.9932
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "မုံပင်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 9,
+    "center": [
+      21.72821,
+      96.16615
+    ],
+    "traditions": {
+      "theravada": 9
+    },
+    "bounds": [
+      [
+        21.72793,
+        96.16455
+      ],
+      [
+        21.7285,
+        96.16666
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ကံကြီး",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 9,
+    "center": [
+      21.67635,
+      95.3966
+    ],
+    "traditions": {
+      "theravada": 9
+    },
+    "bounds": [
+      [
+        20.91061,
+        94.64904
+      ],
+      [
+        22.1159,
+        96.18336
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ရှောက်ပင်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 9,
+    "center": [
+      21.18037,
+      95.40266
+    ],
+    "traditions": {
+      "theravada": 9
+    },
+    "bounds": [
+      [
+        21.17866,
+        95.40212
+      ],
+      [
+        21.18245,
+        95.40327
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "သပြေပင်ရွာသစ်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 9,
+    "center": [
+      20.66856,
+      94.67168
+    ],
+    "traditions": {
+      "theravada": 9
+    },
+    "bounds": [
+      [
+        20.66716,
+        94.67062
+      ],
+      [
+        20.67077,
+        94.67305
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ချောင်းဖြူ",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 9,
+    "center": [
+      20.59855,
+      94.68892
+    ],
+    "traditions": {
+      "theravada": 9
+    },
+    "bounds": [
+      [
+        20.04509,
+        94.66814
+      ],
+      [
+        20.67919,
+        94.81055
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ချောင်းကောက်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 9,
+    "center": [
+      20.07498,
+      94.95715
+    ],
+    "traditions": {
+      "theravada": 9
+    },
+    "bounds": [
+      [
+        19.99711,
+        94.69095
+      ],
+      [
+        20.68733,
+        94.99362
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ကျောက်ရဲတုန်း",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 9,
+    "center": [
+      20.60727,
+      94.62137
+    ],
+    "traditions": {
+      "theravada": 9
+    },
+    "bounds": [
+      [
+        20.60709,
+        94.62115
+      ],
+      [
+        20.60775,
+        94.62198
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "အင်ဘူး",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 9,
+    "center": [
+      21.00913,
+      94.12138
+    ],
+    "traditions": {
+      "theravada": 9
+    },
+    "bounds": [
+      [
+        21.00853,
+        94.11929
+      ],
+      [
+        21.00931,
+        94.12174
+      ]
+    ]
+  },
+  {
+    "slug": "wien",
+    "name": "Wien",
+    "country": "AT",
+    "countryName": "Austria",
+    "centerCount": 8,
+    "center": [
+      48.20268,
+      16.39085
+    ],
+    "traditions": {
+      "other": 7,
+      "vajrayana": 1
+    },
+    "bounds": [
+      [
+        48.18796,
+        16.35465
+      ],
+      [
+        48.21864,
+        16.45519
+      ]
+    ]
+  },
+  {
+    "slug": "vancouver",
+    "name": "Vancouver",
+    "country": "CA",
+    "countryName": "Canada",
+    "centerCount": 8,
+    "center": [
+      49.24927,
+      -123.07127
+    ],
+    "traditions": {
+      "other": 8
+    },
+    "bounds": [
+      [
+        49.20964,
+        -123.11758
+      ],
+      [
+        49.28136,
+        -123.02534
+      ]
+    ]
+  },
+  {
+    "slug": "kushinagar",
+    "name": "Kushinagar",
+    "country": "IN",
+    "countryName": "India",
+    "centerCount": 8,
+    "center": [
+      26.73866,
+      83.89267
+    ],
+    "traditions": {
+      "other": 8
+    },
+    "bounds": [
+      [
+        26.736,
+        83.88804
+      ],
+      [
+        26.74194,
+        83.90494
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "鎌倉市",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 8,
+    "center": [
+      35.33175,
+      139.54937
+    ],
+    "traditions": {
+      "other": 4,
+      "pure_land": 1,
+      "zen": 3
+    },
+    "bounds": [
+      [
+        35.31651,
+        139.52183
+      ],
+      [
+        35.35351,
+        139.57468
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "岩沼市",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 8,
+    "center": [
+      38.10354,
+      140.88141
+    ],
+    "traditions": {
+      "other": 8
+    },
+    "bounds": [
+      [
+        38.07494,
+        140.83785
+      ],
+      [
+        38.11599,
+        140.91776
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "厚木市",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 8,
+    "center": [
+      35.43489,
+      139.33905
+    ],
+    "traditions": {
+      "other": 6,
+      "nichiren": 1,
+      "pure_land": 1
+    },
+    "bounds": [
+      [
+        35.40015,
+        139.30666
+      ],
+      [
+        35.47156,
+        139.36629
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "千歳市",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 8,
+    "center": [
+      42.83802,
+      141.64202
+    ],
+    "traditions": {
+      "pure_land": 3,
+      "other": 2,
+      "zen": 1,
+      "nichiren": 2
+    },
+    "bounds": [
+      [
+        42.81988,
+        141.61835
+      ],
+      [
+        42.84888,
+        141.65365
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "奈義町",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 8,
+    "center": [
+      35.12599,
+      134.18843
+    ],
+    "traditions": {
+      "other": 6,
+      "zen": 2
+    },
+    "bounds": [
+      [
+        35.10875,
+        134.16988
+      ],
+      [
+        35.15609,
+        134.20958
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "진주시",
+    "country": "KR",
+    "countryName": "South Korea",
+    "centerCount": 8,
+    "center": [
+      35.20993,
+      128.10833
+    ],
+    "traditions": {
+      "other": 8
+    },
+    "bounds": [
+      [
+        35.1697,
+        128.06154
+      ],
+      [
+        35.24921,
+        128.28685
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "대구광역시",
+    "country": "KR",
+    "countryName": "South Korea",
+    "centerCount": 8,
+    "center": [
+      35.88941,
+      128.59993
+    ],
+    "traditions": {
+      "other": 8
+    },
+    "bounds": [
+      [
+        35.71815,
+        128.51077
+      ],
+      [
+        36.18404,
+        128.78324
+      ]
+    ]
+  },
+  {
+    "slug": "matara",
+    "name": "Matara",
+    "country": "LK",
+    "countryName": "Sri Lanka",
+    "centerCount": 8,
+    "center": [
+      5.94728,
+      80.53706
+    ],
+    "traditions": {
+      "other": 7,
+      "theravada": 1
+    },
+    "bounds": [
+      [
+        5.94088,
+        80.5096
+      ],
+      [
+        5.95413,
+        80.55776
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ဝါးခယ်မ",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 8,
+    "center": [
+      16.60652,
+      95.17636
+    ],
+    "traditions": {
+      "theravada": 8
+    },
+    "bounds": [
+      [
+        16.60392,
+        95.1584
+      ],
+      [
+        16.61129,
+        95.19061
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "သရက်တော",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 8,
+    "center": [
+      20.61718,
+      94.68567
+    ],
+    "traditions": {
+      "theravada": 8
+    },
+    "bounds": [
+      [
+        20.35394,
+        94.43909
+      ],
+      [
+        21.47875,
+        94.81339
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "မိုးဒါး (အလယ်)",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 8,
+    "center": [
+      24.30645,
+      96.50983
+    ],
+    "traditions": {
+      "theravada": 8
+    },
+    "bounds": [
+      [
+        24.30528,
+        96.50638
+      ],
+      [
+        24.31134,
+        96.51406
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ဇီးဖြူပင်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 8,
+    "center": [
+      20.78219,
+      94.66559
+    ],
+    "traditions": {
+      "theravada": 8
+    },
+    "bounds": [
+      [
+        20.78207,
+        94.66543
+      ],
+      [
+        20.78227,
+        94.6657
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "သောင်သွတ်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 8,
+    "center": [
+      24.42364,
+      94.70042
+    ],
+    "traditions": {
+      "theravada": 8
+    },
+    "bounds": [
+      [
+        24.42252,
+        94.69853
+      ],
+      [
+        24.42496,
+        94.70192
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "နွယ်တမယ်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 8,
+    "center": [
+      20.66249,
+      94.6818
+    ],
+    "traditions": {
+      "theravada": 8
+    },
+    "bounds": [
+      [
+        20.65932,
+        94.68094
+      ],
+      [
+        20.66434,
+        94.68245
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ပြင်စာ",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 8,
+    "center": [
+      21.86314,
+      96.35753
+    ],
+    "traditions": {
+      "theravada": 8
+    },
+    "bounds": [
+      [
+        21.85369,
+        96.34405
+      ],
+      [
+        21.86637,
+        96.35974
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ကျောက်ဂူ",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 8,
+    "center": [
+      21.81369,
+      96.92666
+    ],
+    "traditions": {
+      "theravada": 8
+    },
+    "bounds": [
+      [
+        21.81343,
+        96.92624
+      ],
+      [
+        21.81411,
+        96.92879
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ဘဲကြီး",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 8,
+    "center": [
+      21.26037,
+      94.92272
+    ],
+    "traditions": {
+      "theravada": 8
+    },
+    "bounds": [
+      [
+        21.25999,
+        94.922
+      ],
+      [
+        21.26104,
+        94.9249
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "တွင်းငယ်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 8,
+    "center": [
+      23.10725,
+      96.01716
+    ],
+    "traditions": {
+      "theravada": 8
+    },
+    "bounds": [
+      [
+        23.10593,
+        96.01612
+      ],
+      [
+        23.1111,
+        96.01955
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "သင်းကျွန်း",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 8,
+    "center": [
+      13.959,
+      98.24462
+    ],
+    "traditions": {
+      "theravada": 8
+    },
+    "bounds": [
+      [
+        13.95622,
+        98.24176
+      ],
+      [
+        13.96609,
+        98.24625
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "တောမ",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 8,
+    "center": [
+      21.60591,
+      94.66593
+    ],
+    "traditions": {
+      "theravada": 8
+    },
+    "bounds": [
+      [
+        21.22426,
+        94.13635
+      ],
+      [
+        21.93351,
+        96.12904
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "နတ်စောင့်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 8,
+    "center": [
+      21.26931,
+      95.37591
+    ],
+    "traditions": {
+      "theravada": 8
+    },
+    "bounds": [
+      [
+        21.26664,
+        95.37475
+      ],
+      [
+        21.27091,
+        95.37716
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ကျောဇီ",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 8,
+    "center": [
+      21.31757,
+      95.17809
+    ],
+    "traditions": {
+      "theravada": 8
+    },
+    "bounds": [
+      [
+        21.31592,
+        95.17539
+      ],
+      [
+        21.31805,
+        95.17868
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ရှမ်းစု",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 8,
+    "center": [
+      20.56912,
+      94.62694
+    ],
+    "traditions": {
+      "theravada": 8
+    },
+    "bounds": [
+      [
+        20.56238,
+        94.47891
+      ],
+      [
+        20.60836,
+        94.64831
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "မင်းကန်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 8,
+    "center": [
+      20.74983,
+      94.93949
+    ],
+    "traditions": {
+      "theravada": 8
+    },
+    "bounds": [
+      [
+        20.49588,
+        94.62529
+      ],
+      [
+        20.83564,
+        95.04497
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ကြိမ်ကြီး",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 8,
+    "center": [
+      20.9716,
+      94.12839
+    ],
+    "traditions": {
+      "theravada": 8
+    },
+    "bounds": [
+      [
+        20.97088,
+        94.12814
+      ],
+      [
+        20.97245,
+        94.12911
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ပုဏ္ဏား",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 8,
+    "center": [
+      21.74091,
+      94.08252
+    ],
+    "traditions": {
+      "theravada": 8
+    },
+    "bounds": [
+      [
+        21.72116,
+        94.07929
+      ],
+      [
+        21.87,
+        94.10056
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "သုံးခွ",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 8,
+    "center": [
+      16.41988,
+      95.99542
+    ],
+    "traditions": {
+      "theravada": 8
+    },
+    "bounds": [
+      [
+        16.41843,
+        95.99214
+      ],
+      [
+        16.42132,
+        95.99953
+      ]
+    ]
+  },
+  {
+    "slug": "johor-bahru",
+    "name": "Johor Bahru",
+    "country": "MY",
+    "countryName": "Malaysia",
+    "centerCount": 8,
+    "center": [
+      1.51173,
+      103.75822
+    ],
+    "traditions": {
+      "other": 6,
+      "pure_land": 1,
+      "theravada": 1
+    },
+    "bounds": [
+      [
+        1.46058,
+        103.68057
+      ],
+      [
+        1.57853,
+        103.87514
+      ]
+    ]
+  },
+  {
+    "slug": "s-gravenhage",
+    "name": "'s-Gravenhage",
+    "country": "NL",
+    "countryName": "Netherlands",
+    "centerCount": 8,
+    "center": [
+      52.0775,
+      4.30169
+    ],
+    "traditions": {
+      "mahayana": 2,
+      "vajrayana": 2,
+      "zen": 1,
+      "other": 3
+    },
+    "bounds": [
+      [
+        52.06031,
+        4.27252
+      ],
+      [
+        52.09231,
+        4.33615
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "คลองลาน",
+    "country": "TH",
+    "countryName": "Thailand",
+    "centerCount": 8,
+    "center": [
+      16.26411,
+      99.33128
+    ],
+    "traditions": {
+      "other": 8
+    },
+    "bounds": [
+      [
+        16.11622,
+        99.23671
+      ],
+      [
+        16.40536,
+        99.42735
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "八頭町",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 7,
+    "center": [
+      35.38533,
+      134.30174
+    ],
+    "traditions": {
+      "zen": 2,
+      "other": 4,
+      "pure_land": 1
+    },
+    "bounds": [
+      [
+        35.33835,
+        134.24424
+      ],
+      [
+        35.42243,
+        134.38135
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "若桜町",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 7,
+    "center": [
+      35.32644,
+      134.4088
+    ],
+    "traditions": {
+      "zen": 2,
+      "other": 2,
+      "pure_land": 3
+    },
+    "bounds": [
+      [
+        35.27,
+        134.39416
+      ],
+      [
+        35.34391,
+        134.45669
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "村田町",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 7,
+    "center": [
+      38.12463,
+      140.73625
+    ],
+    "traditions": {
+      "other": 7
+    },
+    "bounds": [
+      [
+        38.07743,
+        140.7013
+      ],
+      [
+        38.16737,
+        140.77152
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "加美町",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 7,
+    "center": [
+      38.58626,
+      140.81924
+    ],
+    "traditions": {
+      "other": 7
+    },
+    "bounds": [
+      [
+        38.54425,
+        140.7312
+      ],
+      [
+        38.62859,
+        140.88323
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "高松市",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 7,
+    "center": [
+      34.32796,
+      134.04066
+    ],
+    "traditions": {
+      "other": 7
+    },
+    "bounds": [
+      [
+        34.3132,
+        133.99393
+      ],
+      [
+        34.35739,
+        134.10114
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "伊賀市",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 7,
+    "center": [
+      34.76222,
+      136.13103
+    ],
+    "traditions": {
+      "other": 7
+    },
+    "bounds": [
+      [
+        34.76204,
+        136.1308
+      ],
+      [
+        34.76243,
+        136.13116
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "豊田市",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 7,
+    "center": [
+      35.07351,
+      137.19671
+    ],
+    "traditions": {
+      "other": 6,
+      "pure_land": 1
+    },
+    "bounds": [
+      [
+        35.01859,
+        137.09381
+      ],
+      [
+        35.20167,
+        137.34841
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "倉吉市",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 7,
+    "center": [
+      35.42204,
+      133.8138
+    ],
+    "traditions": {
+      "zen": 1,
+      "pure_land": 3,
+      "other": 3
+    },
+    "bounds": [
+      [
+        35.36352,
+        133.76334
+      ],
+      [
+        35.43334,
+        133.8276
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "東伊豆町",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 7,
+    "center": [
+      34.77677,
+      139.04181
+    ],
+    "traditions": {
+      "other": 7
+    },
+    "bounds": [
+      [
+        34.7712,
+        139.0302
+      ],
+      [
+        34.80065,
+        139.05911
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "石巻市",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 7,
+    "center": [
+      38.54875,
+      141.41233
+    ],
+    "traditions": {
+      "other": 7
+    },
+    "bounds": [
+      [
+        38.41577,
+        141.30466
+      ],
+      [
+        38.60483,
+        141.50293
+      ]
+    ]
+  },
+  {
+    "slug": "savannakhet",
+    "name": "Savannakhet",
+    "country": "LA",
+    "countryName": "Laos",
+    "centerCount": 7,
+    "center": [
+      16.55066,
+      104.75428
+    ],
+    "traditions": {
+      "other": 7
+    },
+    "bounds": [
+      [
+        16.51649,
+        104.7453
+      ],
+      [
+        16.56853,
+        104.77115
+      ]
+    ]
+  },
+  {
+    "slug": "badulla",
+    "name": "Badulla",
+    "country": "LK",
+    "countryName": "Sri Lanka",
+    "centerCount": 7,
+    "center": [
+      6.99054,
+      81.05835
+    ],
+    "traditions": {
+      "other": 7
+    },
+    "bounds": [
+      [
+        6.97622,
+        81.05012
+      ],
+      [
+        7.00173,
+        81.06398
+      ]
+    ]
+  },
+  {
+    "slug": "madampe",
+    "name": "Madampe",
+    "country": "LK",
+    "countryName": "Sri Lanka",
+    "centerCount": 7,
+    "center": [
+      7.48895,
+      79.84484
+    ],
+    "traditions": {
+      "other": 7
+    },
+    "bounds": [
+      [
+        7.47745,
+        79.82793
+      ],
+      [
+        7.49553,
+        79.8847
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "နတ်မော်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 7,
+    "center": [
+      17.59294,
+      95.43034
+    ],
+    "traditions": {
+      "theravada": 7
+    },
+    "bounds": [
+      [
+        17.58869,
+        95.42644
+      ],
+      [
+        17.59437,
+        95.43226
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "နိဗ္ဗာန်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 7,
+    "center": [
+      17.25788,
+      96.20608
+    ],
+    "traditions": {
+      "theravada": 7
+    },
+    "bounds": [
+      [
+        17.14517,
+        95.34774
+      ],
+      [
+        17.53601,
+        96.5508
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "မိုးမိတ်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 7,
+    "center": [
+      23.10969,
+      96.67241
+    ],
+    "traditions": {
+      "theravada": 7
+    },
+    "bounds": [
+      [
+        23.10593,
+        96.66306
+      ],
+      [
+        23.11364,
+        96.68675
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "တညောင်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 7,
+    "center": [
+      20.84324,
+      94.67386
+    ],
+    "traditions": {
+      "theravada": 7
+    },
+    "bounds": [
+      [
+        20.8375,
+        94.67105
+      ],
+      [
+        20.84561,
+        94.67669
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ကျောက်ဖူး",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 7,
+    "center": [
+      19.03925,
+      95.04573
+    ],
+    "traditions": {
+      "theravada": 7
+    },
+    "bounds": [
+      [
+        18.66382,
+        94.99937
+      ],
+      [
+        21.28979,
+        95.32321
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ချင်တောင်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 7,
+    "center": [
+      20.88383,
+      94.7289
+    ],
+    "traditions": {
+      "theravada": 5,
+      "other": 2
+    },
+    "bounds": [
+      [
+        20.8809,
+        94.72477
+      ],
+      [
+        20.88555,
+        94.73006
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "နွားကူးအိုင်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 7,
+    "center": [
+      21.66809,
+      95.53949
+    ],
+    "traditions": {
+      "theravada": 7
+    },
+    "bounds": [
+      [
+        21.66596,
+        95.53618
+      ],
+      [
+        21.67017,
+        95.54471
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "စခန်းသစ်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 7,
+    "center": [
+      12.08416,
+      98.42963
+    ],
+    "traditions": {
+      "theravada": 7
+    },
+    "bounds": [
+      [
+        12.08059,
+        98.42709
+      ],
+      [
+        12.08886,
+        98.43252
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ဘန့်ဘွေးရွာမ",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 7,
+    "center": [
+      22.22087,
+      95.00501
+    ],
+    "traditions": {
+      "theravada": 7
+    },
+    "bounds": [
+      [
+        22.2207,
+        95.0019
+      ],
+      [
+        22.22109,
+        95.0091
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "မြေနက်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 7,
+    "center": [
+      22.26882,
+      95.53311
+    ],
+    "traditions": {
+      "theravada": 7
+    },
+    "bounds": [
+      [
+        22.26817,
+        95.53233
+      ],
+      [
+        22.26956,
+        95.53396
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ဗန်းမောက်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 7,
+    "center": [
+      24.39907,
+      95.8527
+    ],
+    "traditions": {
+      "theravada": 7
+    },
+    "bounds": [
+      [
+        24.39662,
+        95.84634
+      ],
+      [
+        24.40366,
+        95.85913
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "မီးသွေးကံ",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 7,
+    "center": [
+      21.37429,
+      95.09388
+    ],
+    "traditions": {
+      "theravada": 7
+    },
+    "bounds": [
+      [
+        21.37282,
+        95.08846
+      ],
+      [
+        21.37827,
+        95.09739
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ငါ့သရောက်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 7,
+    "center": [
+      21.15271,
+      95.13864
+    ],
+    "traditions": {
+      "theravada": 7
+    },
+    "bounds": [
+      [
+        21.14533,
+        95.13379
+      ],
+      [
+        21.16002,
+        95.14552
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "သမားတော်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 7,
+    "center": [
+      21.42872,
+      94.61325
+    ],
+    "traditions": {
+      "theravada": 7
+    },
+    "bounds": [
+      [
+        21.42858,
+        94.61317
+      ],
+      [
+        21.4289,
+        94.61335
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "တောင်ဘက်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 7,
+    "center": [
+      21.61777,
+      94.14781
+    ],
+    "traditions": {
+      "theravada": 7
+    },
+    "bounds": [
+      [
+        21.32564,
+        94.10261
+      ],
+      [
+        21.66687,
+        94.41803
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "စွန်စိတ်ကုန်း",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 7,
+    "center": [
+      21.44707,
+      94.55863
+    ],
+    "traditions": {
+      "theravada": 7
+    },
+    "bounds": [
+      [
+        21.44685,
+        94.55857
+      ],
+      [
+        21.44727,
+        94.55891
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ရွာမှတ်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 7,
+    "center": [
+      20.56694,
+      94.69462
+    ],
+    "traditions": {
+      "theravada": 7
+    },
+    "bounds": [
+      [
+        20.5668,
+        94.69401
+      ],
+      [
+        20.56706,
+        94.69493
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ဆင်ကျုံး",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 7,
+    "center": [
+      20.56544,
+      94.63905
+    ],
+    "traditions": {
+      "theravada": 7
+    },
+    "bounds": [
+      [
+        20.56449,
+        94.63603
+      ],
+      [
+        20.56622,
+        94.64134
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "မင်းကြည့်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 7,
+    "center": [
+      21.40081,
+      94.14251
+    ],
+    "traditions": {
+      "theravada": 7
+    },
+    "bounds": [
+      [
+        21.3979,
+        94.1417
+      ],
+      [
+        21.40154,
+        94.14266
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ကျောက်တောင်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 7,
+    "center": [
+      21.84825,
+      94.83357
+    ],
+    "traditions": {
+      "theravada": 7
+    },
+    "bounds": [
+      [
+        21.84705,
+        94.82932
+      ],
+      [
+        21.8498,
+        94.83516
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ကံရာကောင်း",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 7,
+    "center": [
+      21.53118,
+      94.82159
+    ],
+    "traditions": {
+      "theravada": 7
+    },
+    "bounds": [
+      [
+        21.53062,
+        94.82078
+      ],
+      [
+        21.53167,
+        94.82188
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ဘုန်းကြီးကန်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 7,
+    "center": [
+      21.8174,
+      94.84791
+    ],
+    "traditions": {
+      "theravada": 7
+    },
+    "bounds": [
+      [
+        21.81565,
+        94.84685
+      ],
+      [
+        21.82092,
+        94.84925
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "အုံးတော",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 7,
+    "center": [
+      20.52313,
+      94.65568
+    ],
+    "traditions": {
+      "theravada": 7
+    },
+    "bounds": [
+      [
+        20.30819,
+        94.11357
+      ],
+      [
+        21.80537,
+        94.74928
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "အကြည်ဘန်း",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 7,
+    "center": [
+      21.67522,
+      94.17232
+    ],
+    "traditions": {
+      "theravada": 7
+    },
+    "bounds": [
+      [
+        21.67415,
+        94.17101
+      ],
+      [
+        21.67583,
+        94.17596
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "သပြေတော",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 7,
+    "center": [
+      22.33676,
+      95.00014
+    ],
+    "traditions": {
+      "theravada": 7
+    },
+    "bounds": [
+      [
+        22.32356,
+        94.99232
+      ],
+      [
+        22.34048,
+        95.00618
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ကညွတ်ကွင်း (အရှေ့)",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 7,
+    "center": [
+      18.34166,
+      96.49425
+    ],
+    "traditions": {
+      "theravada": 7
+    },
+    "bounds": [
+      [
+        18.33536,
+        96.4875
+      ],
+      [
+        18.35115,
+        96.49964
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ရွာခိုင်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 7,
+    "center": [
+      20.42273,
+      94.7298
+    ],
+    "traditions": {
+      "theravada": 7
+    },
+    "bounds": [
+      [
+        20.42258,
+        94.72947
+      ],
+      [
+        20.42286,
+        94.73009
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ပင်းဝ",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 7,
+    "center": [
+      20.52549,
+      94.84442
+    ],
+    "traditions": {
+      "theravada": 7
+    },
+    "bounds": [
+      [
+        20.52463,
+        94.84348
+      ],
+      [
+        20.52682,
+        94.84658
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "အလံပါယ်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 7,
+    "center": [
+      20.24127,
+      94.83454
+    ],
+    "traditions": {
+      "theravada": 7
+    },
+    "bounds": [
+      [
+        20.23815,
+        94.83392
+      ],
+      [
+        20.24254,
+        94.83542
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ရေပုတ်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 7,
+    "center": [
+      20.22402,
+      94.81947
+    ],
+    "traditions": {
+      "theravada": 7
+    },
+    "bounds": [
+      [
+        20.21794,
+        94.81445
+      ],
+      [
+        20.23182,
+        94.82253
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "မန်းကြိုး",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 7,
+    "center": [
+      20.25174,
+      94.85401
+    ],
+    "traditions": {
+      "theravada": 7
+    },
+    "bounds": [
+      [
+        20.25149,
+        94.85374
+      ],
+      [
+        20.25198,
+        94.85504
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ကျောက်စစ်ပုံ",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 7,
+    "center": [
+      20.28625,
+      94.76275
+    ],
+    "traditions": {
+      "theravada": 7
+    },
+    "bounds": [
+      [
+        20.28517,
+        94.76232
+      ],
+      [
+        20.28983,
+        94.7649
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "သာဝတ္ထိ",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 7,
+    "center": [
+      19.51091,
+      96.20879
+    ],
+    "traditions": {
+      "theravada": 7
+    },
+    "bounds": [
+      [
+        19.50911,
+        96.20759
+      ],
+      [
+        19.51291,
+        96.21069
+      ]
+    ]
+  },
+  {
+    "slug": "kathmandu",
+    "name": "Kathmandu",
+    "country": "NP",
+    "countryName": "Nepal",
+    "centerCount": 7,
+    "center": [
+      27.71198,
+      85.31614
+    ],
+    "traditions": {
+      "other": 6,
+      "mahayana": 1
+    },
+    "bounds": [
+      [
+        27.69653,
+        85.287
+      ],
+      [
+        27.73681,
+        85.3657
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ลพบุรี",
+    "country": "TH",
+    "countryName": "Thailand",
+    "centerCount": 7,
+    "center": [
+      14.80619,
+      100.60765
+    ],
+    "traditions": {
+      "other": 7
+    },
+    "bounds": [
+      [
+        14.79845,
+        100.59935
+      ],
+      [
+        14.81514,
+        100.61414
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": ", จังหวัด ชัยนาท",
+    "country": "TH",
+    "countryName": "Thailand",
+    "centerCount": 7,
+    "center": [
+      15.09638,
+      100.27768
+    ],
+    "traditions": {
+      "other": 7
+    },
+    "bounds": [
+      [
+        15.06483,
+        100.26379
+      ],
+      [
+        15.11241,
+        100.29651
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "กำแพงเพชร",
+    "country": "TH",
+    "countryName": "Thailand",
+    "centerCount": 7,
+    "center": [
+      16.44711,
+      99.53633
+    ],
+    "traditions": {
+      "other": 7
+    },
+    "bounds": [
+      [
+        16.34032,
+        99.43934
+      ],
+      [
+        16.52528,
+        99.6065
+      ]
+    ]
+  },
+  {
+    "slug": "denver",
+    "name": "Denver",
+    "country": "US",
+    "countryName": "United States",
+    "centerCount": 7,
+    "center": [
+      39.71676,
+      -104.98642
+    ],
+    "traditions": {
+      "other": 6,
+      "mahayana": 1
+    },
+    "bounds": [
+      [
+        39.67436,
+        -105.03149
+      ],
+      [
+        39.78407,
+        -104.90146
+      ]
+    ]
+  },
+  {
+    "slug": "san-francisco",
+    "name": "San Francisco",
+    "country": "US",
+    "countryName": "United States",
+    "centerCount": 7,
+    "center": [
+      37.77456,
+      -122.44527
+    ],
+    "traditions": {
+      "other": 3,
+      "nichiren": 1,
+      "zen": 3
+    },
+    "bounds": [
+      [
+        37.76452,
+        -122.49274
+      ],
+      [
+        37.79355,
+        -122.40637
+      ]
+    ]
+  },
+  {
+    "slug": "philadelphia",
+    "name": "Philadelphia",
+    "country": "US",
+    "countryName": "United States",
+    "centerCount": 7,
+    "center": [
+      39.9465,
+      -75.1574
+    ],
+    "traditions": {
+      "other": 6,
+      "vajrayana": 1
+    },
+    "bounds": [
+      [
+        39.92431,
+        -75.17224
+      ],
+      [
+        39.96864,
+        -75.14332
+      ]
+    ]
+  },
+  {
+    "slug": "hoi-an",
+    "name": "Hội An",
+    "country": "VN",
+    "countryName": "Vietnam",
+    "centerCount": 7,
+    "center": [
+      15.87929,
+      108.32565
+    ],
+    "traditions": {
+      "other": 7
+    },
+    "bounds": [
+      [
+        15.87754,
+        108.31928
+      ],
+      [
+        15.88135,
+        108.33169
+      ]
+    ]
+  },
+  {
+    "slug": "ho-chi-minh",
+    "name": "Hồ Chí Minh",
+    "country": "VN",
+    "countryName": "Vietnam",
+    "centerCount": 7,
+    "center": [
+      10.76212,
+      106.72254
+    ],
+    "traditions": {
+      "other": 7
+    },
+    "bounds": [
+      [
+        10.66205,
+        106.63725
+      ],
+      [
+        10.86016,
+        106.77919
+      ]
+    ]
+  },
+  {
+    "slug": "thanh-pho-a-lat",
+    "name": "Thành phố Đà Lạt",
+    "country": "VN",
+    "countryName": "Vietnam",
+    "centerCount": 7,
+    "center": [
+      11.93498,
+      108.47071
+    ],
+    "traditions": {
+      "other": 7
+    },
+    "bounds": [
+      [
+        11.92767,
+        108.45955
+      ],
+      [
+        11.94815,
+        108.50086
+      ]
+    ]
+  },
+  {
+    "slug": "sao-paulo",
+    "name": "São Paulo",
+    "country": "BR",
+    "countryName": "Brazil",
+    "centerCount": 6,
+    "center": [
+      -23.57412,
+      -46.64427
+    ],
+    "traditions": {
+      "nichiren": 2,
+      "other": 3,
+      "pure_land": 1
+    },
+    "bounds": [
+      [
+        -23.6204,
+        -46.68424
+      ],
+      [
+        -23.46974,
+        -46.61977
+      ]
+    ]
+  },
+  {
+    "slug": "chukha",
+    "name": "Chukha",
+    "country": "BT",
+    "countryName": "Bhutan",
+    "centerCount": 6,
+    "center": [
+      26.99684,
+      89.57097
+    ],
+    "traditions": {
+      "other": 6
+    },
+    "bounds": [
+      [
+        26.91298,
+        89.53092
+      ],
+      [
+        27.17117,
+        89.60827
+      ]
+    ]
+  },
+  {
+    "slug": "toronto",
+    "name": "Toronto",
+    "country": "CA",
+    "countryName": "Canada",
+    "centerCount": 6,
+    "center": [
+      43.69844,
+      -79.39158
+    ],
+    "traditions": {
+      "other": 3,
+      "zen": 2,
+      "vajrayana": 1
+    },
+    "bounds": [
+      [
+        43.63079,
+        -79.51299
+      ],
+      [
+        43.80412,
+        -79.25368
+      ]
+    ]
+  },
+  {
+    "slug": "hamburg",
+    "name": "Hamburg",
+    "country": "DE",
+    "countryName": "Germany",
+    "centerCount": 6,
+    "center": [
+      53.56586,
+      10.05247
+    ],
+    "traditions": {
+      "other": 3,
+      "zen": 2,
+      "vajrayana": 1
+    },
+    "bounds": [
+      [
+        53.52967,
+        9.92821
+      ],
+      [
+        53.62386,
+        10.14084
+      ]
+    ]
+  },
+  {
+    "slug": "kabupaten-deli-serdang",
+    "name": "Kabupaten Deli Serdang",
+    "country": "ID",
+    "countryName": "Indonesia",
+    "centerCount": 6,
+    "center": [
+      3.6451,
+      98.64285
+    ],
+    "traditions": {
+      "other": 5,
+      "theravada": 1
+    },
+    "bounds": [
+      [
+        3.60611,
+        98.55587
+      ],
+      [
+        3.70701,
+        98.7716
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "徳島市",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 6,
+    "center": [
+      34.05424,
+      134.46678
+    ],
+    "traditions": {
+      "other": 6
+    },
+    "bounds": [
+      [
+        34.02777,
+        134.42877
+      ],
+      [
+        34.08517,
+        134.4855
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "大田区",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 6,
+    "center": [
+      35.57284,
+      139.72256
+    ],
+    "traditions": {
+      "other": 6
+    },
+    "bounds": [
+      [
+        35.54623,
+        139.7052
+      ],
+      [
+        35.59185,
+        139.74214
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "奈良市",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 6,
+    "center": [
+      34.67029,
+      135.82285
+    ],
+    "traditions": {
+      "other": 6
+    },
+    "bounds": [
+      [
+        34.6287,
+        135.78452
+      ],
+      [
+        34.69473,
+        135.86854
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "浜松市",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 6,
+    "center": [
+      34.80897,
+      137.69861
+    ],
+    "traditions": {
+      "zen": 4,
+      "other": 2
+    },
+    "bounds": [
+      [
+        34.72486,
+        137.61305
+      ],
+      [
+        34.95858,
+        137.89659
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "町田市",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 6,
+    "center": [
+      35.56572,
+      139.43692
+    ],
+    "traditions": {
+      "other": 3,
+      "nichiren": 2,
+      "pure_land": 1
+    },
+    "bounds": [
+      [
+        35.53767,
+        139.40169
+      ],
+      [
+        35.60137,
+        139.45831
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "千葉市",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 6,
+    "center": [
+      35.60811,
+      140.12892
+    ],
+    "traditions": {
+      "other": 6
+    },
+    "bounds": [
+      [
+        35.59495,
+        140.10761
+      ],
+      [
+        35.62761,
+        140.17133
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "鹿児島市",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 6,
+    "center": [
+      31.56309,
+      130.51683
+    ],
+    "traditions": {
+      "other": 5,
+      "pure_land": 1
+    },
+    "bounds": [
+      [
+        31.51897,
+        130.4609
+      ],
+      [
+        31.59388,
+        130.55501
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "南島原市",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 6,
+    "center": [
+      32.63895,
+      130.22584
+    ],
+    "traditions": {
+      "zen": 2,
+      "pure_land": 4
+    },
+    "bounds": [
+      [
+        32.6063,
+        130.18629
+      ],
+      [
+        32.71652,
+        130.344
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "青梅市",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 6,
+    "center": [
+      35.80378,
+      139.28162
+    ],
+    "traditions": {
+      "other": 5,
+      "zen": 1
+    },
+    "bounds": [
+      [
+        35.78834,
+        139.26104
+      ],
+      [
+        35.83842,
+        139.3076
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "一戸町",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 6,
+    "center": [
+      40.19605,
+      141.29393
+    ],
+    "traditions": {
+      "pure_land": 1,
+      "zen": 1,
+      "other": 4
+    },
+    "bounds": [
+      [
+        40.13082,
+        141.27548
+      ],
+      [
+        40.23766,
+        141.30517
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "太田市",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 6,
+    "center": [
+      36.31373,
+      139.38397
+    ],
+    "traditions": {
+      "other": 6
+    },
+    "bounds": [
+      [
+        36.28165,
+        139.37057
+      ],
+      [
+        36.34055,
+        139.41562
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "飯田市",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 6,
+    "center": [
+      35.45046,
+      137.82305
+    ],
+    "traditions": {
+      "other": 6
+    },
+    "bounds": [
+      [
+        35.40332,
+        137.75369
+      ],
+      [
+        35.47705,
+        137.90826
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "新ひだか町",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 6,
+    "center": [
+      42.30685,
+      142.48413
+    ],
+    "traditions": {
+      "other": 4,
+      "pure_land": 1,
+      "nichiren": 1
+    },
+    "bounds": [
+      [
+        42.24842,
+        142.35998
+      ],
+      [
+        42.37224,
+        142.68628
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "부천시",
+    "country": "KR",
+    "countryName": "South Korea",
+    "centerCount": 6,
+    "center": [
+      37.49503,
+      126.7861
+    ],
+    "traditions": {
+      "other": 6
+    },
+    "bounds": [
+      [
+        37.47663,
+        126.75147
+      ],
+      [
+        37.51259,
+        126.81523
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "의왕시",
+    "country": "KR",
+    "countryName": "South Korea",
+    "centerCount": 6,
+    "center": [
+      37.34725,
+      126.97314
+    ],
+    "traditions": {
+      "other": 6
+    },
+    "bounds": [
+      [
+        37.31707,
+        126.95973
+      ],
+      [
+        37.35374,
+        126.97621
+      ]
+    ]
+  },
+  {
+    "slug": "kolonnawa",
+    "name": "Kolonnawa",
+    "country": "LK",
+    "countryName": "Sri Lanka",
+    "centerCount": 6,
+    "center": [
+      6.93053,
+      79.8922
+    ],
+    "traditions": {
+      "other": 6
+    },
+    "bounds": [
+      [
+        6.92502,
+        79.88807
+      ],
+      [
+        6.93605,
+        79.8952
+      ]
+    ]
+  },
+  {
+    "slug": "maharagama",
+    "name": "Maharagama",
+    "country": "LK",
+    "countryName": "Sri Lanka",
+    "centerCount": 6,
+    "center": [
+      6.84493,
+      79.9305
+    ],
+    "traditions": {
+      "other": 6
+    },
+    "bounds": [
+      [
+        6.83837,
+        79.91872
+      ],
+      [
+        6.85331,
+        79.94142
+      ]
+    ]
+  },
+  {
+    "slug": "kurunegala",
+    "name": "Kurunegala",
+    "country": "LK",
+    "countryName": "Sri Lanka",
+    "centerCount": 6,
+    "center": [
+      7.48439,
+      80.35663
+    ],
+    "traditions": {
+      "other": 6
+    },
+    "bounds": [
+      [
+        7.46256,
+        80.34004
+      ],
+      [
+        7.49421,
+        80.37031
+      ]
+    ]
+  },
+  {
+    "slug": "piliyandala",
+    "name": "Piliyandala",
+    "country": "LK",
+    "countryName": "Sri Lanka",
+    "centerCount": 6,
+    "center": [
+      6.79925,
+      79.926
+    ],
+    "traditions": {
+      "other": 6
+    },
+    "bounds": [
+      [
+        6.7966,
+        79.90503
+      ],
+      [
+        6.80138,
+        79.94885
+      ]
+    ]
+  },
+  {
+    "slug": "anuradhapura",
+    "name": "Anuradhapura",
+    "country": "LK",
+    "countryName": "Sri Lanka",
+    "centerCount": 6,
+    "center": [
+      8.34324,
+      80.41398
+    ],
+    "traditions": {
+      "other": 6
+    },
+    "bounds": [
+      [
+        8.29649,
+        80.37803
+      ],
+      [
+        8.37099,
+        80.51583
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "တောတွင် (အနောက်)",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 6,
+    "center": [
+      20.61996,
+      94.67466
+    ],
+    "traditions": {
+      "other": 1,
+      "theravada": 5
+    },
+    "bounds": [
+      [
+        20.61959,
+        94.6744
+      ],
+      [
+        20.6202,
+        94.6752
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ထီးချိုင့်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 6,
+    "center": [
+      23.75568,
+      96.14917
+    ],
+    "traditions": {
+      "theravada": 6
+    },
+    "bounds": [
+      [
+        23.75241,
+        96.14714
+      ],
+      [
+        23.75882,
+        96.15182
+      ]
+    ]
+  },
+  {
+    "slug": "kyaukmae",
+    "name": "Kyaukmae",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 6,
+    "center": [
+      22.54655,
+      97.03708
+    ],
+    "traditions": {
+      "other": 6
+    },
+    "bounds": [
+      [
+        22.54549,
+        97.03628
+      ],
+      [
+        22.54763,
+        97.03806
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ထူးကြီး",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 6,
+    "center": [
+      20.34614,
+      94.73064
+    ],
+    "traditions": {
+      "other": 2,
+      "theravada": 4
+    },
+    "bounds": [
+      [
+        17.97402,
+        94.62306
+      ],
+      [
+        20.82378,
+        95.2548
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ကျကွဲ",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 6,
+    "center": [
+      21.17417,
+      94.71194
+    ],
+    "traditions": {
+      "theravada": 6
+    },
+    "bounds": [
+      [
+        21.16932,
+        94.71006
+      ],
+      [
+        21.18339,
+        94.71297
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ပေတော (တောင်)",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 6,
+    "center": [
+      20.3871,
+      94.80213
+    ],
+    "traditions": {
+      "theravada": 6
+    },
+    "bounds": [
+      [
+        20.38574,
+        94.80043
+      ],
+      [
+        20.38845,
+        94.80377
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "မင်းဇံ",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 6,
+    "center": [
+      20.36588,
+      94.79142
+    ],
+    "traditions": {
+      "theravada": 6
+    },
+    "bounds": [
+      [
+        20.3646,
+        94.79036
+      ],
+      [
+        20.36848,
+        94.79335
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ဩဇာတော",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 6,
+    "center": [
+      20.74069,
+      95.00834
+    ],
+    "traditions": {
+      "theravada": 6
+    },
+    "bounds": [
+      [
+        20.74055,
+        95.0083
+      ],
+      [
+        20.74079,
+        95.0084
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ဆူးလေကုန်း",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 6,
+    "center": [
+      21.01681,
+      94.69345
+    ],
+    "traditions": {
+      "theravada": 6
+    },
+    "bounds": [
+      [
+        20.85041,
+        94.66228
+      ],
+      [
+        21.34942,
+        94.70942
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ကျောက်ကန်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 6,
+    "center": [
+      21.58221,
+      95.47426
+    ],
+    "traditions": {
+      "theravada": 6
+    },
+    "bounds": [
+      [
+        21.58078,
+        95.47274
+      ],
+      [
+        21.58694,
+        95.47566
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "မဲသည်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 6,
+    "center": [
+      23.03376,
+      95.57743
+    ],
+    "traditions": {
+      "theravada": 6
+    },
+    "bounds": [
+      [
+        23.03336,
+        95.57737
+      ],
+      [
+        23.03399,
+        95.5777
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ကုလားတဲ",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 6,
+    "center": [
+      21.82971,
+      95.26203
+    ],
+    "traditions": {
+      "theravada": 6
+    },
+    "bounds": [
+      [
+        21.1823,
+        95.09609
+      ],
+      [
+        23.11841,
+        95.57361
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ဘုရားလှ",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 6,
+    "center": [
+      21.31692,
+      95.407
+    ],
+    "traditions": {
+      "theravada": 6
+    },
+    "bounds": [
+      [
+        21.28315,
+        95.38721
+      ],
+      [
+        21.33023,
+        95.44956
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "မော်လူး",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 6,
+    "center": [
+      24.46541,
+      96.18506
+    ],
+    "traditions": {
+      "theravada": 6
+    },
+    "bounds": [
+      [
+        24.45483,
+        96.18224
+      ],
+      [
+        24.47996,
+        96.18879
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ကန့်ဘလူ",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 6,
+    "center": [
+      23.21796,
+      95.37373
+    ],
+    "traditions": {
+      "theravada": 6
+    },
+    "bounds": [
+      [
+        23.21704,
+        95.37092
+      ],
+      [
+        23.21827,
+        95.37483
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ဥက္ကံ",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 6,
+    "center": [
+      23.66463,
+      95.43635
+    ],
+    "traditions": {
+      "theravada": 6
+    },
+    "bounds": [
+      [
+        23.65497,
+        95.43512
+      ],
+      [
+        23.66944,
+        95.44143
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ကင်းတောရ",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 6,
+    "center": [
+      22.07013,
+      96.00522
+    ],
+    "traditions": {
+      "theravada": 6
+    },
+    "bounds": [
+      [
+        22.07003,
+        96.00484
+      ],
+      [
+        22.07042,
+        96.00574
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ဆီမီးကံတောင်ကုန်း",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 6,
+    "center": [
+      21.16956,
+      95.43159
+    ],
+    "traditions": {
+      "theravada": 6
+    },
+    "bounds": [
+      [
+        21.16929,
+        95.43124
+      ],
+      [
+        21.16997,
+        95.43171
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "လမ်းရွာ",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 6,
+    "center": [
+      20.96793,
+      94.82168
+    ],
+    "traditions": {
+      "theravada": 6
+    },
+    "bounds": [
+      [
+        20.96624,
+        94.81573
+      ],
+      [
+        20.97183,
+        94.82442
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ဆပန်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 6,
+    "center": [
+      21.4687,
+      94.43609
+    ],
+    "traditions": {
+      "theravada": 6
+    },
+    "bounds": [
+      [
+        21.42751,
+        94.43323
+      ],
+      [
+        21.51064,
+        94.43759
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ကပျို (ကမ်းပျို)",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 6,
+    "center": [
+      21.50501,
+      94.63274
+    ],
+    "traditions": {
+      "theravada": 6
+    },
+    "bounds": [
+      [
+        21.50472,
+        94.63248
+      ],
+      [
+        21.5052,
+        94.63326
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "အမှူး (အရှေ့)",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 6,
+    "center": [
+      20.6565,
+      94.66259
+    ],
+    "traditions": {
+      "theravada": 6
+    },
+    "bounds": [
+      [
+        20.65639,
+        94.66244
+      ],
+      [
+        20.65658,
+        94.66301
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "မြေနီကုန်း",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 6,
+    "center": [
+      20.4496,
+      94.33228
+    ],
+    "traditions": {
+      "theravada": 6
+    },
+    "bounds": [
+      [
+        20.42416,
+        94.27654
+      ],
+      [
+        20.56564,
+        94.60395
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ကျပင်း (တောင်)",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 6,
+    "center": [
+      20.70808,
+      94.66621
+    ],
+    "traditions": {
+      "theravada": 6
+    },
+    "bounds": [
+      [
+        20.7067,
+        94.66381
+      ],
+      [
+        20.71034,
+        94.66799
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "တလင်းယာ",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 6,
+    "center": [
+      21.58082,
+      94.8856
+    ],
+    "traditions": {
+      "theravada": 6
+    },
+    "bounds": [
+      [
+        21.58049,
+        94.88523
+      ],
+      [
+        21.58133,
+        94.88587
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ကွန်လပ် (တောင်)",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 6,
+    "center": [
+      21.60339,
+      94.75428
+    ],
+    "traditions": {
+      "theravada": 6
+    },
+    "bounds": [
+      [
+        21.60324,
+        94.75408
+      ],
+      [
+        21.60358,
+        94.75448
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ကန်နက်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 6,
+    "center": [
+      21.62749,
+      94.83865
+    ],
+    "traditions": {
+      "theravada": 6
+    },
+    "bounds": [
+      [
+        21.50554,
+        94.74517
+      ],
+      [
+        21.68802,
+        94.885
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ဘူးတောင်း",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 6,
+    "center": [
+      21.6374,
+      94.2001
+    ],
+    "traditions": {
+      "theravada": 6
+    },
+    "bounds": [
+      [
+        21.63685,
+        94.19915
+      ],
+      [
+        21.63801,
+        94.20056
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ဇောင်ချမ်းကုန်း",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 6,
+    "center": [
+      20.35552,
+      94.78024
+    ],
+    "traditions": {
+      "theravada": 6
+    },
+    "bounds": [
+      [
+        20.35491,
+        94.77719
+      ],
+      [
+        20.35658,
+        94.78146
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ပန်းလွှား",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 6,
+    "center": [
+      20.23758,
+      94.69958
+    ],
+    "traditions": {
+      "theravada": 6
+    },
+    "bounds": [
+      [
+        20.23348,
+        94.69765
+      ],
+      [
+        20.24262,
+        94.7013
+      ]
+    ]
+  },
+  {
+    "slug": "miri",
+    "name": "Miri",
+    "country": "MY",
+    "countryName": "Malaysia",
+    "centerCount": 6,
+    "center": [
+      4.3997,
+      114.00495
+    ],
+    "traditions": {
+      "other": 6
+    },
+    "bounds": [
+      [
+        4.32834,
+        113.99171
+      ],
+      [
+        4.48013,
+        114.02267
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "จังหวัด ลพบุรี",
+    "country": "TH",
+    "countryName": "Thailand",
+    "centerCount": 6,
+    "center": [
+      14.80641,
+      100.57952
+    ],
+    "traditions": {
+      "other": 6
+    },
+    "bounds": [
+      [
+        14.80516,
+        100.55196
+      ],
+      [
+        14.80824,
+        100.59541
+      ]
+    ]
+  },
+  {
+    "slug": "los-angeles",
+    "name": "Los Angeles",
+    "country": "US",
+    "countryName": "United States",
+    "centerCount": 6,
+    "center": [
+      34.06324,
+      -118.26661
+    ],
+    "traditions": {
+      "other": 6
+    },
+    "bounds": [
+      [
+        34.04666,
+        -118.31519
+      ],
+      [
+        34.1056,
+        -118.23996
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "杭州市",
+    "country": "CN",
+    "countryName": "China",
+    "centerCount": 5,
+    "center": [
+      30.24418,
+      120.12815
+    ],
+    "traditions": {
+      "other": 5
+    },
+    "bounds": [
+      [
+        30.23312,
+        120.0968
+      ],
+      [
+        30.26789,
+        120.17783
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "南京市",
+    "country": "CN",
+    "countryName": "China",
+    "centerCount": 5,
+    "center": [
+      32.06567,
+      118.83619
+    ],
+    "traditions": {
+      "other": 5
+    },
+    "bounds": [
+      [
+        32.00893,
+        118.77697
+      ],
+      [
+        32.15373,
+        118.95284
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "绍兴市",
+    "country": "CN",
+    "countryName": "China",
+    "centerCount": 5,
+    "center": [
+      29.54442,
+      120.93585
+    ],
+    "traditions": {
+      "other": 5
+    },
+    "bounds": [
+      [
+        29.54365,
+        120.93523
+      ],
+      [
+        29.54511,
+        120.93635
+      ]
+    ]
+  },
+  {
+    "slug": "gangadharpur",
+    "name": "Gangadharpur",
+    "country": "IN",
+    "countryName": "India",
+    "centerCount": 5,
+    "center": [
+      22.75313,
+      88.22154
+    ],
+    "traditions": {
+      "other": 5
+    },
+    "bounds": [
+      [
+        22.74871,
+        88.2204
+      ],
+      [
+        22.76272,
+        88.22371
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "高知市",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 5,
+    "center": [
+      33.53912,
+      133.54724
+    ],
+    "traditions": {
+      "other": 4,
+      "nichiren": 1
+    },
+    "bounds": [
+      [
+        33.4917,
+        133.48767
+      ],
+      [
+        33.59185,
+        133.57771
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "智頭町",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 5,
+    "center": [
+      35.25178,
+      134.21844
+    ],
+    "traditions": {
+      "other": 4,
+      "zen": 1
+    },
+    "bounds": [
+      [
+        35.2118,
+        134.19363
+      ],
+      [
+        35.27135,
+        134.2318
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "室蘭市",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 5,
+    "center": [
+      42.34374,
+      141.01301
+    ],
+    "traditions": {
+      "nichiren": 1,
+      "other": 4
+    },
+    "bounds": [
+      [
+        42.31702,
+        140.96942
+      ],
+      [
+        42.35358,
+        141.04149
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "東松島市",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 5,
+    "center": [
+      38.38359,
+      141.14455
+    ],
+    "traditions": {
+      "other": 5
+    },
+    "bounds": [
+      [
+        38.33564,
+        141.11018
+      ],
+      [
+        38.42776,
+        141.18451
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "名古屋市",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 5,
+    "center": [
+      35.16637,
+      136.90608
+    ],
+    "traditions": {
+      "other": 5
+    },
+    "bounds": [
+      [
+        35.12522,
+        136.89083
+      ],
+      [
+        35.19104,
+        136.92736
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "つくば市",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 5,
+    "center": [
+      36.04402,
+      140.12685
+    ],
+    "traditions": {
+      "other": 5
+    },
+    "bounds": [
+      [
+        35.99566,
+        140.08771
+      ],
+      [
+        36.09067,
+        140.16403
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "柴田町",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 5,
+    "center": [
+      38.10356,
+      140.79969
+    ],
+    "traditions": {
+      "other": 5
+    },
+    "bounds": [
+      [
+        38.09272,
+        140.76514
+      ],
+      [
+        38.11376,
+        140.81782
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "北広島市",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 5,
+    "center": [
+      42.98386,
+      141.5607
+    ],
+    "traditions": {
+      "pure_land": 2,
+      "nichiren": 2,
+      "zen": 1
+    },
+    "bounds": [
+      [
+        42.95881,
+        141.5544
+      ],
+      [
+        42.99601,
+        141.56571
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "さいたま市",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 5,
+    "center": [
+      35.89066,
+      139.64965
+    ],
+    "traditions": {
+      "other": 5
+    },
+    "bounds": [
+      [
+        35.87709,
+        139.61989
+      ],
+      [
+        35.90722,
+        139.68443
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "中頓別町",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 5,
+    "center": [
+      44.97064,
+      142.28964
+    ],
+    "traditions": {
+      "other": 5
+    },
+    "bounds": [
+      [
+        44.96927,
+        142.2866
+      ],
+      [
+        44.97196,
+        142.29496
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "渋谷区",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 5,
+    "center": [
+      35.67221,
+      139.70128
+    ],
+    "traditions": {
+      "pure_land": 1,
+      "other": 4
+    },
+    "bounds": [
+      [
+        35.65595,
+        139.68422
+      ],
+      [
+        35.68729,
+        139.71221
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "甲州市",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 5,
+    "center": [
+      35.70903,
+      138.72413
+    ],
+    "traditions": {
+      "other": 5
+    },
+    "bounds": [
+      [
+        35.70091,
+        138.71389
+      ],
+      [
+        35.73004,
+        138.7505
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "鋸南町",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 5,
+    "center": [
+      35.12643,
+      139.84617
+    ],
+    "traditions": {
+      "other": 5
+    },
+    "bounds": [
+      [
+        35.10327,
+        139.82823
+      ],
+      [
+        35.14276,
+        139.87629
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "五所川原市",
+    "country": "JP",
+    "countryName": "Japan",
+    "centerCount": 5,
+    "center": [
+      40.8118,
+      140.44081
+    ],
+    "traditions": {
+      "other": 3,
+      "zen": 1,
+      "nichiren": 1
+    },
+    "bounds": [
+      [
+        40.8054,
+        140.43866
+      ],
+      [
+        40.81562,
+        140.44284
+      ]
+    ]
+  },
+  {
+    "slug": "nokor-thom-krong-siem-reap-siem-reap-province",
+    "name": "Nokor Thom, Krong, Siem Reap, Siem Reap province",
+    "country": "KH",
+    "countryName": "Cambodia",
+    "centerCount": 5,
+    "center": [
+      13.43623,
+      103.87791
+    ],
+    "traditions": {
+      "other": 5
+    },
+    "bounds": [
+      [
+        13.40258,
+        103.84535
+      ],
+      [
+        13.46823,
+        103.90265
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "김해시",
+    "country": "KR",
+    "countryName": "South Korea",
+    "centerCount": 5,
+    "center": [
+      35.26798,
+      128.85532
+    ],
+    "traditions": {
+      "other": 5
+    },
+    "bounds": [
+      [
+        35.22649,
+        128.78124
+      ],
+      [
+        35.34783,
+        128.90042
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "대전광역시",
+    "country": "KR",
+    "countryName": "South Korea",
+    "centerCount": 5,
+    "center": [
+      36.36463,
+      127.33868
+    ],
+    "traditions": {
+      "other": 5
+    },
+    "bounds": [
+      [
+        36.32931,
+        127.29796
+      ],
+      [
+        36.41535,
+        127.37957
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "전주시",
+    "country": "KR",
+    "countryName": "South Korea",
+    "centerCount": 5,
+    "center": [
+      35.8006,
+      127.13105
+    ],
+    "traditions": {
+      "other": 5
+    },
+    "bounds": [
+      [
+        35.74927,
+        127.08049
+      ],
+      [
+        35.83146,
+        127.15673
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "부안군",
+    "country": "KR",
+    "countryName": "South Korea",
+    "centerCount": 5,
+    "center": [
+      35.72586,
+      126.70961
+    ],
+    "traditions": {
+      "other": 5
+    },
+    "bounds": [
+      [
+        35.69153,
+        126.63584
+      ],
+      [
+        35.73787,
+        126.74448
+      ]
+    ]
+  },
+  {
+    "slug": "wadduwa",
+    "name": "Wadduwa",
+    "country": "LK",
+    "countryName": "Sri Lanka",
+    "centerCount": 5,
+    "center": [
+      6.65844,
+      79.9333
+    ],
+    "traditions": {
+      "other": 5
+    },
+    "bounds": [
+      [
+        6.65052,
+        79.92807
+      ],
+      [
+        6.66614,
+        79.93938
+      ]
+    ]
+  },
+  {
+    "slug": "dehiwala",
+    "name": "Dehiwala",
+    "country": "LK",
+    "countryName": "Sri Lanka",
+    "centerCount": 5,
+    "center": [
+      6.85596,
+      79.86857
+    ],
+    "traditions": {
+      "other": 5
+    },
+    "bounds": [
+      [
+        6.85263,
+        79.86612
+      ],
+      [
+        6.85854,
+        79.87179
+      ]
+    ]
+  },
+  {
+    "slug": "baddegama",
+    "name": "Baddegama",
+    "country": "LK",
+    "countryName": "Sri Lanka",
+    "centerCount": 5,
+    "center": [
+      6.16149,
+      80.1795
+    ],
+    "traditions": {
+      "other": 5
+    },
+    "bounds": [
+      [
+        6.15458,
+        80.17347
+      ],
+      [
+        6.17116,
+        80.18619
+      ]
+    ]
+  },
+  {
+    "slug": "hikkaduwa",
+    "name": "Hikkaduwa",
+    "country": "LK",
+    "countryName": "Sri Lanka",
+    "centerCount": 5,
+    "center": [
+      6.13086,
+      80.11074
+    ],
+    "traditions": {
+      "other": 4,
+      "theravada": 1
+    },
+    "bounds": [
+      [
+        6.11814,
+        80.10229
+      ],
+      [
+        6.13869,
+        80.11757
+      ]
+    ]
+  },
+  {
+    "slug": "nuwara-eliya",
+    "name": "Nuwara Eliya",
+    "country": "LK",
+    "countryName": "Sri Lanka",
+    "centerCount": 5,
+    "center": [
+      6.95624,
+      80.77995
+    ],
+    "traditions": {
+      "other": 5
+    },
+    "bounds": [
+      [
+        6.94921,
+        80.76637
+      ],
+      [
+        6.96694,
+        80.79687
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "မင်းကွန်း",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 5,
+    "center": [
+      22.04771,
+      96.0179
+    ],
+    "traditions": {
+      "theravada": 5
+    },
+    "bounds": [
+      [
+        22.03808,
+        96.01685
+      ],
+      [
+        22.05421,
+        96.01934
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ချမ်းမြသာစည်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 5,
+    "center": [
+      21.94808,
+      96.12558
+    ],
+    "traditions": {
+      "other": 4,
+      "theravada": 1
+    },
+    "bounds": [
+      [
+        21.94537,
+        96.11637
+      ],
+      [
+        21.94896,
+        96.12859
+      ]
+    ]
+  },
+  {
+    "slug": "kalemyo",
+    "name": "ကလေးမြို့ , Kalemyo",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 5,
+    "center": [
+      23.19144,
+      94.06967
+    ],
+    "traditions": {
+      "other": 4,
+      "theravada": 1
+    },
+    "bounds": [
+      [
+        23.18467,
+        94.06842
+      ],
+      [
+        23.20057,
+        94.0704
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ဟံၚ်ဂါမ်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 5,
+    "center": [
+      15.15726,
+      97.87033
+    ],
+    "traditions": {
+      "other": 5
+    },
+    "bounds": [
+      [
+        15.08192,
+        97.86182
+      ],
+      [
+        15.17876,
+        97.8938
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ဘူတာ",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 5,
+    "center": [
+      22.10872,
+      96.60372
+    ],
+    "traditions": {
+      "theravada": 4,
+      "other": 1
+    },
+    "bounds": [
+      [
+        22.10338,
+        96.59763
+      ],
+      [
+        22.11049,
+        96.60575
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ရှမ်းရွာကုန်း",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 5,
+    "center": [
+      20.57408,
+      94.65027
+    ],
+    "traditions": {
+      "theravada": 5
+    },
+    "bounds": [
+      [
+        20.57273,
+        94.6482
+      ],
+      [
+        20.57533,
+        94.6555
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ညောင်ပင်သာ",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 5,
+    "center": [
+      19.55312,
+      95.77208
+    ],
+    "traditions": {
+      "theravada": 5
+    },
+    "bounds": [
+      [
+        18.40687,
+        94.41237
+      ],
+      [
+        21.55532,
+        96.46938
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "နောင်ချို",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 5,
+    "center": [
+      22.34803,
+      96.74197
+    ],
+    "traditions": {
+      "other": 3,
+      "theravada": 2
+    },
+    "bounds": [
+      [
+        22.3261,
+        96.48835
+      ],
+      [
+        22.42905,
+        96.81691
+      ]
+    ]
+  },
+  {
+    "slug": "nawnghkio",
+    "name": "Nawnghkio",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 5,
+    "center": [
+      22.32533,
+      96.80068
+    ],
+    "traditions": {
+      "other": 2,
+      "theravada": 3
+    },
+    "bounds": [
+      [
+        22.31158,
+        96.79782
+      ],
+      [
+        22.33158,
+        96.80453
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ပုလဲ",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 5,
+    "center": [
+      21.93571,
+      94.87627
+    ],
+    "traditions": {
+      "other": 2,
+      "theravada": 3
+    },
+    "bounds": [
+      [
+        21.93183,
+        94.87459
+      ],
+      [
+        21.94015,
+        94.87771
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ဝက်ဝံဈေးကုန်း",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 5,
+    "center": [
+      22.09427,
+      96.59309
+    ],
+    "traditions": {
+      "other": 5
+    },
+    "bounds": [
+      [
+        22.09401,
+        96.59285
+      ],
+      [
+        22.09445,
+        96.59329
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "အောင်ချမ်းသာ",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 5,
+    "center": [
+      22.39454,
+      95.80854
+    ],
+    "traditions": {
+      "other": 1,
+      "theravada": 4
+    },
+    "bounds": [
+      [
+        21.93817,
+        95.66082
+      ],
+      [
+        22.5112,
+        96.39775
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "မယ်ဇလီကုန်း",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 5,
+    "center": [
+      17.9003,
+      95.2298
+    ],
+    "traditions": {
+      "other": 1,
+      "theravada": 4
+    },
+    "bounds": [
+      [
+        17.89734,
+        95.22542
+      ],
+      [
+        17.90613,
+        95.23435
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ဆင်လမ်းချောင်း",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 5,
+    "center": [
+      21.0685,
+      94.72445
+    ],
+    "traditions": {
+      "theravada": 5
+    },
+    "bounds": [
+      [
+        21.03276,
+        94.67265
+      ],
+      [
+        21.07839,
+        94.74448
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "တပ်ကုန်း",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 5,
+    "center": [
+      21.34613,
+      94.43356
+    ],
+    "traditions": {
+      "theravada": 5
+    },
+    "bounds": [
+      [
+        21.34162,
+        94.43137
+      ],
+      [
+        21.34751,
+        94.43423
+      ]
+    ]
+  },
+  {
+    "slug": "be-gyi-ywar-thit",
+    "name": "Be Gyi  Ywar Thit ????????",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 5,
+    "center": [
+      21.26354,
+      94.93129
+    ],
+    "traditions": {
+      "theravada": 5
+    },
+    "bounds": [
+      [
+        21.26304,
+        94.93115
+      ],
+      [
+        21.26392,
+        94.93139
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "နတ်ရေကန်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 5,
+    "center": [
+      21.92643,
+      95.36345
+    ],
+    "traditions": {
+      "theravada": 5
+    },
+    "bounds": [
+      [
+        21.92546,
+        95.36207
+      ],
+      [
+        21.92758,
+        95.36444
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ဖက်တော",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 5,
+    "center": [
+      21.35181,
+      95.37475
+    ],
+    "traditions": {
+      "theravada": 5
+    },
+    "bounds": [
+      [
+        21.34939,
+        95.37347
+      ],
+      [
+        21.35257,
+        95.3778
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "မကြီးတိုင်း",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 5,
+    "center": [
+      20.54999,
+      94.9865
+    ],
+    "traditions": {
+      "theravada": 5
+    },
+    "bounds": [
+      [
+        20.54992,
+        94.98559
+      ],
+      [
+        20.55011,
+        94.9868
+      ]
+    ]
+  },
+  {
+    "slug": "tha-beik-kyin",
+    "name": "Tha Beik Kyin",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 5,
+    "center": [
+      22.88173,
+      95.97429
+    ],
+    "traditions": {
+      "theravada": 5
+    },
+    "bounds": [
+      [
+        22.88098,
+        95.97305
+      ],
+      [
+        22.88345,
+        95.97621
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ကန်နီ",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 5,
+    "center": [
+      21.67934,
+      94.91348
+    ],
+    "traditions": {
+      "theravada": 5
+    },
+    "bounds": [
+      [
+        21.67809,
+        94.91335
+      ],
+      [
+        21.68106,
+        94.91361
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ဆည်တော",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 5,
+    "center": [
+      21.12282,
+      95.49904
+    ],
+    "traditions": {
+      "theravada": 5
+    },
+    "bounds": [
+      [
+        21.12272,
+        95.4989
+      ],
+      [
+        21.12298,
+        95.49913
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ကြံခင်း",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 5,
+    "center": [
+      18.33559,
+      95.24714
+    ],
+    "traditions": {
+      "theravada": 5
+    },
+    "bounds": [
+      [
+        18.33034,
+        95.23729
+      ],
+      [
+        18.34245,
+        95.25665
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ညောင်ရင်း",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 5,
+    "center": [
+      21.59163,
+      94.43535
+    ],
+    "traditions": {
+      "theravada": 5
+    },
+    "bounds": [
+      [
+        21.59147,
+        94.43534
+      ],
+      [
+        21.5918,
+        94.43537
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ကျွန်းရင်း",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 5,
+    "center": [
+      21.33909,
+      94.62794
+    ],
+    "traditions": {
+      "theravada": 5
+    },
+    "bounds": [
+      [
+        21.28694,
+        94.42568
+      ],
+      [
+        21.54563,
+        94.67915
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ကျောက်ခွက်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 5,
+    "center": [
+      21.60167,
+      94.60432
+    ],
+    "traditions": {
+      "theravada": 5
+    },
+    "bounds": [
+      [
+        21.34962,
+        94.32745
+      ],
+      [
+        21.66475,
+        94.67365
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "အလယ်ပိုင်း",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 5,
+    "center": [
+      20.51939,
+      94.73647
+    ],
+    "traditions": {
+      "theravada": 5
+    },
+    "bounds": [
+      [
+        20.51661,
+        94.73199
+      ],
+      [
+        20.52124,
+        94.74264
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ရွာသစ်ကလေး",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 5,
+    "center": [
+      20.59426,
+      94.65685
+    ],
+    "traditions": {
+      "theravada": 5
+    },
+    "bounds": [
+      [
+        20.30933,
+        94.65625
+      ],
+      [
+        20.6656,
+        94.65912
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ကြူဝန်း",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 5,
+    "center": [
+      20.55196,
+      94.70826
+    ],
+    "traditions": {
+      "theravada": 5
+    },
+    "bounds": [
+      [
+        20.5379,
+        94.69244
+      ],
+      [
+        20.59841,
+        94.73359
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ကျွဲခြံ",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 5,
+    "center": [
+      20.60452,
+      94.54273
+    ],
+    "traditions": {
+      "theravada": 5
+    },
+    "bounds": [
+      [
+        20.3241,
+        94.47486
+      ],
+      [
+        20.79294,
+        94.58884
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ကန်သာ",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 5,
+    "center": [
+      21.13521,
+      94.33715
+    ],
+    "traditions": {
+      "theravada": 5
+    },
+    "bounds": [
+      [
+        20.09578,
+        94.12001
+      ],
+      [
+        22.43251,
+        94.55615
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ကံအိုး",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 5,
+    "center": [
+      21.37647,
+      94.19042
+    ],
+    "traditions": {
+      "theravada": 5
+    },
+    "bounds": [
+      [
+        21.36721,
+        94.18689
+      ],
+      [
+        21.38496,
+        94.19564
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "နွားသိုး (နသိုး)",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 5,
+    "center": [
+      21.44309,
+      94.15665
+    ],
+    "traditions": {
+      "theravada": 5
+    },
+    "bounds": [
+      [
+        21.43944,
+        94.15433
+      ],
+      [
+        21.44407,
+        94.15727
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "တေး",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 5,
+    "center": [
+      21.42349,
+      94.10549
+    ],
+    "traditions": {
+      "theravada": 5
+    },
+    "bounds": [
+      [
+        21.42329,
+        94.1002
+      ],
+      [
+        21.42401,
+        94.10687
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ကွမ်းတော",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 5,
+    "center": [
+      21.66963,
+      94.97322
+    ],
+    "traditions": {
+      "theravada": 5
+    },
+    "bounds": [
+      [
+        21.66447,
+        94.97061
+      ],
+      [
+        21.67193,
+        94.9747
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "သံချောင်း",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 5,
+    "center": [
+      21.61783,
+      94.73556
+    ],
+    "traditions": {
+      "theravada": 5
+    },
+    "bounds": [
+      [
+        21.61766,
+        94.73539
+      ],
+      [
+        21.61795,
+        94.73571
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ကြန်စိမ့်လေး",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 5,
+    "center": [
+      21.52457,
+      95.07985
+    ],
+    "traditions": {
+      "theravada": 5
+    },
+    "bounds": [
+      [
+        21.52437,
+        95.07985
+      ],
+      [
+        21.52478,
+        95.07986
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "တော",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 5,
+    "center": [
+      21.72284,
+      94.99682
+    ],
+    "traditions": {
+      "theravada": 5
+    },
+    "bounds": [
+      [
+        21.72114,
+        94.99383
+      ],
+      [
+        21.72532,
+        95.00032
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ကံသစ်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 5,
+    "center": [
+      20.72778,
+      94.85629
+    ],
+    "traditions": {
+      "theravada": 5
+    },
+    "bounds": [
+      [
+        20.27316,
+        94.82124
+      ],
+      [
+        21.40242,
+        94.90721
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ကုန်း",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 5,
+    "center": [
+      21.96474,
+      94.5192
+    ],
+    "traditions": {
+      "theravada": 5
+    },
+    "bounds": [
+      [
+        21.54349,
+        94.12319
+      ],
+      [
+        22.59712,
+        94.78116
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ကန်ကလေး",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 5,
+    "center": [
+      21.50015,
+      94.75365
+    ],
+    "traditions": {
+      "theravada": 5
+    },
+    "bounds": [
+      [
+        21.49922,
+        94.75328
+      ],
+      [
+        21.50081,
+        94.75462
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "အုံးထွဲ",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 5,
+    "center": [
+      21.74386,
+      94.12653
+    ],
+    "traditions": {
+      "theravada": 5
+    },
+    "bounds": [
+      [
+        21.74042,
+        94.12509
+      ],
+      [
+        21.7456,
+        94.12739
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ငှက်ပြင်း",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 5,
+    "center": [
+      21.86146,
+      94.22658
+    ],
+    "traditions": {
+      "theravada": 5
+    },
+    "bounds": [
+      [
+        21.8577,
+        94.22486
+      ],
+      [
+        21.86251,
+        94.22701
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "သရခါ",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 5,
+    "center": [
+      21.68047,
+      94.09368
+    ],
+    "traditions": {
+      "theravada": 5
+    },
+    "bounds": [
+      [
+        21.66804,
+        94.0886
+      ],
+      [
+        21.68464,
+        94.10939
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ဆင်စွယ်",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 5,
+    "center": [
+      21.78857,
+      94.18942
+    ],
+    "traditions": {
+      "theravada": 5
+    },
+    "bounds": [
+      [
+        21.78839,
+        94.18899
+      ],
+      [
+        21.78873,
+        94.19006
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ကျွန်းခုံသာ",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 5,
+    "center": [
+      22.42638,
+      94.093
+    ],
+    "traditions": {
+      "theravada": 5
+    },
+    "bounds": [
+      [
+        22.42419,
+        94.07277
+      ],
+      [
+        22.42969,
+        94.10887
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "မကြီး",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 5,
+    "center": [
+      20.63625,
+      94.17488
+    ],
+    "traditions": {
+      "theravada": 5
+    },
+    "bounds": [
+      [
+        20.63621,
+        94.17449
+      ],
+      [
+        20.6363,
+        94.17547
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ပေကုန်း",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 5,
+    "center": [
+      21.24607,
+      95.06515
+    ],
+    "traditions": {
+      "theravada": 5
+    },
+    "bounds": [
+      [
+        20.19555,
+        94.71845
+      ],
+      [
+        22.8215,
+        95.58291
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ရေပုတ်ကလေး",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 5,
+    "center": [
+      20.3672,
+      94.59805
+    ],
+    "traditions": {
+      "theravada": 5
+    },
+    "bounds": [
+      [
+        20.36569,
+        94.59698
+      ],
+      [
+        20.3727,
+        94.60224
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ဆင်လူးတောင်ရွာ",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 5,
+    "center": [
+      20.44261,
+      94.56675
+    ],
+    "traditions": {
+      "theravada": 5
+    },
+    "bounds": [
+      [
+        20.43519,
+        94.45167
+      ],
+      [
+        20.45365,
+        94.73942
+      ]
+    ]
+  },
+  {
+    "slug": "",
+    "name": "ကုလားပါး",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 5,
+    "center": [
+      20.24786,
+      94.81526
+    ],
+    "traditions": {
+      "theravada": 5
+    },
+    "bounds": [
+      [
+        20.24613,
+        94.81262
+      ],
+      [
+        20.2492,
+        94.81833
+      ]
+    ]
+  },
+  {
+    "slug": "bant-bwe",
+    "name": "Bant Bwe",
+    "country": "MM",
+    "countryName": "Myanmar",
+    "centerCount": 5,
+    "center": [
+      22.17942,
+      96.65274
+    ],
+    "traditions": {
+      "other": 5
+    },
+    "bounds": [
+      [
+        22.17892,
+        96.65173
+      ],
+      [
+        22.17979,
+        96.65347
+      ]
+    ]
+  },
+  {
+    "slug": "petaling-jaya",
+    "name": "Petaling Jaya",
+    "country": "MY",
+    "countryName": "Malaysia",
+    "centerCount": 5,
+    "center": [
+      3.09961,
+      101.6217
+    ],
+    "traditions": {
+      "other": 5
+    },
+    "bounds": [
+      [
+        3.08852,
+        101.60801
+      ],
+      [
+        3.12124,
+        101.65173
+      ]
+    ]
+  },
+  {
+    "slug": "ipoh",
+    "name": "Ipoh",
+    "country": "MY",
+    "countryName": "Malaysia",
+    "centerCount": 5,
+    "center": [
+      4.5949,
+      101.09731
+    ],
+    "traditions": {
+      "other": 4,
+      "pure_land": 1
+    },
+    "bounds": [
+      [
+        4.55903,
+        101.05751
+      ],
+      [
+        4.64443,
+        101.12257
+      ]
+    ]
+  },
+  {
+    "slug": "amsterdam",
+    "name": "Amsterdam",
+    "country": "NL",
+    "countryName": "Netherlands",
+    "centerCount": 5,
+    "center": [
+      52.36293,
+      4.87287
+    ],
+    "traditions": {
+      "other": 2,
+      "mahayana": 1,
+      "vajrayana": 1,
+      "nichiren": 1
+    },
+    "bounds": [
+      [
+        52.35746,
+        4.79586
+      ],
+      [
+        52.37373,
+        4.91052
+      ]
+    ]
+  },
+  {
+    "slug": "berkeley",
+    "name": "Berkeley",
+    "country": "US",
+    "countryName": "United States",
+    "centerCount": 5,
+    "center": [
+      37.86615,
+      -122.26713
+    ],
+    "traditions": {
+      "other": 5
+    },
+    "bounds": [
+      [
+        37.85645,
+        -122.27388
+      ],
+      [
+        37.87738,
+        -122.26028
+      ]
+    ]
+  },
+  {
+    "slug": "can-tho",
+    "name": "Cần Thơ",
+    "country": "VN",
+    "countryName": "Vietnam",
+    "centerCount": 5,
+    "center": [
+      10.04131,
+      105.74972
+    ],
+    "traditions": {
+      "other": 5
+    },
+    "bounds": [
+      [
+        9.97102,
+        105.64431
+      ],
+      [
+        10.13571,
+        105.78425
+      ]
+    ]
+  },
+  {
+    "slug": "ben-tre",
+    "name": "Bến Tre",
+    "country": "VN",
+    "countryName": "Vietnam",
+    "centerCount": 5,
+    "center": [
+      10.25341,
+      106.34038
+    ],
+    "traditions": {
+      "other": 5
+    },
+    "bounds": [
+      [
+        10.22236,
+        106.19777
+      ],
+      [
+        10.29035,
+        106.38671
+      ]
+    ]
+  },
+  {
+    "slug": "phuong-7",
+    "name": "Phường 7",
+    "country": "VN",
+    "countryName": "Vietnam",
+    "centerCount": 5,
+    "center": [
+      10.76396,
+      106.65967
+    ],
+    "traditions": {
+      "other": 5
+    },
+    "bounds": [
+      [
+        10.73748,
+        106.63563
+      ],
+      [
+        10.80112,
+        106.68993
+      ]
+    ]
+  }
+]
