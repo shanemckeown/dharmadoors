@@ -96,6 +96,4 @@ MIT License - feel free to use, modify, and distribute.
 
 ---
 
-*"Thousands of candles can be lighted from a single candle, and the life of the candle will not be shortened. Happiness never decreases by being shared."* — Buddha
-
-🙏 May all beings be happy.
+May this be for the benefit of all beings. 🙏

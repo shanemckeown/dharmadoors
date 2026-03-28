@@ -128,11 +128,7 @@ export default function Home() {
 
         {/* Footer */}
         <footer className="text-center text-sm text-[var(--color-warm-gray)] dark:text-[var(--color-dharma-tan)] max-w-lg mx-auto">
-          <p className="mb-3 italic leading-relaxed">
-            &quot;Thousands of candles can be lighted from a single candle, and the
-            life of the candle will not be shortened.&quot;
-          </p>
-          <p className="text-[var(--color-dharma-tan)]">May all beings be happy.</p>
+          <p className="text-[var(--color-dharma-tan)]">May this be for the benefit of all beings.</p>
         </footer>
       </main>
     </div>
