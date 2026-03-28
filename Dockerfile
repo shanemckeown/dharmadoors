@@ -3,16 +3,15 @@ FROM node:22-alpine AS base
 # Install dependencies
 FROM base AS deps
 WORKDIR /app
-COPY package.json package-lock.json* ./
+COPY package.json ./
 COPY apps/web/package.json apps/web/
 COPY packages/types/package.json packages/types/
-RUN npm ci --ignore-scripts
+RUN npm install --package-lock-only && npm ci
 
 # Build the app
 FROM base AS builder
 WORKDIR /app
 COPY --from=deps /app/node_modules ./node_modules
-COPY --from=deps /app/apps/web/node_modules ./apps/web/node_modules
 COPY . .
 RUN cd apps/web && npx next build
 

@@ -156,8 +156,8 @@ export default function SanghaMapPage() {
 
           {/* First-visit search overlay */}
           {showOverlay && (
-            <div className="absolute inset-0 z-20 flex items-center justify-center bg-black/20">
-              <div className="bg-[var(--card-bg)] rounded-2xl shadow-xl p-8 mx-4 max-w-md w-full text-center">
+            <div className="absolute inset-0 z-20 flex items-center justify-center pointer-events-none">
+              <div className="bg-[var(--card-bg)] rounded-2xl shadow-xl p-8 mx-4 max-w-md w-full text-center pointer-events-auto">
                 <h2 className="text-2xl font-bold text-[var(--foreground)] mb-2" style={{ fontFamily: "var(--font-serif)" }}>
                   Find sangha near you
                 </h2>

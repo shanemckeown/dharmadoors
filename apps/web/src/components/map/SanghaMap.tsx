@@ -381,8 +381,6 @@ export default function SanghaMap({ traditionFilter, searchLocation }: SanghaMap
               key={center.id}
               position={[center.latitude, center.longitude]}
               icon={createTraditionIcon(center.tradition, isVisited)}
-              // @ts-expect-error — custom property for cluster icon
-              tradition={center.tradition}
               aria-label={`${center.name}, ${getTradition(center.tradition).label}, ${center.city || center.country}`}
             >
               <Popup maxWidth={340} minWidth={260}>

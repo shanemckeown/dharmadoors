@@ -11,7 +11,7 @@
  *   npx tsx scripts/fetch-osm-data.ts TH JP AU     # fetch specific countries
  */
 
-import { writeFileSync, mkdirSync } from 'fs';
+import { writeFileSync, mkdirSync, readFileSync, existsSync } from 'fs';
 import { join } from 'path';
 
 const OVERPASS_API = 'https://overpass-api.de/api/interpreter';
@@ -59,7 +59,7 @@ interface GeoJSONFeature {
 
 function buildQuery(countryCode: string): string {
   return `
-[out:json][timeout:60];
+[out:json][timeout:180];
 area["ISO3166-1"="${countryCode}"]->.searchArea;
 (
   nwr["amenity"="place_of_worship"]["religion"="buddhist"](area.searchArea);
@@ -168,13 +168,14 @@ async function main() {
   mkdirSync(OUTPUT_DIR, { recursive: true });
   mkdirSync(join(OUTPUT_DIR, '..'), { recursive: true });
 
-  const countryBounds: Array<{
-    code: string;
-    name: string;
-    sw: [number, number];
-    ne: [number, number];
-    count: number;
-  }> = [];
+  // Load existing bounds index so incremental runs merge
+  type BoundsEntry = { code: string; name: string; sw: [number, number]; ne: [number, number]; count: number };
+  let countryBounds: BoundsEntry[] = [];
+  if (existsSync(BOUNDS_FILE)) {
+    try {
+      countryBounds = JSON.parse(readFileSync(BOUNDS_FILE, 'utf-8')) as BoundsEntry[];
+    } catch { /* start fresh */ }
+  }
 
   let totalCenters = 0;
 
@@ -200,13 +201,16 @@ async function main() {
       totalCenters += features.length;
 
       if (bounds) {
-        countryBounds.push({
+        const entry = {
           code: code.toLowerCase(),
           name: COUNTRY_NAMES[code] || code,
           sw: bounds.sw,
           ne: bounds.ne,
           count: features.length,
-        });
+        };
+        const existing = countryBounds.findIndex(b => b.code === entry.code);
+        if (existing >= 0) countryBounds[existing] = entry;
+        else countryBounds.push(entry);
       }
 
       // Rate limit: 1 request per 2 seconds to be polite to Overpass
