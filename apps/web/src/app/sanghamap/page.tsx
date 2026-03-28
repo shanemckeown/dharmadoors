@@ -1,12 +1,14 @@
 "use client";
 
 import Link from "next/link";
-import { useState, useCallback, useEffect } from "react";
+import { useState, useCallback, useEffect, useRef } from "react";
+import { useSearchParams } from "next/navigation";
 import { SanghaMapDynamic } from "@/components/map";
 import { traditionsData, TRADITION_KEYS } from "@/data/traditionsData";
 import { ChevronRight, MapPin, Search, X, SlidersHorizontal } from "lucide-react";
 
 export default function SanghaMapPage() {
+  const searchParams = useSearchParams();
   const [traditionFilter, setTraditionFilter] = useState<Set<string>>(new Set());
   const [searchQuery, setSearchQuery] = useState("");
   const [searchLocation, setSearchLocation] = useState<[number, number] | undefined>();
@@ -14,6 +16,7 @@ export default function SanghaMapPage() {
   const [showMobileFilters, setShowMobileFilters] = useState(false);
   const [locating, setLocating] = useState(false);
   const [searchError, setSearchError] = useState("");
+  const initialSearchDone = useRef(false);
 
   // Check if user has visited before
   useEffect(() => {
@@ -23,6 +26,32 @@ export default function SanghaMapPage() {
       }
     } catch { /* private browsing */ }
   }, []);
+
+  // Handle ?q= param from homepage search
+  useEffect(() => {
+    if (initialSearchDone.current) return;
+    const q = searchParams.get("q");
+    if (q) {
+      initialSearchDone.current = true;
+      setSearchQuery(q);
+      setShowOverlay(false);
+      try { localStorage.setItem("sanghamap-has-visited", "1"); } catch {}
+      // Geocode the query
+      fetch(
+        `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(q)}&limit=1`,
+        { headers: { "Accept-Language": "en" } }
+      )
+        .then(res => res.json())
+        .then(results => {
+          if (results.length > 0) {
+            setSearchLocation([parseFloat(results[0].lat), parseFloat(results[0].lon)]);
+          } else {
+            setSearchError(`No results for "${q}". Try a city name.`);
+          }
+        })
+        .catch(() => setSearchError("Search unavailable"));
+    }
+  }, [searchParams]);
 
   const toggleTradition = useCallback((key: string) => {
     setTraditionFilter((prev) => {
