@@ -24,16 +24,28 @@ const TRADITION_COLORS: Record<string, string> = Object.fromEntries(
   Object.entries(traditionsData).map(([key, data]) => [key, data.color])
 );
 
+// Minimum zoom level before loading center data.
+// Below this, the viewport is too large and loading would pull in too many countries.
+const MIN_DATA_ZOOM = 7;
+
+// Cache marker icons to avoid recreating DivIcons on every render
+const iconCache = new Map<string, L.DivIcon>();
+
 /**
  * Create a custom SVG teardrop marker icon for a tradition.
+ * Cached by tradition + visited key.
  */
 function createTraditionIcon(tradition: string, isVisited: boolean): L.DivIcon {
+  const cacheKey = `${tradition}-${isVisited}`;
+  const cached = iconCache.get(cacheKey);
+  if (cached) return cached;
+
   const color = TRADITION_COLORS[tradition] || "#6B7280";
   const visitedDot = isVisited
     ? `<circle cx="20" cy="28" r="5" fill="#E97116" stroke="white" stroke-width="1.5"/><polyline points="17,28 19,30 23,26" stroke="white" stroke-width="1.5" fill="none"/>`
     : "";
 
-  return L.divIcon({
+  const icon = L.divIcon({
     html: `<svg width="28" height="40" viewBox="0 0 28 40" xmlns="http://www.w3.org/2000/svg">
       <path d="M14 0C6.3 0 0 6.3 0 14c0 10.5 14 26 14 26s14-15.5 14-26C28 6.3 21.7 0 14 0z" fill="${color}" stroke="white" stroke-width="1.5"/>
       <circle cx="14" cy="14" r="6" fill="white" opacity="0.9"/>
@@ -44,6 +56,9 @@ function createTraditionIcon(tradition: string, isVisited: boolean): L.DivIcon {
     iconAnchor: [14, 40],
     popupAnchor: [0, -40],
   });
+
+  iconCache.set(cacheKey, icon);
+  return icon;
 }
 
 /**
@@ -118,14 +133,25 @@ function toggleVisited(id: string): Set<string> {
 function ViewportLoader({
   onCentersLoaded,
   onLoading,
+  onZoomTooLow,
 }: {
   onCentersLoaded: (centers: MapCenter[]) => void;
   onLoading: (loading: boolean) => void;
+  onZoomTooLow: (tooLow: boolean) => void;
 }) {
   const timeoutRef = useRef<ReturnType<typeof setTimeout>>(undefined);
 
   const loadForBounds = useCallback(
     (map: L.Map) => {
+      // Don't load data when zoomed out too far — too many markers kills the page
+      if (map.getZoom() < MIN_DATA_ZOOM) {
+        onZoomTooLow(true);
+        onCentersLoaded([]);
+        onLoading(false);
+        return;
+      }
+
+      onZoomTooLow(false);
       const bounds = map.getBounds();
       const sw: [number, number] = [bounds.getSouth(), bounds.getWest()];
       const ne: [number, number] = [bounds.getNorth(), bounds.getEast()];
@@ -136,12 +162,11 @@ function ViewportLoader({
         .catch(() => {})
         .finally(() => onLoading(false));
     },
-    [onCentersLoaded, onLoading]
+    [onCentersLoaded, onLoading, onZoomTooLow]
   );
 
   useMapEvents({
     moveend: (e) => {
-      // Debounce
       clearTimeout(timeoutRef.current);
       timeoutRef.current = setTimeout(() => loadForBounds(e.target), 300);
     },
@@ -329,6 +354,7 @@ export interface SanghaMapProps {
 export default function SanghaMap({ traditionFilter, searchLocation }: SanghaMapProps) {
   const [centers, setCenters] = useState<MapCenter[]>([]);
   const [loading, setLoading] = useState(false);
+  const [zoomTooLow, setZoomTooLow] = useState(false);
   const [visited, setVisited] = useState<Set<string>>(() => getVisited());
 
   const filteredCenters = centers.filter((c) => {
@@ -339,8 +365,8 @@ export default function SanghaMap({ traditionFilter, searchLocation }: SanghaMap
   return (
     <div role="application" aria-label="Buddhist center map" className="h-full w-full">
     <MapContainer
-      center={searchLocation || [-28.0, 135.0]}
-      zoom={searchLocation ? 12 : 4}
+      center={searchLocation || [20, 0]}
+      zoom={searchLocation ? 12 : 3}
       className="h-full w-full"
       scrollWheelZoom={true}
     >
@@ -354,12 +380,20 @@ export default function SanghaMap({ traditionFilter, searchLocation }: SanghaMap
       <ViewportLoader
         onCentersLoaded={setCenters}
         onLoading={setLoading}
+        onZoomTooLow={setZoomTooLow}
       />
 
       {/* Loading indicator */}
       {loading && (
-        <div className="absolute top-4 right-4 z-[1000] bg-white/90 rounded-lg px-3 py-1.5 text-sm text-zinc-600 shadow-sm">
+        <div className="absolute top-4 right-4 z-[1000] bg-white/90 dark:bg-zinc-800/90 rounded-lg px-3 py-1.5 text-sm text-zinc-600 dark:text-zinc-300 shadow-sm">
           Loading centers...
+        </div>
+      )}
+
+      {/* Zoom-in prompt */}
+      {zoomTooLow && !loading && (
+        <div className="absolute top-4 left-1/2 -translate-x-1/2 z-[1000] bg-white/95 dark:bg-zinc-800/95 rounded-lg px-4 py-2 text-sm text-zinc-600 dark:text-zinc-300 shadow-md text-center">
+          Zoom in or search for a city to see centers
         </div>
       )}
 
