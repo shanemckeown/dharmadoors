@@ -25,8 +25,12 @@ const TRADITION_COLORS: Record<string, string> = Object.fromEntries(
 );
 
 // Minimum zoom level before loading center data.
-// Below this, the viewport is too large and loading would pull in too many countries.
-const MIN_DATA_ZOOM = 7;
+// Below this, the viewport is too large and loading would pull in too many markers.
+// Zoom 9 ≈ metro area; zoom 7 can span entire countries (Japan = 25K markers).
+const MIN_DATA_ZOOM = 9;
+
+// Maximum markers to render at once. Beyond this, clustering still chokes the browser.
+const MAX_RENDERED_MARKERS = 2000;
 
 // Cache marker icons to avoid recreating DivIcons on every render
 const iconCache = new Map<string, L.DivIcon>();
@@ -362,6 +366,12 @@ export default function SanghaMap({ traditionFilter, searchLocation }: SanghaMap
     return traditionFilter.has(c.tradition);
   });
 
+  // Cap rendered markers to prevent browser freeze
+  const capped = filteredCenters.length > MAX_RENDERED_MARKERS;
+  const renderedCenters = capped
+    ? filteredCenters.slice(0, MAX_RENDERED_MARKERS)
+    : filteredCenters;
+
   return (
     <div role="application" aria-label="Buddhist center map" className="h-full w-full">
     <MapContainer
@@ -397,6 +407,13 @@ export default function SanghaMap({ traditionFilter, searchLocation }: SanghaMap
         </div>
       )}
 
+      {/* Marker cap warning */}
+      {capped && !loading && !zoomTooLow && (
+        <div className="absolute top-4 left-1/2 -translate-x-1/2 z-[1000] bg-white/95 dark:bg-zinc-800/95 rounded-lg px-4 py-2 text-sm text-zinc-600 dark:text-zinc-300 shadow-md text-center">
+          Showing {MAX_RENDERED_MARKERS.toLocaleString()} of {filteredCenters.length.toLocaleString()} centers — zoom in for more
+        </div>
+      )}
+
       <MarkerClusterGroup
         chunkedLoading
         maxClusterRadius={60}
@@ -404,7 +421,7 @@ export default function SanghaMap({ traditionFilter, searchLocation }: SanghaMap
         spiderfyOnMaxZoom
         showCoverageOnHover={false}
       >
-        {filteredCenters.map((center) => {
+        {renderedCenters.map((center) => {
           const isVisited = visited.has(center.id);
           return (
             <Marker

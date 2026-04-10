@@ -69,8 +69,9 @@ export async function loadCountryCenters(code: string): Promise<MapCenter[]> {
 }
 
 /**
- * Load all centers visible in the current viewport.
- * Loads country GeoJSON files for countries intersecting the viewport.
+ * Load centers visible in the current viewport.
+ * Loads country GeoJSON files for countries intersecting the viewport,
+ * then filters markers to the actual viewport bounds (not just country-level).
  */
 export async function loadCentersInViewport(
   viewSW: [number, number],
@@ -83,5 +84,12 @@ export async function loadCentersInViewport(
     visible.map(country => loadCountryCenters(country.code))
   );
 
-  return results.flat();
+  // Viewport-level culling: only return markers actually within visible bounds
+  const [swLat, swLng] = viewSW;
+  const [neLat, neLng] = viewNE;
+
+  return results.flat().filter(c =>
+    c.latitude >= swLat && c.latitude <= neLat &&
+    c.longitude >= swLng && c.longitude <= neLng
+  );
 }
