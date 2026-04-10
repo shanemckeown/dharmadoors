@@ -33,18 +33,30 @@ const DEFAULT_SETTINGS: AccessibilitySettings = {
 };
 
 export function AccessibilityControls() {
-  const [settings, setSettings] = useState<AccessibilitySettings>(DEFAULT_SETTINGS);
+  const [settings, setSettings] = useState<AccessibilitySettings>(() => {
+    try {
+      const stored = localStorage.getItem("dhammapada-accessibility");
+      if (stored) return JSON.parse(stored) as AccessibilitySettings;
+    } catch { /* ok */ }
+    return DEFAULT_SETTINGS;
+  });
   const [mounted, setMounted] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
 
-  // Load settings from localStorage on mount
+  // Apply settings to document
+  function applySettings(s: AccessibilitySettings) {
+    document.documentElement.style.setProperty("--reading-font-size", FONT_SIZES[s.fontSize]);
+    document.documentElement.classList.toggle("high-contrast", s.highContrast);
+    document.documentElement.classList.toggle("reading-serif", s.fontFamily === "serif");
+    document.documentElement.classList.toggle("reading-sans", s.fontFamily === "sans");
+  }
+
+  // Apply initial settings from localStorage on mount (side effects only — state init is lazy)
   useEffect(() => {
-    setMounted(true);
     const stored = localStorage.getItem("dhammapada-accessibility");
     if (stored) {
       try {
         const parsed = JSON.parse(stored) as AccessibilitySettings;
-        setSettings(parsed);
         applySettings(parsed);
       } catch {
         applySettings(DEFAULT_SETTINGS);
@@ -52,15 +64,9 @@ export function AccessibilityControls() {
     } else {
       applySettings(DEFAULT_SETTINGS);
     }
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    setMounted(true);
   }, []);
-
-  // Apply settings to document
-  const applySettings = (s: AccessibilitySettings) => {
-    document.documentElement.style.setProperty("--reading-font-size", FONT_SIZES[s.fontSize]);
-    document.documentElement.classList.toggle("high-contrast", s.highContrast);
-    document.documentElement.classList.toggle("reading-serif", s.fontFamily === "serif");
-    document.documentElement.classList.toggle("reading-sans", s.fontFamily === "sans");
-  };
 
   // Update and persist settings
   const updateSettings = (updates: Partial<AccessibilitySettings>) => {

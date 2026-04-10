@@ -8,12 +8,13 @@ export function ThemeToggle() {
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
-    setMounted(true);
     // Check localStorage or system preference
     const stored = localStorage.getItem("theme") as "light" | "dark" | null;
     const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
     const initialTheme = stored || (prefersDark ? "dark" : "light");
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setTheme(initialTheme);
+    setMounted(true);
   }, []);
 
   const toggleTheme = () => {

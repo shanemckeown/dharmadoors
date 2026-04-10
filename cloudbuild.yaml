@@ -1,0 +1,40 @@
+steps:
+  # Build the Docker image
+  - name: 'gcr.io/cloud-builders/docker'
+    args:
+      - build
+      - '-t'
+      - 'us-central1-docker.pkg.dev/dharmadoors/dharmadoors/dharmadoors-web:latest'
+      - '-t'
+      - 'us-central1-docker.pkg.dev/dharmadoors/dharmadoors/dharmadoors-web:$SHORT_SHA'
+      - '.'
+    timeout: '1200s'
+
+  # Push to Artifact Registry
+  - name: 'gcr.io/cloud-builders/docker'
+    args:
+      - push
+      - '--all-tags'
+      - 'us-central1-docker.pkg.dev/dharmadoors/dharmadoors/dharmadoors-web'
+
+  # Deploy to Cloud Run
+  - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+    entrypoint: gcloud
+    args:
+      - run
+      - deploy
+      - dharmadoors-web
+      - '--image=us-central1-docker.pkg.dev/dharmadoors/dharmadoors/dharmadoors-web:latest'
+      - '--region=us-central1'
+      - '--project=dharmadoors'
+      - '--platform=managed'
+
+images:
+  - 'us-central1-docker.pkg.dev/dharmadoors/dharmadoors/dharmadoors-web:latest'
+  - 'us-central1-docker.pkg.dev/dharmadoors/dharmadoors/dharmadoors-web:$SHORT_SHA'
+
+options:
+  machineType: 'E2_HIGHCPU_8'
+  logging: CLOUD_LOGGING_ONLY
+
+timeout: '1500s'

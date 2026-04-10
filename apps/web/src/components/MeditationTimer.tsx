@@ -53,7 +53,22 @@ export function MeditationTimer({ onClose }: MeditationTimerProps) {
     } catch { /* ok */ }
   }, [duration, bell]);
 
+  function releaseWakeLock() {
+    wakeLockRef.current?.release();
+    wakeLockRef.current = null;
+  }
+
+  async function acquireWakeLock() {
+    try {
+      if ("wakeLock" in navigator) {
+        wakeLockRef.current = await navigator.wakeLock.request("screen");
+      }
+    } catch { /* not supported or denied */ }
+  }
+
   // Timer loop using timestamps (survives tab throttling)
+  const tickRef = useRef<() => void>(() => {});
+
   const tick = useCallback(() => {
     if (state !== "running") return;
 
@@ -69,30 +84,18 @@ export function MeditationTimer({ onClose }: MeditationTimerProps) {
       return;
     }
 
-    frameRef.current = requestAnimationFrame(tick);
+    frameRef.current = requestAnimationFrame(tickRef.current);
   }, [state]);
 
   useEffect(() => {
+    tickRef.current = tick;
     if (state === "running") {
-      frameRef.current = requestAnimationFrame(tick);
+      frameRef.current = requestAnimationFrame(tickRef.current);
     }
     return () => {
       if (frameRef.current) cancelAnimationFrame(frameRef.current);
     };
   }, [state, tick]);
-
-  async function acquireWakeLock() {
-    try {
-      if ("wakeLock" in navigator) {
-        wakeLockRef.current = await navigator.wakeLock.request("screen");
-      }
-    } catch { /* not supported or denied */ }
-  }
-
-  function releaseWakeLock() {
-    wakeLockRef.current?.release();
-    wakeLockRef.current = null;
-  }
 
   function startTimer() {
     totalMsRef.current = duration * 60 * 1000;

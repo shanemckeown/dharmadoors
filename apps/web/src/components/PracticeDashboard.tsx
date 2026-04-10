@@ -9,9 +9,10 @@ export function StreakAndSit() {
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
-    setMounted(true);
     const data = getStreak();
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setStreak(data.currentStreak);
+    setMounted(true);
   }, []);
 
   if (!mounted) {
