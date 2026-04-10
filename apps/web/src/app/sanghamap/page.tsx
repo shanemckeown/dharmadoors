@@ -3,7 +3,6 @@
 import Link from "next/link";
 import { useState, useCallback, useEffect, useRef, Suspense, startTransition } from "react";
 import { useSearchParams } from "next/navigation";
-import { SanghaMapDynamic } from "@/components/map";
 import { traditionsData, TRADITION_KEYS } from "@/data/traditionsData";
 import { ChevronRight, MapPin, Search, X, SlidersHorizontal } from "lucide-react";
 
@@ -20,13 +19,7 @@ function SanghaMapInner() {
   const [traditionFilter, setTraditionFilter] = useState<Set<string>>(new Set());
   const [searchQuery, setSearchQuery] = useState("");
   const [searchLocation, setSearchLocation] = useState<[number, number] | undefined>();
-  const [showOverlay, setShowOverlay] = useState(() => {
-    try {
-      return !localStorage.getItem("sanghamap-has-visited");
-    } catch {
-      return true;
-    }
-  });
+  const [mapReady, setMapReady] = useState(false);
   const [showMobileFilters, setShowMobileFilters] = useState(false);
   const [locating, setLocating] = useState(false);
   const [searchError, setSearchError] = useState("");
@@ -38,8 +31,6 @@ function SanghaMapInner() {
     const q = searchParams.get("q");
     if (q) {
       initialSearchDone.current = true;
-      try { localStorage.setItem("sanghamap-has-visited", "1"); } catch {}
-      // Geocode the query, then update all state in a single startTransition
       fetch(
         `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(q)}&limit=1`,
         { headers: { "Accept-Language": "en" } }
@@ -48,9 +39,9 @@ function SanghaMapInner() {
         .then(results => {
           startTransition(() => {
             setSearchQuery(q);
-            setShowOverlay(false);
             if (results.length > 0) {
               setSearchLocation([parseFloat(results[0].lat), parseFloat(results[0].lon)]);
+              setMapReady(true);
             } else {
               setSearchError(`No results for "${q}". Try a city name.`);
             }
@@ -58,7 +49,6 @@ function SanghaMapInner() {
         })
         .catch(() => startTransition(() => {
           setSearchQuery(q);
-          setShowOverlay(false);
           setSearchError("Search unavailable");
         }));
     }
@@ -79,9 +69,8 @@ function SanghaMapInner() {
     navigator.geolocation.getCurrentPosition(
       (pos) => {
         setSearchLocation([pos.coords.latitude, pos.coords.longitude]);
-        setShowOverlay(false);
+        setMapReady(true);
         setLocating(false);
-        try { localStorage.setItem("sanghamap-has-visited", "1"); } catch {}
       },
       () => {
         setSearchError("Location denied. Enter your city instead.");
@@ -103,8 +92,7 @@ function SanghaMapInner() {
       const results = await res.json();
       if (results.length > 0) {
         setSearchLocation([parseFloat(results[0].lat), parseFloat(results[0].lon)]);
-        setShowOverlay(false);
-        try { localStorage.setItem("sanghamap-has-visited", "1"); } catch {}
+        setMapReady(true);
       } else {
         setSearchError(`No results for "${searchQuery}". Try a city name.`);
       }
@@ -112,6 +100,13 @@ function SanghaMapInner() {
       setSearchError("Search unavailable — try again");
     }
   }, [searchQuery]);
+
+  const handleExplore = useCallback(() => {
+    setMapReady(true);
+  }, []);
+
+  // Map is only loaded AFTER the user provides a location or clicks "explore"
+  const showPrompt = !mapReady;
 
   return (
     <div className="h-screen flex flex-col bg-[var(--background)]">
@@ -129,138 +124,194 @@ function SanghaMapInner() {
             <span className="text-[var(--foreground)] font-medium">SanghaMap</span>
           </nav>
 
-          {/* Mobile filter toggle */}
-          <button
-            onClick={() => setShowMobileFilters(!showMobileFilters)}
-            className="lg:hidden p-2 rounded-lg bg-[var(--color-mist)] dark:bg-[var(--card-border)]"
-            aria-label="Toggle filters"
-          >
-            <SlidersHorizontal className="w-5 h-5 text-[var(--foreground)]" />
-          </button>
+          {/* Mobile filter toggle — only when map is showing */}
+          {!showPrompt && (
+            <button
+              onClick={() => setShowMobileFilters(!showMobileFilters)}
+              className="lg:hidden p-2 rounded-lg bg-[var(--color-mist)] dark:bg-[var(--card-border)]"
+              aria-label="Toggle filters"
+            >
+              <SlidersHorizontal className="w-5 h-5 text-[var(--foreground)]" />
+            </button>
+          )}
         </div>
       </header>
 
-      {/* Main layout */}
-      <div className="flex-1 flex overflow-hidden relative">
-        {/* Sidebar — desktop */}
-        <aside
-          className={`w-[260px] shrink-0 bg-[var(--card-bg)] border-r border-[var(--card-border)] overflow-y-auto z-30
-            hidden lg:block`}
-        >
-          <SidebarContent
-            searchQuery={searchQuery}
-            setSearchQuery={setSearchQuery}
-            onSearch={handleSearch}
-            searchError={searchError}
-            traditionFilter={traditionFilter}
-            toggleTradition={toggleTradition}
-            onNearMe={handleNearMe}
-            locating={locating}
-          />
-        </aside>
+      {showPrompt ? (
+        /* ---- Location prompt (no map loaded yet, page is lightweight) ---- */
+        <div className="flex-1 flex items-center justify-center px-4">
+          <div className="max-w-md w-full text-center">
+            <div className="w-14 h-14 rounded-2xl bg-[var(--color-saffron)]/10 flex items-center justify-center mx-auto mb-6">
+              <MapPin className="w-7 h-7 text-[var(--color-saffron)]" />
+            </div>
 
-        {/* Mobile bottom sheet for filters */}
-        {showMobileFilters && (
-          <div className="lg:hidden fixed inset-0 z-50">
-            <div
-              className="absolute inset-0 bg-black/30"
-              onClick={() => setShowMobileFilters(false)}
-            />
-            <div className="absolute bottom-0 left-0 right-0 bg-[var(--card-bg)] rounded-t-2xl max-h-[60vh] overflow-y-auto">
-              <div className="flex justify-between items-center p-4 border-b border-[var(--card-border)]">
-                <h2 className="font-semibold text-[var(--foreground)]">Filters</h2>
-                <button onClick={() => setShowMobileFilters(false)}>
-                  <X className="w-5 h-5 text-[var(--color-warm-gray)]" />
-                </button>
-              </div>
-              <SidebarContent
-                searchQuery={searchQuery}
-                setSearchQuery={setSearchQuery}
-                onSearch={handleSearch}
-                searchError={searchError}
-                traditionFilter={traditionFilter}
-                toggleTradition={toggleTradition}
-                onNearMe={handleNearMe}
-                locating={locating}
+            <h2
+              className="text-2xl font-semibold text-[var(--foreground)] mb-2"
+              style={{ fontFamily: "var(--font-serif)" }}
+            >
+              Find sangha near you
+            </h2>
+            <p className="text-sm text-[var(--color-warm-gray)] mb-8">
+              69,000+ Buddhist centers across all traditions worldwide
+            </p>
+
+            <div className="relative mb-3">
+              <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-[var(--color-dharma-tan)]" />
+              <input
+                type="text"
+                placeholder="City or location..."
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                onKeyDown={(e) => e.key === "Enter" && handleSearch()}
+                className="w-full pl-11 pr-4 py-3
+                  border border-[var(--card-border)] rounded-xl
+                  bg-[var(--card-bg)] text-[var(--foreground)]
+                  placeholder-[var(--color-dharma-tan)]
+                  focus:border-[var(--color-saffron)]/60 focus:ring-2 focus:ring-[var(--color-saffron)]/10
+                  transition-colors text-base"
+                autoFocus
               />
             </div>
+
+            {searchError && (
+              <p className="text-sm text-red-600 mb-3">{searchError}</p>
+            )}
+
+            <button
+              onClick={handleSearch}
+              disabled={!searchQuery.trim()}
+              className="w-full py-3 bg-[var(--color-saffron)] hover:bg-[var(--color-saffron-dark)]
+                disabled:opacity-40
+                text-white rounded-xl font-medium text-base
+                transition-colors mb-3"
+            >
+              Search
+            </button>
+
+            <button
+              onClick={handleNearMe}
+              disabled={locating}
+              className="w-full py-2.5 bg-[var(--color-mist)] dark:bg-[var(--card-border)]
+                hover:bg-[var(--color-dharma-tan-light)]/50
+                text-[var(--foreground)] rounded-xl font-medium text-sm
+                transition-colors flex items-center justify-center gap-2"
+            >
+              <MapPin className="w-4 h-4" />
+              {locating ? "Finding your location..." : "Use my location"}
+            </button>
+
+            <button
+              onClick={handleExplore}
+              className="mt-6 text-sm text-[var(--color-warm-gray)] hover:text-[var(--foreground)] transition-colors"
+            >
+              Just explore the map
+            </button>
           </div>
-        )}
-
-        {/* Map */}
-        <div className="flex-1 relative">
-          <SanghaMapDynamic
-            traditionFilter={traditionFilter}
-            searchLocation={searchLocation}
-          />
-
-          {/* First-visit search overlay */}
-          {showOverlay && (
-            <div className="absolute inset-0 z-20 flex items-center justify-center pointer-events-none">
-              <div className="bg-[var(--card-bg)] rounded-2xl shadow-xl p-8 mx-4 max-w-md w-full text-center pointer-events-auto">
-                <h2 className="text-2xl font-bold text-[var(--foreground)] mb-2" style={{ fontFamily: "var(--font-serif)" }}>
-                  Find sangha near you
-                </h2>
-                <p className="text-sm text-[var(--color-warm-gray)] mb-6">
-                  Discover Buddhist centers across all traditions worldwide
-                </p>
-
-                <div className="relative mb-3">
-                  <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-[var(--color-dharma-tan)]" />
-                  <input
-                    type="text"
-                    placeholder="City or location..."
-                    value={searchQuery}
-                    onChange={(e) => setSearchQuery(e.target.value)}
-                    onKeyDown={(e) => e.key === "Enter" && handleSearch()}
-                    className="w-full pl-11 pr-4 py-3
-                      border border-[var(--card-border)] rounded-xl
-                      bg-[var(--background)] text-[var(--foreground)]
-                      placeholder-[var(--color-dharma-tan)]
-                      focus:border-[var(--color-saffron)]/60 focus:ring-2 focus:ring-[var(--color-saffron)]/10
-                      transition-colors text-base"
-                    autoFocus
-                  />
-                </div>
-
-                {searchError && (
-                  <p className="text-sm text-red-600 mb-3">{searchError}</p>
-                )}
-
-                <button
-                  onClick={handleSearch}
-                  className="w-full py-3 bg-[var(--color-saffron)] hover:bg-[var(--color-saffron-dark)]
-                    text-white rounded-xl font-medium text-base
-                    transition-colors mb-3"
-                >
-                  Search
-                </button>
-
-                <button
-                  onClick={handleNearMe}
-                  disabled={locating}
-                  className="w-full py-2.5 bg-[var(--color-mist)] dark:bg-[var(--card-border)]
-                    hover:bg-[var(--color-dharma-tan-light)]/50
-                    text-[var(--foreground)] rounded-xl font-medium text-sm
-                    transition-colors flex items-center justify-center gap-2"
-                >
-                  <MapPin className="w-4 h-4" />
-                  {locating ? "Finding your location..." : "Near Me"}
-                </button>
-
-                <button
-                  onClick={() => {
-                    setShowOverlay(false);
-                    try { localStorage.setItem("sanghamap-has-visited", "1"); } catch {}
-                  }}
-                  className="mt-4 text-sm text-[var(--color-warm-gray)] hover:text-[var(--foreground)] transition-colors"
-                >
-                  Just explore the map
-                </button>
-              </div>
-            </div>
-          )}
         </div>
+      ) : (
+        /* ---- Map view (Leaflet loads here, only after user action) ---- */
+        <MapView
+          traditionFilter={traditionFilter}
+          searchLocation={searchLocation}
+          searchQuery={searchQuery}
+          setSearchQuery={setSearchQuery}
+          handleSearch={handleSearch}
+          searchError={searchError}
+          toggleTradition={toggleTradition}
+          handleNearMe={handleNearMe}
+          locating={locating}
+          showMobileFilters={showMobileFilters}
+          setShowMobileFilters={setShowMobileFilters}
+        />
+      )}
+    </div>
+  );
+}
+
+// ---------------------------------------------------------------------------
+// MapView — only rendered after user provides location or clicks "explore"
+// This is where Leaflet gets imported (via dynamic import in SanghaMapDynamic)
+// ---------------------------------------------------------------------------
+import { SanghaMapDynamic } from "@/components/map";
+
+function MapView({
+  traditionFilter,
+  searchLocation,
+  searchQuery,
+  setSearchQuery,
+  handleSearch,
+  searchError,
+  toggleTradition,
+  handleNearMe,
+  locating,
+  showMobileFilters,
+  setShowMobileFilters,
+}: {
+  traditionFilter: Set<string>;
+  searchLocation?: [number, number];
+  searchQuery: string;
+  setSearchQuery: (q: string) => void;
+  handleSearch: () => void;
+  searchError: string;
+  toggleTradition: (key: string) => void;
+  handleNearMe: () => void;
+  locating: boolean;
+  showMobileFilters: boolean;
+  setShowMobileFilters: (show: boolean) => void;
+}) {
+  return (
+    <div className="flex-1 flex overflow-hidden relative">
+      {/* Sidebar — desktop */}
+      <aside
+        className="w-[260px] shrink-0 bg-[var(--card-bg)] border-r border-[var(--card-border)] overflow-y-auto z-30
+          hidden lg:block"
+      >
+        <SidebarContent
+          searchQuery={searchQuery}
+          setSearchQuery={setSearchQuery}
+          onSearch={handleSearch}
+          searchError={searchError}
+          traditionFilter={traditionFilter}
+          toggleTradition={toggleTradition}
+          onNearMe={handleNearMe}
+          locating={locating}
+        />
+      </aside>
+
+      {/* Mobile bottom sheet for filters */}
+      {showMobileFilters && (
+        <div className="lg:hidden fixed inset-0 z-50">
+          <div
+            className="absolute inset-0 bg-black/30"
+            onClick={() => setShowMobileFilters(false)}
+          />
+          <div className="absolute bottom-0 left-0 right-0 bg-[var(--card-bg)] rounded-t-2xl max-h-[60vh] overflow-y-auto">
+            <div className="flex justify-between items-center p-4 border-b border-[var(--card-border)]">
+              <h2 className="font-semibold text-[var(--foreground)]">Filters</h2>
+              <button onClick={() => setShowMobileFilters(false)}>
+                <X className="w-5 h-5 text-[var(--color-warm-gray)]" />
+              </button>
+            </div>
+            <SidebarContent
+              searchQuery={searchQuery}
+              setSearchQuery={setSearchQuery}
+              onSearch={handleSearch}
+              searchError={searchError}
+              traditionFilter={traditionFilter}
+              toggleTradition={toggleTradition}
+              onNearMe={handleNearMe}
+              locating={locating}
+            />
+          </div>
+        </div>
+      )}
+
+      {/* Map */}
+      <div className="flex-1 relative">
+        <SanghaMapDynamic
+          traditionFilter={traditionFilter}
+          searchLocation={searchLocation}
+        />
       </div>
     </div>
   );
