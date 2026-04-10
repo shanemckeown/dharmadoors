@@ -66,17 +66,21 @@ export function detectConcerns(
   const lower = name.toLowerCase();
   const denomLower = denomination?.toLowerCase() || '';
 
-  // Check organizations with concerns
-  for (const [key, org] of Object.entries(ORGANIZATIONS_WITH_CONCERNS) as [string, { affiliation: string }][]) {
-    if (lower.includes(key) || denomLower.includes(key)) {
-      return { affiliation: org.affiliation, concernStatus: 'documented' as const };
+  // Check organizations with concerns — match against all aliases
+  for (const org of Object.values(ORGANIZATIONS_WITH_CONCERNS)) {
+    for (const alias of org.aliases) {
+      if (lower.includes(alias) || denomLower.includes(alias)) {
+        return { affiliation: org.affiliation, concernStatus: 'documented' as const };
+      }
     }
   }
 
-  // Check non-Buddhist groups
-  for (const [key, group] of Object.entries(NON_BUDDHIST_GROUPS) as [string, { affiliation: string }][]) {
-    if (lower.includes(key.replace('_', ' ')) || lower.includes(key)) {
-      return { affiliation: group.affiliation, concernStatus: 'not_buddhism' as const };
+  // Check non-Buddhist groups — match against all aliases
+  for (const group of Object.values(NON_BUDDHIST_GROUPS)) {
+    for (const alias of group.aliases) {
+      if (lower.includes(alias) || denomLower.includes(alias)) {
+        return { affiliation: group.affiliation, concernStatus: 'not_buddhism' as const };
+      }
     }
   }
 

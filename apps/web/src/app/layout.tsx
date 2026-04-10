@@ -45,6 +45,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
         <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#F5F3EF" media="(prefers-color-scheme: light)" />
         <meta name="theme-color" content="#1A1714" media="(prefers-color-scheme: dark)" />

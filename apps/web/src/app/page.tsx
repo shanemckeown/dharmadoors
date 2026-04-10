@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { MapPin, BookOpen, Calendar } from "lucide-react";
-import { DharmaDoorsLogo } from "@/components/DharmaDoorsLogo";
+import { DharmaDoorsLogo, BuddhaSilhouette } from "@/components/DharmaDoorsLogo";
 import { MoonPhaseSvg } from "@/components/MoonPhaseSvg";
 import { StreakAndSit, ShareVerseButton } from "@/components/PracticeDashboard";
 import { getDailyVerse } from "@/lib/dailyVerse";
@@ -112,11 +112,11 @@ export default function Home() {
 
         {/* Daily Verse */}
         <div className="verse-entrance w-full max-w-lg bg-[var(--card-bg)] border border-[var(--card-border)] rounded-2xl p-6 md:p-8 mb-6 relative overflow-hidden">
-          {/* Logo watermark */}
+          {/* Buddha watermark */}
           <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-            <DharmaDoorsLogo
-              size={120}
-              className="text-[var(--color-dharma-tan)] opacity-[0.06] dark:opacity-[0.1]"
+            <BuddhaSilhouette
+              size={160}
+              className="text-[var(--color-dharma-tan)] opacity-[0.07] dark:opacity-[0.12]"
             />
           </div>
 
