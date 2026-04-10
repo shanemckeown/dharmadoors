@@ -212,3 +212,78 @@ p {
 .dark .chapter-card:hover {
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
 }
+
+/* ================================
+   Moon Phase Styles
+   ================================ */
+
+:root {
+  --moon-bg: #F5F3EF;
+}
+
+.dark {
+  --moon-bg: #2D2820;
+}
+
+/* Full moon breathing animation */
+.moon-phase-svg .moon-face {
+  animation: moon-breathe 4s ease-in-out infinite;
+}
+
+@keyframes moon-breathe {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.02); }
+}
+
+/* Dark mode moon glow */
+.dark .moon-phase-svg circle:first-of-type {
+  filter: drop-shadow(0 0 12px rgba(245, 243, 239, 0.12));
+}
+
+/* ================================
+   Practice Dashboard Styles
+   ================================ */
+
+/* Verse card entrance animation */
+.verse-entrance {
+  animation: verse-fade-in 500ms ease-out;
+}
+
+@keyframes verse-fade-in {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Timer breathing pulse */
+.timer-pulse {
+  animation: timer-breathe 6s ease-in-out infinite;
+}
+
+@keyframes timer-breathe {
+  0%, 100% { opacity: 0.85; }
+  50% { opacity: 1; }
+}
+
+/* Streak number roll */
+.streak-roll {
+  animation: roll-in 400ms ease-out;
+}
+
+@keyframes roll-in {
+  from { transform: translateY(-100%); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+/* Entry point cards */
+.entry-card {
+  transition: transform var(--duration-base), box-shadow var(--duration-base);
+}
+
+.entry-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.dark .entry-card:hover {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+}
