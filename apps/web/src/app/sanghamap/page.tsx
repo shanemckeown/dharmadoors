@@ -41,8 +41,10 @@ function SanghaMapInner() {
     const q = searchParams.get("q");
     if (q) {
       initialSearchDone.current = true;
-      setSearchQuery(q);
-      setSearching(true);
+      startTransition(() => {
+        setSearchQuery(q);
+        setSearching(true);
+      });
       fetch(
         `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(q)}&limit=1`,
         { headers: { "Accept-Language": "en" } }
