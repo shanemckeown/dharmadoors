@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useState, useCallback, useEffect, useRef, Suspense } from "react";
+import { useState, useCallback, useEffect, useRef, Suspense, startTransition } from "react";
 import { useSearchParams } from "next/navigation";
 import { SanghaMapDynamic } from "@/components/map";
 import { traditionsData, TRADITION_KEYS } from "@/data/traditionsData";
@@ -20,20 +20,17 @@ function SanghaMapInner() {
   const [traditionFilter, setTraditionFilter] = useState<Set<string>>(new Set());
   const [searchQuery, setSearchQuery] = useState("");
   const [searchLocation, setSearchLocation] = useState<[number, number] | undefined>();
-  const [showOverlay, setShowOverlay] = useState(true);
+  const [showOverlay, setShowOverlay] = useState(() => {
+    try {
+      return !localStorage.getItem("sanghamap-has-visited");
+    } catch {
+      return true;
+    }
+  });
   const [showMobileFilters, setShowMobileFilters] = useState(false);
   const [locating, setLocating] = useState(false);
   const [searchError, setSearchError] = useState("");
   const initialSearchDone = useRef(false);
-
-  // Check if user has visited before
-  useEffect(() => {
-    try {
-      if (localStorage.getItem("sanghamap-has-visited")) {
-        setShowOverlay(false);
-      }
-    } catch { /* private browsing */ }
-  }, []);
 
   // Handle ?q= param from homepage search
   useEffect(() => {
@@ -41,23 +38,29 @@ function SanghaMapInner() {
     const q = searchParams.get("q");
     if (q) {
       initialSearchDone.current = true;
-      setSearchQuery(q);
-      setShowOverlay(false);
       try { localStorage.setItem("sanghamap-has-visited", "1"); } catch {}
-      // Geocode the query
+      // Geocode the query, then update all state in a single startTransition
       fetch(
         `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(q)}&limit=1`,
         { headers: { "Accept-Language": "en" } }
       )
         .then(res => res.json())
         .then(results => {
-          if (results.length > 0) {
-            setSearchLocation([parseFloat(results[0].lat), parseFloat(results[0].lon)]);
-          } else {
-            setSearchError(`No results for "${q}". Try a city name.`);
-          }
+          startTransition(() => {
+            setSearchQuery(q);
+            setShowOverlay(false);
+            if (results.length > 0) {
+              setSearchLocation([parseFloat(results[0].lat), parseFloat(results[0].lon)]);
+            } else {
+              setSearchError(`No results for "${q}". Try a city name.`);
+            }
+          });
         })
-        .catch(() => setSearchError("Search unavailable"));
+        .catch(() => startTransition(() => {
+          setSearchQuery(q);
+          setShowOverlay(false);
+          setSearchError("Search unavailable");
+        }));
     }
   }, [searchParams]);
 

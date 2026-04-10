@@ -355,11 +355,7 @@ export default function SanghaMap({ traditionFilter, searchLocation }: SanghaMap
   const [centers, setCenters] = useState<MapCenter[]>([]);
   const [loading, setLoading] = useState(false);
   const [zoomTooLow, setZoomTooLow] = useState(false);
-  const [visited, setVisited] = useState<Set<string>>(new Set());
-
-  useEffect(() => {
-    setVisited(getVisited());
-  }, []);
+  const [visited, setVisited] = useState<Set<string>>(() => getVisited());
 
   const filteredCenters = centers.filter((c) => {
     if (traditionFilter.size === 0) return true;
